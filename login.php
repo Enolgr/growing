@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./styles/general.css">
     <link rel="stylesheet" href="./styles/login.css">
     <title>Document</title>
+
+    <!-- CSS & normalize -->
+     <link rel="stylesheet" href="./styles/normalize.css">
+     <link rel="stylesheet" href="./styles/general.css">
 </head>
 <body>
     <section>
