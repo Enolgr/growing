@@ -11,13 +11,13 @@
             <input type="file" name="fotoUser" id="fotoUser">
             <h2>Nombre User</h2>
             <div class="rangoTarifa"></div>
-            <input type="text" name="nombreUser" id="nombreUser" placeholder="Nombre" required>
-            <input type="text" name="emailUser" id="emailUser" placeholder="Email" required>
-            <input type="text" name="pagoUser" id="pagoUser" placeholder="Método de pago" required>
-            <input type="text" name="direccionUser" id="direccionUser" placeholder="Dirección" required>
+            <input type="text" name="name" id="name" placeholder="Nombre" required>
+            <input type="text" name="email" id="email" placeholder="Email" required>
+            <input type="text" name="pago" id="pago" placeholder="Método de pago" required>
+            <input type="text" name="direccion" id="direccion" placeholder="Dirección" required>
             <a href="#">Cambiar contraseña</a>
-            <button type="button">Mis pedidos</button>
-            <button type="button">Mis cursos</button>
+            <button type="button" id="pedidos">Mis pedidos</button>
+            <button type="button" id="cursos">Mis cursos</button>
         </div>
     </form>
 </body>
