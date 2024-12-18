@@ -11,7 +11,7 @@
         <div class="">
             <form action="registro.php" method="post">
                 <div clas="">
-                    <h1>REGISTRO</h1>
+                    <h1>Registro</h1>
                     <input type="text" id="name" name="name" placeholder="Nombre" required>
                     <input type="text" id="email" name="email" placeholder="Email" required>
                     <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
