@@ -77,3 +77,6 @@ padding: 2rem 4rem;
   color: var(--fondo);
 }
 
+.card-oscura input{
+  margin: 1rem 0;
+}
