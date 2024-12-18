@@ -8,12 +8,17 @@
 <body>
     <section>
         <div>
+            <h1>LOGIN</h1>
             <form action="login.php" method="post">
-                <input type="text" id="email" name="email" placeholder="Email">
-                <input type="password" id="pass" name="pass" placeholder="Contraseña">
-                <button type="submit">Iniciar sesión</button>
+                <div>
+                    <input type="text" id="email" name="email" placeholder="Email" required>
+                    <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
+                    <div>
+                        <button type="submit" class="btn">Iniciar sesión</button>
+                        <a href="registrarse.php">Registrarse</a>
+                    </div>
+                </div>
             </form>
-            <button type="button">Registrarse</button>
         </div>
     </section>
 </body>
