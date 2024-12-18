@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/login.css">
     <title>Document</title>
 </head>
 <body>
     <section>
         <div>
-            <h1>LOGIN</h1>
-            <form action="login.php" method="post">
+
+            <form action="login.php" class="card-oscura" method="post">
+            <h1 class="titulo-card">Login</h1>
                 <div>
                     <input type="text" id="email" name="email" placeholder="Email" required>
                     <input type="password" id="pass" name="pass" placeholder="Contraseña" required>

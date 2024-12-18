@@ -64,3 +64,16 @@ border-radius: 0.875rem;
 background: #E7E7E7;
 }
 
+
+.card-oscura{
+border-radius: 0.875rem;
+background: var(--grisclaro);
+width: fit-content;
+padding: 2rem 4rem;
+}
+
+.titulo-card{
+  font-size: 3rem;
+  color: var(--fondo);
+}
+
