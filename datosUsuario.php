@@ -6,7 +6,7 @@
     <title>Datos Usuario</title>
 </head>
 <body>
-    <form method="POST" action="***.php">
+    <form method="post" action="***.php">
         <div class="tarjetaRegistro">
             <input type="file" name="fotoUser" id="fotoUser">
             <h2>Nombre User</h2>
