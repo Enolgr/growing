@@ -30,8 +30,11 @@ font-size: 5.9375rem;
 font-style: normal;
 font-weight: 400;
 line-height: 100%; /* 5.9375rem */
+margin: 0;
 }
-
+p{
+  font-family: "DM Sans",sans-serif;
+}
 .btn {
 font-family: "DM Sans",sans-serif;
   border-radius: 0.75rem;
@@ -60,3 +63,4 @@ background-color: var(--verdeclaro);
 border-radius: 0.875rem;
 background: #E7E7E7;
 }
+
