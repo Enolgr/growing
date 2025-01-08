@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/general.css">
 </head>
 <body>
-    <form method="get" action="carrito-compra.php">
+    <form method="get" action="***.php">
         <div class="itemsCard">
             <h1>¡Ya casi estamos!</h1>
             <ul id="items">
