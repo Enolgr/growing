@@ -118,8 +118,8 @@ padding: 2rem 4rem;
   flex-wrap: wrap;
   height: fit-content;
   padding: 0.5rem 2rem;
-  
 }
+
 .logo-menu{
   width: fit-content;
 }
@@ -153,4 +153,25 @@ width: auto;
   align-items: center;
   justify-content: center;
   height: 1rem;
+}
+
+
+/* marquee */
+
+#hoja {
+  height: 1rem;
+  width: 1rem;
+  background: url('../img/icons/hoja.svg') no-repeat center center;
+  background-size: contain;
+}
+
+.random-marquee{
+  display: flex;
+  flex-wrap: nowrap;
+  background: url(../img/images/marquee.webp) no-repeat center center;
+  background-size: cover;
+  font-family: "Passion One", Arial, Helvetica, sans-serif;
+  color: var(--fondo);
+  font-size: 2rem;
+  padding: 1.6rem 0;
 }
