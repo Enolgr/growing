@@ -8,8 +8,8 @@ echo '
     <a href="#3">Tarifas</a>
     <span class="anchor-bg"><a href="#4">Lo más popular</a></span>
     <div class="icons-nav">
-        <img src="../img/icons/Carrito.svg" alt="carrito">
-        <img src="../img/icons/Perfil.svg" alt="perfil">
+        <img src="./img/icons/Carrito.svg" alt="carrito">
+        <img src="./img/icons/Perfil.svg" alt="perfil">
     </div>
 </div>
 </header>'
