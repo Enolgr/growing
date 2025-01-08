@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Footer</title>
-  </head>
+<?php
 
-  <body>
-    <footer>
+echo '  <footer>
       <div class="logo">
         <img src="./img/logo.svg" alt="" />
       </div>
@@ -33,6 +26,5 @@
         <a href="">Aviso legal</a>
       </div>
       <div class="copyright">Copyright © 2024 - GROWING</div>
-    </footer>
-  </body>
-</html>
+    </footer>'
+?>
