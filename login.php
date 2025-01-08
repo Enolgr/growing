@@ -13,6 +13,8 @@
      <link rel="stylesheet" href="./styles/general.css">
 </head>
 <body>
+<?php 
+    include_once "./includes/menu.php"?>
     <section>
         <div>
             <form action="login.php" class="card-oscura" method="post">
