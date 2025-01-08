@@ -116,6 +116,8 @@
 </div>
 </section>
 
+<?php include("./includes/marquee.php") ?>
+
 <section class="contenedor_cursos_top" >
 
 <h2>Los cursos más top</h2>
@@ -123,22 +125,22 @@
 <div class="cursos" >
 
 <div class="curso" >
-    <img src="" alt="">
+    <img src="./img/images/img-cursos.webp" alt="">
     <p>Titulo curso</p>
 </div>
 
 <div class="curso" >
-    <img src="" alt="">
+    <img src="./img/images/img-cursos.webp" alt="">
     <p>Titulo curso</p>
 </div>
 
 <div class="curso" >
-    <img src="" alt="">
+    <img src="./img/images/img-cursos.webp" alt="">
     <p>Titulo curso</p>
 </div>
 
 <div class="curso" >
-    <img src="" alt="">
+    <img src="./img/images/img-cursos.webp" alt="">
     <p>Titulo curso</p>
 </div>
 
@@ -156,10 +158,19 @@
 
         <div class="opiniones" >
             <div class="opinion" >
-                <img src="" alt="" class="avatar" >
+                <img src="./img/images/persona-random1.webp" alt="" class="avatar" >
                 <p class="name_user" >Nombre persona</p>
                 <p class="descripcion_reseña" >reseña</p>
             </div>
+
+            <div class="opinion" >
+                <img src="./img/images/persona-random2.webp" alt="" class="avatar" >
+                <p class="name_user" >Nombre persona</p>
+                <p class="descripcion_reseña" >reseña</p>
+            </div>
+        </div>
+        <div class="paginacino" style="background-color: blue; height: 10px; width: 30px;">
+            
         </div>
     </div>
 </div>
