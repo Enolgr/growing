@@ -116,6 +116,8 @@
 </div>
 </section>
 
+<?php include("./includes/marquee.php") ?>
+
 <section class="contenedor_cursos_top" >
 
 <h2>Los cursos más top</h2>
