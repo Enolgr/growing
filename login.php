@@ -15,7 +15,6 @@
 <body>
     <section>
         <div>
-
             <form action="login.php" class="card-oscura" method="post">
             <h1 class="titulo-card">Login</h1>
                     <input type="text" id="email" name="email" placeholder="Email" required>
