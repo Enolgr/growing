@@ -28,7 +28,7 @@
                 <div id="itemImg3"><img src=""></img></div>
             </ul>
             <div id="total">Total:</div>
-            <button type="button" class="btn" id="add">Finalizar compra</button>
+            <button type="button" class="btn" id="pay">Finalizar compra</button>
         </div>
     </form>
 </body>
