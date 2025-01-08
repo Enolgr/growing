@@ -11,6 +11,8 @@
 
 <body>
    <!-- Aqui iria el nav -->
+
+   <!-- Informacion del curso -->
    <div class="info-curso">
       <h1 id="">Título</h1>
       <div class="description">
@@ -37,7 +39,8 @@
          <img src="./img/images/pexels-gary-barnes-6231819.webp" alt="curso tijeras">
       </div>
    </div>
- 
+
+   <!-- Otros cursos -->
    <div class="otros-cursos"></div>
    <h2>Otros cursos relacionados</h2>
    <div class="cursos">
@@ -59,8 +62,8 @@
       </div>
    </div>
 
-   <?php include_once ("./includes/marquee.php")?>
-   
+   <?php include_once("./includes/marquee.php") ?>
+
    <!-- Aqui va el footer -->
 
 </body>
