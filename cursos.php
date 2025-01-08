@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
     <title>Cursos</title>
@@ -17,8 +15,11 @@
                 <img src="./img/images/pexels-cottonbro-4503269.webp" alt="curso palas">
             </div>
             <h2>Titulo curso</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laboriosam totam beatae, dignissimos consequatur odit? Eaque officiis quam illo aut velit. Nemo cumque obcaecati aliquid exercitationem. Blanditiis eligendi quaerat excepturi?</p>         
-            <button>Boton</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laboriosam totam beatae, dignissimos consequatur odit? Eaque officiis quam illo aut velit. Nemo cumque obcaecati aliquid exercitationem. Blanditiis eligendi quaerat excepturi?</p>
+
+            <!-- Redirigir a la pagina de detalles del curso -->
+            <a href="#"><button>Ver curso</button></a>
+            
             <div class="icons">
                 <img src="./img/icons/Fav.svg" alt="favoritos">
             </div>
@@ -30,7 +31,7 @@
             </div>
             <h2>Titulo curso</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laboriosam totam beatae, dignissimos consequatur odit? Eaque officiis quam illo aut velit. Nemo cumque obcaecati aliquid exercitationem. Blanditiis eligendi quaerat excepturi?</p>         
-            <button>Boton</button>
+            <a href="#"><button>Ver curso</button></a>
             <div class="icons">
                 <img src="./img/icons/Fav.svg" alt="favoritos">
             </div>
@@ -42,7 +43,7 @@
             </div>
             <h2>Titulo curso</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laboriosam totam beatae, dignissimos consequatur odit? Eaque officiis quam illo aut velit. Nemo cumque obcaecati aliquid exercitationem. Blanditiis eligendi quaerat excepturi?</p>         
-            <button>Boton</button>
+            <a href="#"><button>Ver curso</button></a>
             <div class="icons">
                 <img src="./img/icons/Fav.svg" alt="favoritos">
             </div>
@@ -55,7 +56,7 @@
             </div>
             <h2>Titulo curso</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laboriosam totam beatae, dignissimos consequatur odit? Eaque officiis quam illo aut velit. Nemo cumque obcaecati aliquid exercitationem. Blanditiis eligendi quaerat excepturi?</p>         
-            <button>Boton</button>
+            <a href="#"><button>Ver curso</button></a>
             <div class="icons">
                 <img src="./img/icons/Fav.svg" alt="favoritos">
             </div>
@@ -68,7 +69,7 @@
             </div>
             <h2>Titulo curso</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laboriosam totam beatae, dignissimos consequatur odit? Eaque officiis quam illo aut velit. Nemo cumque obcaecati aliquid exercitationem. Blanditiis eligendi quaerat excepturi?</p>         
-            <button>Boton</button>
+            <a href="#"><button>Ver curso</button></a>
             <div class="icons">
                 <img src="./img/icons/Fav.svg" alt="favoritos">
             </div>
@@ -81,14 +82,14 @@
             </div>
             <h2>Titulo curso</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laboriosam totam beatae, dignissimos consequatur odit? Eaque officiis quam illo aut velit. Nemo cumque obcaecati aliquid exercitationem. Blanditiis eligendi quaerat excepturi?</p>         
-            <button>Boton</button>
+            <a href="#"><button>Ver curso</button></a>
             <div class="icons">
                 <img src="./img/icons/Fav.svg" alt="favoritos">
             </div>
         </div>
           
     </div>
-    
+
     <!-- Aqui iria la paginación de los cursos  -->
 
     <!-- Aqui iria el hover de suscripción  la newsletter -->
