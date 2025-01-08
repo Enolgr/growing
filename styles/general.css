@@ -118,8 +118,9 @@ padding: 2rem 4rem;
   flex-wrap: wrap;
   height: fit-content;
   padding: 0.5rem 2rem;
-  
+  margin-bottom: 1.3rem;
 }
+
 .logo-menu{
   width: fit-content;
 }
