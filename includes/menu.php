@@ -1,7 +1,7 @@
 <?php
 echo '
 <header id="menu">
-<div class="logo-menu"><img src="../img/logo.svg" alt="logo-growing"></div>
+<div class="logo-menu"><img src="./img/logo.svg" alt="logo-growing"></div>
 <div class="items-menu">
     <a href="#1">Cursos</a>
     <a href="#2">Tienda</a>
