@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Materiales</title>
+    <title>Carrito Compra</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
 </head>
 <body>
     <form method="get" action="carrito-compra.php">
         <div class="itemsCard">
-            <h1>Todo lo que necesitas</h1>
-
+            <h1>¡Ya casi estamos!</h1>
             <ul id="items">
                 <input type="checkbox" id="item1" name="item1" value=""></li>
                 <label for="item1">Material 1</label>
@@ -29,7 +28,7 @@
                 <div id="itemImg3"><img src=""></img></div>
             </ul>
             <div id="total">Total:</div>
-            <button type="button" class="btn" id="add">Comprar selección</button>
+            <button type="button" class="btn" id="add">Finalizar compra</button>
         </div>
     </form>
 </body>
