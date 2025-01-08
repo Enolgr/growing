@@ -32,6 +32,9 @@ html,
 body {
   background-color: var(--fondo);
 }
+h2,h3,h4,h5,p{
+  font-family: DM Sans, Arial, Helvetica, sans-serif;
+}
 
 
 a{
@@ -174,4 +177,72 @@ width: auto;
   color: var(--fondo);
   font-size: 2rem;
   padding: 1.6rem 0;
+}
+
+/* footer */
+
+footer{
+  background-color: var(--colorlogo);
+  padding: 1rem 0;
+}
+
+.menu-footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem ;
+}
+
+.links{
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 3rem;
+
+}
+
+.links a{
+  font-family: DM Sans, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: var(--fondo);
+}
+
+.p-white{
+  font-size: 1.2rem;
+  color: var(--fondo);
+  text-align: center;
+  font-weight: 500;
+}
+
+.politics{
+  display: flex;
+align-items: center;
+justify-content: center;
+  gap: 2rem ;
+  margin: 2rem 0;
+}
+.politics a{
+  color: var(--fondo);
+}
+
+.footer-icons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.copyright{
+  font-size: 0.8rem;
+  text-align: center;
+  width: 100%;
+  color: white;
+
 }
