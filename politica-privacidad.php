@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="./styles/general.css">
   </head>
   <body>
-    <header>
+  <?php 
+    include_once "./includes/menu.php"?>
       <h1>Política de Privacidad de Growing</h1>
-    </header>
+
     <main>
       <p><strong>Última actualización:</strong>30/01/2025</p>
 
