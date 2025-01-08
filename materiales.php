@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiales</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/general.css">
+</head>
+<body>
+    <form method="get" action="carrito-compra.php">
+        <div class="itemsCard">
+            <h1>Todo lo que necesitas</h1>
+
+            <ul id="items">
+                <input type="checkbox" id="item1" name="item1" value=""></li>
+                <label for="item1">Material 1</label>
+                <div id="precioItem1">4€</div>
+                <div id="imagenItem1"><img src=""></img></div>
+                
+                <input type="checkbox" id="item2" name="item2" value=""></li>
+                <label for="item1">Material 2</label>
+                <div id="precioItem1">2€</div>
+                <div id="imagenItem1"><img src=""></img></div>
+
+                <input type="checkbox" id="item3" name="item3" value=""></li>
+                <label for="item1">Material3</label>
+                <div id="precioItem1">10€</div>
+                <div id="imagenItem1"><img src=""></img></div>
+            </ul>
+            <div class="total">Total:</div>
+            <button type="button" class="btn" id="add">Comprar selección</button>
+        </div>
+    </form>
+</body>
+</html>
