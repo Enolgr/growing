@@ -27,7 +27,7 @@
                 <button>Ver mis cursos</button>
             </div>
         </section>
-        
+
         <section>
             <div>
                 <img>
@@ -44,9 +44,9 @@
                 </form>
             </div>
         </section>
-        
-        
-        
+
+
+
     </main>
     <?php include_once "./includes/marquee.php"?>
     <?php include_once "./includes/footer.php"?>
