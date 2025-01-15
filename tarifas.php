@@ -182,7 +182,7 @@
                 <input type="text" class="email">
             </div>
 
-            <button class="enviar" >Enviar</button>
+            <button class="enviar">Enviar</button>
         </form>
     </div>
 </section>
