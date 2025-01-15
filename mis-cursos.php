@@ -12,9 +12,10 @@
 <body>
     <!-- Menu -->
     <?php include_once "./includes/menu.php" ?>
-    
+
+    <!-- Información cursos -->
     <h1>Mis cursos</h1>
-    <div class="cursos">
+    <div class="cursos" name="cursos" id="cursos">
         <div class="detalles-curso">
             <div class="img-curso">
                 <img src="./img/images/pexels-cottonbro-4503269.webp" alt="curso palas">
@@ -25,7 +26,7 @@
                 Blanditiis eligendi quaerat excepturi?</p>
 
             <!-- Redirigir a la pagina de detalles del curso -->
-            <a href="#"><button>Ver curso</button></a>
+            <a href="./detalles-curso.php"><button>Ver curso</button></a>
 
             <div class="icons">
                 <img src="./img/icons/Fav.svg" alt="favoritos">
@@ -109,10 +110,10 @@
     <!-- Paginación de los cursos  -->
 
     <!-- Newsletter -->
-    
+    <?php include_once "./includes/newsletter.php"; ?>
     <!-- Marquee & Footer -->
-    <?php include_once("./includes/marquee.php") ?>
-    <?php include_once("./includes/footer.php") ?>
+    <?php include_once "./includes/marquee.php"; "./includes/footer.php"; ?>
+
 
 </body>
 
