@@ -197,5 +197,7 @@
 
 </section>
 
+<?php include("./includes/marquee.php") ?>
+
 </body>
 </html>
