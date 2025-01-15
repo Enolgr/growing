@@ -11,8 +11,8 @@
 </head>
 <body>
 
-<section class="contenedor_tarifas" >
-<div class="contenedor_titulo" >
+<section class="contenedor-tarifas" >
+<div class="contenedor-titulo" >
     <div class="titulo" >
         <h1 >Aprende sobre botánica con el plan ideal para ti</h1>
     </div>
@@ -25,7 +25,7 @@
     </div>
 </div>
 
-<div class="metodo_pago" >
+<div class="metodo-pago" >
     <div class="metodo" >
         <div  class="oferta" >
             <p>Oferta</p>
@@ -46,17 +46,17 @@
 
 <div class="card">
 
-    <div class="titulo_tarifa" >
-    <h2 class="nombre_tarifa" >Bonsai</h2>
-    <p class="text_tarifa" >Quisque donec nibh diam tellus integer eros.</p>
+    <div class="titulo-tarifa" >
+    <h2 class="nombre-tarifa" >Bonsai</h2>
+    <p class="text-tarifa" >Quisque donec nibh diam tellus integer eros.</p>
     </div>
     
-    <div class="contenedor_precio" >
+    <div class="contenedor-precio" >
         <p class="precio" >7€</p>
-        <p class="info_precio" >Precio por mes, pago anual</p>
+        <p class="info-precio" >Precio por mes, pago anual</p>
     </div>
 
-    <div class="contenedor_ventajas" >
+    <div class="contenedor-ventajas" >
         <p class="ventaja" >Ventaja 1</p>
         <p class="ventaja" >Ventaja 2</p>
         <p class="ventaja" >Ventaja 3</p>
@@ -68,21 +68,21 @@
 
 <div class="card">
 
-<div class="mejor_opcion" >
+<div class="mejor-opcion" >
     <p>Mejor opcion</p>
 </div>
 
-    <div class="titulo_tarifa" >
-    <h2 class="nombre_tarifa" >Jardin</h2>
-    <p class="text_tarifa" >Quisque donec nibh diam tellus integer eros.</p>
+    <div class="titulo-tarifa" >
+    <h2 class="nombre-tarifa" >Jardin</h2>
+    <p class="text-tarifa" >Quisque donec nibh diam tellus integer eros.</p>
     </div>
     
-    <div class="contenedor_precio" >
+    <div class="contenedor-precio" >
         <p class="precio" >10€</p>
-        <p class="info_precio" >Precio por mes, pago anual</p>
+        <p class="info-precio" >Precio por mes, pago anual</p>
     </div>
 
-    <div class="contenedor_ventajas" >
+    <div class="contenedor-ventajas" >
         <p class="ventaja" >Ventaja 1</p>
         <p class="ventaja" >Ventaja 2</p>
         <p class="ventaja" >Ventaja 3</p>
@@ -94,17 +94,17 @@
 
 <div class="card">
 
-    <div class="titulo_tarifa" >
-    <h2 class="nombre_tarifa" >Amazonas</h2>
-    <p class="text_tarifa" >Quisque donec nibh diam tellus integer eros.</p>
+    <div class="titulo-tarifa" >
+    <h2 class="nombre-tarifa" >Amazonas</h2>
+    <p class="text-tarifa" >Quisque donec nibh diam tellus integer eros.</p>
     </div>
     
-    <div class="contenedor_precio" >
+    <div class="contenedor-precio" >
         <p class="precio" >13€</p>
-        <p class="info_precio" >Precio por mes, pago anual</p>
+        <p class="info-precio" >Precio por mes, pago anual</p>
     </div>
 
-    <div class="contenedor_ventajas" >
+    <div class="contenedor-ventajas" >
         <p class="ventaja" >Ventaja 1</p>
         <p class="ventaja" >Ventaja 2</p>
         <p class="ventaja" >Ventaja 3</p>
@@ -148,49 +148,35 @@
 
 <section class="contenedor-opiniones" >
 
+<div>
     <div>
-        <div>
-            <h1 class="titulo opiniones" >¿Qué opinan sobre nuestros cursos?</h1>
-            <div class="opiniones" >
-                <div class="opinion" >
-                    <img src="./img/images/persona-random1.webp" alt="" class="avatar" >
-                    <p class="name-user" >Nombre persona</p>
-                    <p class="descripcion-reseña" >reseña</p>
-                </div>
 
-                <div class="opinion" >
-                    <img src="./img/images/persona-random2.webp" alt="" class="avatar" >
-                    <p class="name_user" >Nombre persona</p>
-                    <p class="descripcion_reseña" >reseña</p>
-                </div>
+        <h1 class="titulo opiniones" >¿Qué opinan sobre nuestros cursos?</h1>
+
+        <div class="opiniones" >
+            <div class="opinion" >
+                <img src="./img/images/persona-random1.webp" alt="" class="avatar" >
+                <p class="name_user" >Nombre persona</p>
+                <p class="descripcion_reseña" >reseña</p>
             </div>
 
-            <div class="paginacino" style="background-color: blue; height: 10px; width: 30px;">
+            <div class="paginacion" style="background-color: blue; height: 10px; width: 30px;">
                 
             </div>
         </div>
+        <div class="paginacino" style="background-color: blue; height: 10px; width: 30px;">
+            
+        </div>
     </div>
+</div>
 
 </section>
 
-<section class="contenedor-form">
-    <div class="form">
-        <h1>Únete a nuestra newsletter</h1>
-        <form action="">
-            <div class="campos">
-                <input type="text" class="nombre">
-                <input type="text" class="email">
-            </div>
 
-            <button class="enviar" >Enviar</button>
-        </form>
-    </div>
-</section>
-<<<<<<< HEAD
-=======
+<?php
 
-<?php include("./includes/marquee.php") ?>
+include "./includes/newsletter.php";
+include "./includes/marquee.php" ?>
 
->>>>>>> a0d399f22e614d6bc50298f1149b65a6c876cff0
 </body>
 </html>

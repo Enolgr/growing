@@ -26,5 +26,10 @@ $tips = [
 // Barajar los tips y concatenarlos
 shuffle($tips);
 $marqueeText = implode(" &nbsp;&nbsp;<img src='./img/icons/hoja.svg'/>&nbsp;&nbsp;", $tips);
+<<<<<<< HEAD
 echo "<marquee class='random-marquee random-marquee-solid' >$marqueeText</marquee>";
+=======
+echo "<marquee class='random-marquee-solid' >$marqueeText</marquee>";
+
+>>>>>>> 65f7861fc8fc7ace6384dd04731d6689e982ba14
 ?>
