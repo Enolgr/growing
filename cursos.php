@@ -87,7 +87,7 @@
                 <img src="./img/icons/Fav.svg" alt="favoritos">
             </div>
         </div>
-          
+        
     </div>
 
     <!-- Aqui iria la paginación de los cursos  -->

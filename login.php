@@ -9,8 +9,8 @@
     <title>Document</title>
 
     <!-- CSS & normalize -->
-     <link rel="stylesheet" href="./styles/normalize.css">
-     <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/general.css">
 </head>
 <body>
 <?php 
