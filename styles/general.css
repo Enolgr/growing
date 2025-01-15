@@ -185,6 +185,12 @@ p {
 .random-marquee-solid {
   color: var(--fondo);
 background-color: var(--colorlogo);
+display: flex;
+flex-wrap: nowrap;
+font-family: "Passion One", Arial, Helvetica, sans-serif;
+color: var(--fondo);
+font-size: 2rem;
+padding: 1.6rem 0;
 }
 
 
