@@ -10,7 +10,7 @@
 </head>
 
 <body>
-   <!-- Aqui iria el nav -->
+   <!-- Aquí iría el nav -->
 
    <!-- Informacion del curso -->
    <div class="info-curso">
