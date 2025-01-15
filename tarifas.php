@@ -172,27 +172,11 @@
 
 </section>
 
-<section class="contenedor_form">
 
-<div class="form">
-<h1>Únete a nuestra newsletter</h1>
+<?php
 
-<form action="">
-    
-<div class="campos">
-    <input type="text" class="nombre">
-    <input type="text" class="email">
-</div>
-
-<button class="enviar" >Enviar</button>
-
-</form>
-
-</div>
-
-</section>
-
-<?php include("./includes/marquee.php") ?>
+include "./includes/newsletter.php";
+include "./includes/marquee.php" ?>
 
 </body>
 </html>
