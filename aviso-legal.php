@@ -10,10 +10,12 @@
 </head>
 
 <body>
+    <?php include_once "./includes/menu.php" ?>
     <h1>Aviso Legal de Cursos de Plantas</h1>
     <p><strong>Última actualización:</strong> 18 de diciembre de 2024</p>
 
-    <p>El presente Aviso Legal regula las condiciones de uso del sitio web <strong>Growing</strong>cuya titularidad corresponde a:</p>
+    <p>El presente Aviso Legal regula las condiciones de uso del sitio web <strong>Growing</strong>cuya titularidad
+        corresponde a:</p>
 
     <ul>
         <li><strong>Titular:</strong> Growing S.L.</li>
@@ -58,7 +60,8 @@
     <h2>5. Protección de datos personales</h2>
     <p>El tratamiento de los datos personales recopilados a través del Sitio Web se regirá por lo dispuesto en nuestra
         <a href="politica-privacidad.php">Política de Privacidad</a>. Te recomendamos leerla detenidamente para conocer
-        cómo recopilamos, utilizamos y protegemos tus datos personales.</p>
+        cómo recopilamos, utilizamos y protegemos tus datos personales.
+    </p>
 
     <h2>6. Legislación aplicable y jurisdicción</h2>
     <p>Este Aviso Legal se rige por la legislación española. En caso de disputa o conflicto, las partes se someterán a
@@ -71,6 +74,8 @@
         <li><strong>Dirección postal:</strong> Calle de las Plantas, 123, Edificio Verde, Oficina 45, 28001 Madrid,
             España</li>
     </ul>
-</body>
 
+    <?php include_once "./includes/marquee.php"; ?>
+    <?php include_once "./includes/footer.php";?>
+</body>
 </html>
