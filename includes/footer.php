@@ -21,9 +21,9 @@ echo '<footer>
       </div>
 
       <div class="politics">
-        <a href="#">Política de privacidad</a>
-        <a href="#">Política de cookies</a>
+        <a href="#">Política de privacidad</a>        
         <a href="#">Aviso legal</a>
+        <a href="#">Política de cookies</a>
       </div>
       <div class="copyright"><p class="copyright">Copyright © 2024 - GROWING</p></div>
     </footer>'
