@@ -186,11 +186,8 @@
         </form>
     </div>
 </section>
-<<<<<<< HEAD
-=======
 
 <?php include("./includes/marquee.php") ?>
 
->>>>>>> a0d399f22e614d6bc50298f1149b65a6c876cff0
 </body>
 </html>
