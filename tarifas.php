@@ -172,7 +172,10 @@
 
 </section>
 
-<?php include "./includes/newsletter.php";
+
+<?php
+
+include "./includes/newsletter.php";
 include "./includes/marquee.php" ?>
 
 </body>
