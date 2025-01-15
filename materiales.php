@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,10 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
 </head>
+
 <body>
+    <?php include_once "./includes/menu.php" ?>
+
     <form method="get" action="carrito-compra.php">
         <div class="itemsCard">
             <h1>Todo lo que necesitas</h1>
@@ -17,7 +21,7 @@
                 <label for="item1">Material 1</label>
                 <div id="itemPrice1">4€</div>
                 <div id="itemImg1"><img src=""></img></div>
-                
+
                 <input type="checkbox" id="item2" name="item2" value=""></li>
                 <label for="item1">Material 2</label>
                 <div id="itemPrice2">2€</div>
@@ -33,4 +37,5 @@
         </div>
     </form>
 </body>
+
 </html>
