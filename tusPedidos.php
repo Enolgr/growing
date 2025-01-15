@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tus pedidos</title>
+    <!-- Estilos CSS-->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/login.css">
   </head>
   <body>
     <header>
       <!--Aquí va el menú de navegación con el título de la página-->
+      <?php include_once "./includes/menu.php" ?>
     </header>
     <main>
       <div class="title" id="title">
@@ -15,11 +20,11 @@
       </div>
       <div class="orders-container" id="orders-container"> <!--Caja de pedidos-->
         <div class="order" id="order1"> <!--Pedido en concreto-->
-            <p class="number" id="number">Nº Pedido</p> <!--Nº pedido 0000001-->
-            <p class="date" id="order-date">28/07/24</p>  <!--23/07/24-->
+            <p class="number" id="number">Nº Pedido 0000001</p>
+            <p class="date" id="order-date">28/07/24</p>
         </div>
         <div class="product-list" id="product-list"> <!--Div que contiene productos-->
-            <p class="materials" id="materials">Material 1</p> <!--Material 1-->
+            <p class="materials" id="materials">Material 1</p>
             <p class="prices" id="prices">2 €</p> <!--2 €-->
             <img class="img" id="img">Imagen de producto</img> <!--Imagen producto-->
         </div>
@@ -29,7 +34,7 @@
               <p class="total-title" id="total-title">Total</p>
               <p class="iva" id="iva">(iva incluido)</p>
               <p class="total-price" id="total-price">6€</p>
-              <button class="invoice-download" id="invoice-download">Descargar factura</button>
+              <button  type="button" class="boton" id="invoice-download">Descargar factura</button>
             </div>
 
             <div class="deliver-day" id="deliver-day">
@@ -40,8 +45,9 @@
         </div>
       </div>
     </main>
-    <footer>
-      <!-- Aquí el footer -->
-    </footer>
+    <?php include_once "./includes/marquee.php";?>
+      <!-- Aqui va el Footer -->
+    <?php include_once "./includes/footer.php"; ?>
+
   </body>
 </html>
