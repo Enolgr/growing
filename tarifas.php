@@ -165,7 +165,7 @@
                 </div>
             </div>
 
-            <div class="paginacino" style="background-color: blue; height: 10px; width: 30px;">
+            <div class="paginacion" style="background-color: blue; height: 10px; width: 30px;">
                 
             </div>
         </div>
