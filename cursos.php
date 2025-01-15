@@ -49,7 +49,6 @@
             </div>
         </div> 
         
-        
         <div class="detalles-curso">
             <div class="img-curso">
                 <img src="./img/images/pexels-ketut-subiyanto-4132369.webp" alt="curso romero">
