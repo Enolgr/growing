@@ -190,6 +190,7 @@ p {
   padding: 1.6rem 0;
 }
 
+<<<<<<< HEAD
 .random-marquee-solid {
   color: var(--fondo);
 background-color: var(--colorlogo);
@@ -200,6 +201,9 @@ color: var(--fondo);
 font-size: 2rem;
 padding: 1.6rem 0;
 }
+=======
+
+>>>>>>> a465212 (cambios en tarifa)
 
 
 /* footer */
