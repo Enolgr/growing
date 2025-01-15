@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="./styles/general.css">
   </head>
   <body>
-  <?php 
-    include_once "./includes/menu.php"?>
+  <?php include_once "./includes/menu.php" ?>
       <h1>Política de Privacidad de Growing</h1>
 
     <main>

@@ -118,35 +118,32 @@
 
 <?php include("./includes/marquee-solid.php") ?>
 
-<section class="contenedor-cursos-top" >
+<section class="contenedor_cursos_top" >
+    <h2>Los cursos más top</h2>
 
-<h2>Los cursos más top</h2>
+    <div class="cursos" >
+        <div class="curso" >
+            <img src="./img/images/img-cursos.webp" alt="">
+            <p>Titulo curso</p>
+        </div>
 
-<div class="cursos" >
+        <div class="curso" >
+            <img src="./img/images/img-cursos.webp" alt="">
+            <p>Titulo curso</p>
+        </div>
 
-<div class="curso" >
-    <img src="./img/images/img-cursos.webp" alt="">
-    <p>Titulo curso</p>
-</div>
+        <div class="curso" >
+            <img src="./img/images/img-cursos.webp" alt="">
+            <p>Titulo curso</p>
+        </div>
 
-<div class="curso" >
-    <img src="./img/images/img-cursos.webp" alt="">
-    <p>Titulo curso</p>
-</div>
+        <div class="curso" >
+            <img src="./img/images/img-cursos.webp" alt="">
+            <p>Titulo curso</p>
+        </div>
+    </div>
 
-<div class="curso" >
-    <img src="./img/images/img-cursos.webp" alt="">
-    <p>Titulo curso</p>
-</div>
-
-<div class="curso" >
-    <img src="./img/images/img-cursos.webp" alt="">
-    <p>Titulo curso</p>
-</div>
-
-</div>
-
-<button>Boton 1</button>
+    <button>Boton 1</button>
 </section>
 
 <section class="contenedor-opiniones" >
@@ -154,19 +151,19 @@
 <div>
     <div>
 
-        <h1 class="titulo-opiniones" >¿Qué opinan sobre nuestros cursos?</h1>
+        <h1 class="titulo opiniones" >¿Qué opinan sobre nuestros cursos?</h1>
 
         <div class="opiniones" >
             <div class="opinion" >
                 <img src="./img/images/persona-random1.webp" alt="" class="avatar" >
-                <p class="name-user" >Nombre persona</p>
-                <p class="descripcion-reseña" >reseña</p>
+                <p class="name_user" >Nombre persona</p>
+                <p class="descripcion_reseña" >reseña</p>
             </div>
 
             <div class="opinion" >
                 <img src="./img/images/persona-random2.webp" alt="" class="avatar" >
-                <p class="name-user" >Nombre persona</p>
-                <p class="descripcion-reseña" >reseña</p>
+                <p class="name_user" >Nombre persona</p>
+                <p class="descripcion_reseña" >reseña</p>
             </div>
         </div>
         <div class="paginacino" style="background-color: blue; height: 10px; width: 30px;">
@@ -177,7 +174,7 @@
 
 </section>
 
-<section class="contenedor-form">
+<section class="contenedor_form">
 
 <div class="form">
 <h1>Únete a nuestra newsletter</h1>

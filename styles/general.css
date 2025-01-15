@@ -90,7 +90,7 @@ p {
   background-color: var(--verde);
 }
 
-.brn:disabled {
+.btn:disabled {
   background-color: var(--verdeclaro);
 }
 
@@ -182,7 +182,16 @@ p {
   padding: 1.6rem 0;
 }
 
-
+.random-marquee-solid {
+  color: var(--fondo);
+background-color: var(--colorlogo);
+display: flex;
+flex-wrap: nowrap;
+font-family: "Passion One", Arial, Helvetica, sans-serif;
+color: var(--fondo);
+font-size: 2rem;
+padding: 1.6rem 0;
+}
 
 
 /* footer */
@@ -236,6 +245,7 @@ footer {
 }
 
 .footer-icons {
+  margin-top: 1rem;
   width: 100%;
   display: flex;
   flex-direction: row;
