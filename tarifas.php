@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<section class="contenedor tarifas" >
+<section class="contenedor_tarifas" >
 <div class="contenedor_titulo" >
     <div class="titulo" >
         <h1 >Aprende sobre botánica con el plan ideal para ti</h1>
@@ -116,7 +116,7 @@
 </div>
 </section>
 
-<?php include("./includes/marquee.php") ?>
+<?php include("./includes/marquee-solid.php") ?>
 
 <section class="contenedor_cursos_top" >
     <h2>Los cursos más top</h2>
@@ -186,5 +186,11 @@
         </form>
     </div>
 </section>
+<<<<<<< HEAD
+=======
+
+<?php include("./includes/marquee.php") ?>
+
+>>>>>>> a0d399f22e614d6bc50298f1149b65a6c876cff0
 </body>
 </html>
