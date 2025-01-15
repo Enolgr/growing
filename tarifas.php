@@ -116,7 +116,7 @@
 </div>
 </section>
 
-<?php include("./includes/marquee.php") ?>
+<?php include("./includes/marquee-solid.php") ?>
 
 <section class="contenedor_cursos_top" >
 
