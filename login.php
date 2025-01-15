@@ -8,15 +8,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
-<<<<<<< HEAD
     <link rel="stylesheet" href="./styles/login.css">
     <title>Document</title>
 
     <!-- CSS & normalize -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
-=======
->>>>>>> a0d399f22e614d6bc50298f1149b65a6c876cff0
 </head>
 
 <body>
