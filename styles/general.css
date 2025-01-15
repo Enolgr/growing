@@ -182,16 +182,7 @@ p {
   padding: 1.6rem 0;
 }
 
-.random-marquee-solid {
-  display: flex;
-  flex-wrap: nowrap;
-  background-size: cover;
-  font-family: "Passion One", Arial, Helvetica, sans-serif;
-  color: var(--fondo);
-  font-size: 2rem;
-  padding: 1.6rem 0;
-  background-color: var(--colorlogo);
-}
+
 
 
 /* footer */
