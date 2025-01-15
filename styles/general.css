@@ -209,6 +209,7 @@ padding: 1.6rem 0;
 /* footer */
 
 footer {
+  width: 100%;
   background-color: var(--colorlogo);
   padding: 1rem 0;
 }

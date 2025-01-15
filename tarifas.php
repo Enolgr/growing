@@ -201,37 +201,42 @@
 
 <section class="contenedor-opiniones" >
 
+<div>
     <div>
-        <div>
-            <h1 class="titulo opiniones" >¿Qué opinan sobre nuestros cursos?</h1>
-            <div class="opiniones" >
-                <div class="opinion" >
-                    <img src="./img/images/persona-random1.webp" alt="" class="avatar" >
-                    <p class="name-user" >Nombre persona</p>
-                    <p class="descripcion-reseña" >reseña</p>
-                </div>
 
-                <div class="opinion" >
-                    <img src="./img/images/persona-random2.webp" alt="" class="avatar" >
-                    <p class="name_user" >Nombre persona</p>
-                    <p class="descripcion_reseña" >reseña</p>
-                </div>
+        <h1 class="titulo opiniones" >¿Qué opinan sobre nuestros cursos?</h1>
+
+        <div class="opiniones" >
+            <div class="opinion" >
+                <img src="./img/images/persona-random1.webp" alt="" class="avatar" >
+                <p class="name_user" >Nombre persona</p>
+                <p class="descripcion_reseña" >reseña</p>
             </div>
 
             <div class="paginacion" style="background-color: blue; height: 10px; width: 30px;">
                 
             </div>
         </div>
+        <div class="paginacino" style="background-color: blue; height: 10px; width: 30px;">
+            
+        </div>
     </div>
+</div>
 
 </section>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <section class="contenedor-form">
 >>>>>>> a465212 (cambios en tarifa)
 
 <?php
+=======
+
+<?php
+
+>>>>>>> main
 include "./includes/newsletter.php";
 include "./includes/marquee.php" ?>
 
