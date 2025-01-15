@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/general.css">
-    <title>Document</title>
-</head>
-
-<body>
-    <section class="newsletter">
+<?php
+echo '    <section class="newsletter">
         <div class="contenedor-newsletter">
         <h3 id="titulo-newsletter">Únete a nuestra newsletter</h3>
         <div class="contenedor-inputs">
@@ -20,7 +10,6 @@
         <button class="boton">Enviar</button>
         </div>
         </div>
-    </section>
-</body>
+    </section>'
 
-</html>
+?>
