@@ -11,6 +11,7 @@
 
 <body>
    <!-- Aqui iria el nav -->
+   <?php include_once "./includes/menu.php"?>
 
    <!-- Informacion del curso -->
    <div class="info-curso">
@@ -31,10 +32,12 @@
             <p id="tiempo">2h</p>
          </div>
       </div>
+
       <div class="botones">
          <button class="btn">Ver curso</button>
          <button class="btn">Materiales</button>
       </div>
+      
       <div class="img-curso">
          <img src="./img/images/pexels-gary-barnes-6231819.webp" alt="curso tijeras">
       </div>

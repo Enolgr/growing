@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis cursos</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
-    <title>Cursos</title>
 </head>
-
-<body>
+<body>  
     <?php include_once "./includes/menu.php"?>
-    <h1>Nuestros cursos online</h1>
-
+    <h1>Mis cursos</h1>
     <div class="cursos">
         <div class="detalles-curso">
             <div class="img-curso">
@@ -95,6 +95,7 @@
     <!-- Aqui iria el hover de suscripción  la newsletter -->
 
     <!-- Footer -->
+    
     
 </body>
 </html>

@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./styles/general.css">
   </head>
   <body>
-    <header>
-      <h1>Política de Cookies para Growing</h1>
-    </header>
+    <?php include_once "./includes/menu.php"?>
+    
+    <h1>Política de Cookies para Growing</h1>   
     <main>
       <p><strong>Última actualización:</strong> 11/01/2025</p>
 
