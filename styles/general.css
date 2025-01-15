@@ -1,5 +1,5 @@
 /* Tipografias */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Passion+One:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Passion+One:wght@400;700;900&display=swap");
 
 :root {
   --fondo: #f5f5f5;
@@ -25,44 +25,53 @@
   --hover-shadow-xl: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 html,
 body {
   background-color: var(--fondo);
 }
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: DM Sans, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-
-a{
+a {
   text-decoration: none;
   color: var(--negro);
-  font-family: 'Dm Sans',sans-serif;
+  font-family: "Dm Sans", sans-serif;
   transition: ease-in-out 0.2s;
 }
 
-a:hover{
-scale: var(--hover-scale-lg);
+a:hover {
+  scale: var(--hover-scale-lg);
 }
 
-button{
-    text-decoration: none;
+button {
+  text-decoration: none;
 }
 
-h1{
-color: var(--negro);
-font-family: "Passion One";
-font-size: 5.9375rem;
-font-style: normal;
-font-weight: 400;
-line-height: 100%; /* 5.9375rem */
-margin: 0;
+h1 {
+  color: var(--negro);
+  font-family: "Passion One";
+  font-size: 5.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 5.9375rem */
+  margin: 0;
 }
-p{
-  font-family: "DM Sans",sans-serif;
+p {
+  font-family: "DM Sans", sans-serif;
 }
-.btn {
-font-family: "DM Sans",sans-serif;
+
+.btn, .boton{
+  font-family: "DM Sans", sans-serif;
   border-radius: 0.75rem;
   background-color: var(--colorlogo);
   color: #fff;
@@ -77,39 +86,38 @@ font-family: "DM Sans",sans-serif;
   border: none;
 }
 
-.btn:hover{
-background-color: var(--verde);
+.btn:hover {
+  background-color: var(--verde);
 }
 
-.brn:disabled{
-background-color: var(--verdeclaro);
+.brn:disabled {
+  background-color: var(--verdeclaro);
 }
 
-.card{
-border-radius: 0.875rem;
-background: #E7E7E7;
+.card {
+  border-radius: 0.875rem;
+  background: #e7e7e7;
 }
 
-
-.card-oscura{
-border-radius: 0.875rem;
-background: var(--grisclaro);
-width: fit-content;
-padding: 2rem 4rem;
+.card-oscura {
+  border-radius: 0.875rem;
+  background: var(--grisclaro);
+  width: fit-content;
+  padding: 2rem 4rem;
 }
 
-.titulo-card{
+.titulo-card {
   font-size: 3rem;
   color: var(--fondo);
 }
 
-.card-oscura input{
+.card-oscura input {
   margin: 1rem 0;
 }
 
 /* Menu */
 
-#menu{
+#menu {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -120,15 +128,15 @@ padding: 2rem 4rem;
   padding: 0.5rem 2rem;
 }
 
-.logo-menu{
+.logo-menu {
   width: fit-content;
 }
-.logo-menu img{
-height: 3rem;
-width: auto;
+.logo-menu img {
+  height: 3rem;
+  width: auto;
 }
 
-.items-menu{
+.items-menu {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -137,17 +145,16 @@ width: auto;
   flex-wrap: wrap;
   gap: 2rem;
   height: fit-content;
-  
 }
 
-.anchor-bg a{
+.anchor-bg a {
   padding: 0.7rem;
   color: white;
   background-color: var(--colorlogo);
   border-radius: 10px;
 }
 
-.icons-nav{
+.icons-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -155,17 +162,16 @@ width: auto;
   height: 1rem;
 }
 
-
 /* marquee */
 
 #hoja {
   height: 1rem;
   width: 1rem;
-  background: url('../img/icons/hoja.svg') no-repeat center center;
+  background: url("../img/icons/hoja.svg") no-repeat center center;
   background-size: contain;
 }
 
-.random-marquee{
+.random-marquee {
   display: flex;
   flex-wrap: nowrap;
   background: url(../img/images/marquee.webp) no-repeat center center;
@@ -174,4 +180,137 @@ width: auto;
   color: var(--fondo);
   font-size: 2rem;
   padding: 1.6rem 0;
+}
+
+.random-marquee-solid {
+  color: var(--fondo);
+background-color: var(--colorlogo);
+}
+
+
+/* footer */
+
+footer {
+  background-color: var(--colorlogo);
+  padding: 1rem 0;
+}
+
+.menu-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.links {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 3rem;
+}
+
+.links a {
+  font-family: DM Sans, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: var(--fondo);
+}
+
+.p-white {
+  font-size: 1.2rem;
+  color: var(--fondo);
+  text-align: center;
+  font-weight: 500;
+}
+
+.politics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.politics a {
+  color: var(--fondo);
+}
+
+.footer-icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+/* Newsletter */
+
+#titulo-newsletter{
+  font-family: "Passion One";
+  color: var(--colorlogo);
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+.newsletter {
+  background-image: url(../img/images/pexels-scottwebb-403575%201.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 97%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: first baseline;
+  border-radius: 50px;
+}
+
+.contenedor-newsletter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+input {
+  padding: 0 0 0 0.6rem;
+  height: 2.8rem;
+  border-radius: 10px;
+  border: 1px solid #2C4C46;
+  background: #EAEDEC;
+  width: 100%;
+  font-size: 0.9rem; 
+  font-family: 'DM Sans', sans-serif; 
+  color: #2C4C46;
+}
+
+.contenedor-boton{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.contenedor-inputs{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
