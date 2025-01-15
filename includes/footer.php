@@ -1,7 +1,6 @@
 <?php
 echo '<footer>
 
-        <img class="logo-white" src="./img/logo.svg" alt="" />
       <div class="menu-footer">
         <img src="./img/icons/logo-white.svg" alt="">
         <div class="links">
