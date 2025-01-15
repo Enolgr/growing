@@ -182,6 +182,12 @@ p {
   padding: 1.6rem 0;
 }
 
+.random-marquee-solid {
+  color: var(--fondo);
+background-color: var(--colorlogo);
+}
+
+
 /* footer */
 
 footer {
