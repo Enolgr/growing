@@ -10,8 +10,12 @@
 </head>
 
 <body>
+<<<<<<< HEAD:detalles-curso.php
    <!-- Aqui iria el nav -->
    <?php include_once "./includes/menu.php"?>
+=======
+   <!-- Aquí iría el nav -->
+>>>>>>> 5d9d90e7a53dec9be7131ff87971ee55d9a4ff1f:descripcion-curso.php
 
    <!-- Informacion del curso -->
    <div class="info-curso">
