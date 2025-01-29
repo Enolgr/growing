@@ -213,6 +213,12 @@
                 <p class="descripcion_reseña" >reseña</p>
             </div>
 
+            <div class="opinion" >
+                <img src="./img/images/persona-random2.webp" alt="" class="avatar" >
+                <p class="name_user" >Nombre persona</p>
+                <p class="descripcion_reseña" >reseña</p>
+            </div>
+
             <div class="paginacion" style="background-color: blue; height: 10px; width: 30px;">
                 
             </div>
@@ -238,7 +244,8 @@
 
 >>>>>>> main
 include "./includes/newsletter.php";
-include "./includes/marquee.php" ?>
+include "./includes/marquee.php";
+include "./includes/footer.php" ?>
 
 </body>
 </html>
