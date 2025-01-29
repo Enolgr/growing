@@ -6,66 +6,66 @@
     <title>Carrito Compra</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/carrito-compra.css">
 </head>
 <body>
 
 <?php include "./includes/menu.php" ?>
 
-<h1>¡Ya casi estamos!</h1>
+<h1>Ya casi estamos!</h1>
 
-    <form method="get" action="checkout.php">
-        <div class="itemsCard">
+    <form id="card"class="card" method="get" action="checkout.php">
+        
             <div id="items">
 
-                <div class="item">
+                <div class="list-item">
                 <div class="nombre-producto" >
-                <input type="checkbox" value="">
-                <label class="nombreProducto" for="">Producto 1</label>
+                <?php include "./includes/checkbox.php" ?>
+                <p class="nombre" >Producto 1</p>
                 </div>
-                <div>
+                <div class="contenedor-precio" >
                     <p class="precio" >2.00€</p>
-                    <img src="" alt="">
+                    <img src="./img/images/img-cursos.webp" alt="">
                 </div>
                 </div>
                 
-                <div class="item">
+                <div class="list-item">
                 <div class="nombre-producto">
-                <input type="checkbox" value="">
-                <label class="nombreProducto" for="">Producto 2</label>
+                <?php include "./includes/checkbox.php" ?>
+                <p class="nombre" >Producto 1</p>
                 </div>
-                <div>
+                <div class="contenedor-precio">
                     <p class="precio" >2.00€</p>
-                    <img src="" alt="">
+                    <img src="./img/images/img-cursos.webp"" alt="">
                 </div>
                 </div>
                 
-                <div class="item">
+                <div class="list-item">
                 <div class="nombre-producto" >
-                <input type="checkbox" value="">
-                <label class="nombreProducto" for="">Producto 3</label>
+                <?php include "./includes/checkbox.php" ?>
+                <p class="nombre" >Producto 1</p>
                 </div>
-                <div>
+                <div class="contenedor-precio" >
                     <p class="precio" >2.00€</p>
-                    <img src="" alt="">
+                    <img src="./img/images/img-cursos.webp"" alt="">
                 </div>
                 </div>
                 
             </div>
-            <div>
+            <div class="contenedor-finalizar" >
                 <div class="total" >
                     <p>Total</p>
                     <p>(iva incluido)</p>
                 </div>
 
                 <div class="finalizar" >
-                    <input type="text" class="descuento">
+                    <input type="text" class="descuento" placeholder="Código descuento">
                     <div class="boton-finalizar" >
                         <p>6.00€</p>
                         <button type="button" class="btn" id="pay">Finalizar compra</button>
                     </div>
                 </div>
             </div>
-        </div>
     </form>
 
     <?php include "./includes/marquee.php" ?>

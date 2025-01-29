@@ -26,7 +26,7 @@
 
                 <div class="item">
                 <div class="nombre-producto" >
-                <input type="checkbox" value="">
+                <?php include "./includes/checkbox.php" ?>
                 <label class="nombreProducto" for="">Producto 1</label>
                 </div>
                 <div>
@@ -37,7 +37,7 @@
                 
                 <div class="item">
                 <div class="nombre-producto">
-                <input type="checkbox" value="">
+                <?php include "./includes/checkbox.php" ?>
                 <label class="nombreProducto" for="">Producto 2</label>
                 </div>
                 <div>
@@ -48,7 +48,7 @@
                 
                 <div class="item">
                 <div class="nombre-producto" >
-                <input type="checkbox" value="">
+                <?php include "./includes/checkbox.php" ?>
                 <label class="nombreProducto" for="">Producto 3</label>
                 </div>
                 <div>
