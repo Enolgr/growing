@@ -6,12 +6,40 @@ body{
     height: 100vh;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
+    height: 60vh;
+}
+
+footer {
+    height: 35vh;
+}
+
+header {
+    height: 5vh;
+}
 
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 47.25rem;
-    height: 31.9375rem;
+    width: 40vw;
+    height: 35vh;
+    h1 {
+        font-size: 7vw;
+    }
 }
+
+p, button {
+    font-size: 1.10vw;
+    margin: 1.5vh;
+    width: 12vw;
+    height: 5.5vh;
+    transition: none;
+}   
+
+
