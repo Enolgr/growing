@@ -1,25 +1,18 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+* {
+    box-sizing: border-box;
 }
 
 main {
     display: flex;
     flex-direction: column;
     justify-content:center;
-    text-align:center;
-    height: 60vh;
-}
-
-footer {
-    height: 35vh;
-}
-
-header {
-    height: 5vh;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/images/marquee.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container{
@@ -29,9 +22,15 @@ header {
     justify-content: center;
     width: 40vw;
     height: 35vh;
-    h1 {
-        font-size: 7vw;
-    }
+    color: var(--fondo );
+}
+
+#notfound {
+    color: var(--fondo);
+}
+
+.card {
+    background-color: var(--colorlogo);
 }
 
 p, button {

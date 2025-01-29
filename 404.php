@@ -15,10 +15,10 @@
     <main>
         <div class="container card">
             <h1 id="notfound">404</h1>
-            <p>Página no encontrada</p>
-            <button class="btn">Ir al inicio</button>        
+            <p>¡Ups! Ha habido un error</p>
+            <button class="btn">Volver al inicio</button>        
         </div>
-        </main>
+    </main>
     <?php include_once "./includes/footer.php" ?>
 </body>
 </html>
