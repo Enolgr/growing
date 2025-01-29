@@ -1,5 +1,9 @@
 .titulo-card {
+  width: 80%;
   color: var(--colorlogo);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: "Passion One";
   font-size: 2.5rem;
   font-style: normal;
@@ -7,12 +11,54 @@
   line-height: 100%;
   margin: 0;
 }
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 h2 {
   color: var(--colorlogo);
   font-family: "Passion One";
   font-size: 2rem;
+  width: fit-content;
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
-  margin: 0;
 }
+
+.contenedor-cards {
+  height: 50vh;
+  width: 80%;
+  display: flex;
+  gap: 3rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-oscura {
+  justify-content: space-between;
+  width: 80%;
+  height: 30vh;
+  padding: 2rem;
+  background: var(--grisclaro);
+  border-radius: 1.5rem;
+}
+
+.detalles-cursos, .detalles-pedidos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding-bottom: 1rem;
+}
+
+.boton{
+  width: fit-content;
+  color: var(--fondo);
+}
+

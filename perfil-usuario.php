@@ -16,19 +16,19 @@
     <?php include_once "./includes/menu.php" ?>
     <main>
         <h1 class="titulo-card">Gestiona tu perfil</h1>
-        <section>
+        <section class="contenedor-cards">
             <div class="card-oscura">
-                <h2>Mis pedidos</h2>
-                <p>Accede al historial de tus pedidos, Lorem ipsum odor amet, consectetuer adipiscing elit. Netus
+                <h2>Mis pedidos 📦</h2>
+                <p class="detalles-pedidos">Accede al historial de tus pedidos, Lorem ipsum odor amet, consectetuer adipiscing elit. Netus
                     pretium dictum auctor integer magnis suscipit justo orci.</p>
-                <button type="submit" class="boton"><a href="tusPedidos.php">Ver mis pedidos</a></button>
+                <a href="tusPedidos.php"><button type="submit" class="boton">Ver mis pedidos</button></a>
             </div>
 
             <div class="card-oscura">
-                <h2>Mis cursos</h2>
-                <p>Accede al historial de tus cursos, Lorem ipsum odor amet, consectetuer adipiscing elit. Netus pretium
+                <h2>Mis cursos 🌵</h2>
+                <p class="detalles-cursos">Accede al historial de tus cursos, Lorem ipsum odor amet, consectetuer adipiscing elit. Netus pretium
                     dictum auctor integer magnis suscipit justo orci.</p>
-                <button>Ver mis cursos</button>
+                <a href="mis-cursos.php"><button type="submit" class="boton">Ver mis cursos</button></a>
             </div>
         </section>
 
