@@ -323,6 +323,13 @@ input {
 
 /* Checkbox */
 
+.custom-checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .custom-checkbox input {
   display: none; /* Oculta el checkbox original */
 }
@@ -331,8 +338,8 @@ input {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   border-radius: 0.3125rem;
   border: 1px solid #2C4C46;
   background: #2C4C46;
@@ -341,7 +348,7 @@ input {
 }
 
 .custom-checkbox svg {
-  display: none; /* Oculto por defecto */
+  display: none; 
 }
 
 .custom-checkbox input:checked + span svg {
