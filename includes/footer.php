@@ -4,8 +4,8 @@ echo '<footer>
       <div class="menu-footer">
         <img src="./img/icons/logo-white.svg" alt="">
         <div class="links">
-        <a href="#" class="enlace">Tienda</a>
         <a href="#" class="enlace">Cursos</a>
+        <a href="#" class="enlace">Tienda</a>
         <a href="#" class="enlace">Tarifas</a>
         <a href="#" class="enlace">Iniciar sesión</a>
         </div>

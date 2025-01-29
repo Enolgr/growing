@@ -4,35 +4,42 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <title>Document</title>
-    <!-- Estilos CSS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <!-- CSS & normalize -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
     <link rel="stylesheet" href="./styles/login.css">
 </head>
 
 <body>
-    <!--Aquí va el menú de navegación con el título de la página-->
-    <?php include_once "./includes/menu.php" ?>
+    <?php include_once "./includes/menu.php"; ?>
 
     <!-- Formulario de inicio de sesión -->
-    <section>
-        <div>
-            <form action="login.php" class="card-oscura" method="post">
-                <h1 class="titulo-card">Login</h1>
-                <input type="text" id="email" name="email" placeholder="Email" required>
-                <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
+    <section class="contenedor-card">
+        <div class="card">
+            <form action="login.php" class="card-oscura" id="img-card" method="post">
+                <h2 class="titulo-card">Inicia sesión</h2>
+                <div class="contenedor-formulario">
+                    <input type="text" id="email" name="email" placeholder="Email" required>
+                    <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
+                </div>
                 <div class="opciones">
                     <p>He olvidado mi contraseña</p>
-                    <button type="submit" class="btn">Iniciar sesión</button>
+                    <button type="submit" class="boton">Iniciar sesión</button>
                 </div>
-                <a href="registrarse.php">¿Todavia no tienes cuenta? Regístrate aquí</a>
+                <div class=""></div>
+                <a href="registrarse.php">¿Todavía no tienes cuenta? Registrate aqui</a>
             </form>
         </div>
-    </section>
 
+    </section>
+    <?php include_once "./includes/marquee.php"; ?>
     <!-- Aqui va el Footer -->
-    <?php include_once "./includes/marquee.php";?>  
-    <?php include_once "./includes/footer.php"; ?>
-</body> 
+    <footer>
+
+        <?php include_once "./includes/footer.php"; ?>
+    </footer>
+</body>
+
+</html>

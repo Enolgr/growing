@@ -11,10 +11,20 @@
 </head>
 
 <body>
-    <div class="container card">
-        <h1 id="notfound">404</h1>
-        <p>Página no encontrada</p>
-        <button class="btn">Ir al inicio</button>        
-    </div>
+    <?php include_once "./includes/menu.php" ?>
+    <main class="contenedor-card">
+        <div class="card" id="img-card">
+            <div id="inside-card">
+                <h1 id="notfound">404</h1>
+                <p id="ups">
+                    ¡Ups!<br>
+                    Ha habido un error
+                </p>
+                <button class="btn" id="boton-inicio">Volver al inicio</button>
+            </div>        
+        </div>
+    </main>
+    <?php include_once "./includes/marquee.php" ?>
+    <?php include_once "./includes/footer.php" ?>
 </body>
 </html>

@@ -8,13 +8,15 @@
     <!-- CSS & normalize -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/tienda.css">
 </head>
 <body>
     <?php include_once "./includes/menu.php" ?>
     <main>
         <div class="introduction">
             <div class="title">
-                <p>No solo haz cursos, también compra nuestros productos ;)</p>
+                <h1>No solo haz cursos, también compra nuestros productos ;)</h1>
+                
             </div>
             <div class="description">
                 <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Netus pretium dictum auctor integer magnis suscipit justo orci. Lorem ipsum odor amet, consectetuer adipiscing elit. 😊</p>
@@ -46,7 +48,7 @@
         </div>
         <?php include_once "./includes/newsletter.php" ?>
     </main>
-    <?php include_once "./inludes/marquee.php"?>
-    <?php include_once "./includes/footer.php" ?>
+    <?php include_once "./includes/marquee.php"?>
+    <?php include_once "./includes/footer.php"?>
 </body>
 </html>
