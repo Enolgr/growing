@@ -32,7 +32,7 @@
 
                     <div class="opciones">
                         <div class="contenedor-checkbox">
-                            <?php include_once "./includes/checkbox.php" ?>
+                            <?php include_once "./includes/white-checkbox.php"?>
                             <p>He leído y acepto la <span class="span-checkbox">Política de Privacidad</span></p>
                         </div>
                         <button type="submit" class="boton">Registrarme</button>
