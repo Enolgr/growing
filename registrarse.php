@@ -22,7 +22,7 @@
     <!-- Formulario de inicio de sesión -->
     <section class="contenedor-card">
         <div class="card">
-            <form action="login.php" class="card-oscura" id="img-card" method="post">
+            <form action="registrarse.php" class="card-oscura" id="img-card" method="post">
                 <h2 class="titulo-card">Regístrate</h2>
 
                 <div class="contenedor-formulario">

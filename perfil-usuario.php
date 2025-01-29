@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +9,25 @@
     <!-- CSS & normalize -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
-    <link rel="stylesheet" href="./styles/datos-usuario.css">
+    <link rel="stylesheet" href="./styles/perfil-usuario.css">
 </head>
+
 <body>
     <?php include_once "./includes/menu.php" ?>
     <main>
-        <h2>Gestiona tu perfil</h2>
+        <h1 class="titulo-card">Gestiona tu perfil</h1>
         <section>
-            <div>
+            <div class="card-oscura">
                 <h2>Mis pedidos</h2>
-                <p>Accede al historial de tus pedidos, Lorem ipsum odor amet, consectetuer adipiscing elit. Netus pretium dictum auctor integer magnis suscipit justo orci.</p>
-                <button>Ver mis pedidos</button>
+                <p>Accede al historial de tus pedidos, Lorem ipsum odor amet, consectetuer adipiscing elit. Netus
+                    pretium dictum auctor integer magnis suscipit justo orci.</p>
+                <button type="submit" class="boton"><a href="tusPedidos.php">Ver mis pedidos</a></button>
             </div>
 
-            <div>
+            <div class="card-oscura">
                 <h2>Mis cursos</h2>
-                <p>Accede al historial de tus cursos, Lorem ipsum odor amet, consectetuer adipiscing elit. Netus pretium dictum auctor integer magnis suscipit justo orci.</p>
+                <p>Accede al historial de tus cursos, Lorem ipsum odor amet, consectetuer adipiscing elit. Netus pretium
+                    dictum auctor integer magnis suscipit justo orci.</p>
                 <button>Ver mis cursos</button>
             </div>
         </section>
@@ -48,7 +52,8 @@
 
 
     </main>
-    <?php include_once "./includes/marquee.php"?>
-    <?php include_once "./includes/footer.php"?>
+    <?php include_once "./includes/marquee.php" ?>
+    <?php include_once "./includes/footer.php" ?>
 </body>
+
 </html>
