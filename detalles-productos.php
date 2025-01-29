@@ -90,6 +90,22 @@
 
 </section>
 
+<section class="otros_productos">
+
+<div class="producto">
+
+<img src="" alt="">
+
+<p>Producto</p>
+
+<p>precio</p>
+
+<button>Añadir al carrito</button>
+
+</div>
+
+</section>
+
 
     
 </body>
