@@ -15,7 +15,7 @@
     <section class= "legalContainer">
     <h1 class="title">Política de Privacidad de Growing</h1>
 
-        <p><strong>Última actualización:</strong>30/01/2025</p>
+        <p><strong>Última actualización:</strong> 30/01/2025</p>
 
         <p>
             En <strong>Growing</strong>, nos tomamos muy en serio la privacidad de nuestros
