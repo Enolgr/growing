@@ -38,6 +38,7 @@ main {
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
+    padding: 3.75rem;
 }
 
 #ups, #notfound {
@@ -49,8 +50,11 @@ main {
 
 #inside-card {
     width: 20%;
-    padding-left: 4rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+#boton-inicio{
+    width: fit-content;
 }

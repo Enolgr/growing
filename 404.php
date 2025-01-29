@@ -20,7 +20,7 @@
                     ¡Ups!<br>
                     Ha habido un error
                 </p>
-                <button class="btn">Volver al inicio</button>
+                <button class="btn" id="boton-inicio">Volver al inicio</button>
             </div>        
         </div>
     </main>
