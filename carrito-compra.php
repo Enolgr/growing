@@ -11,8 +11,9 @@
 
 <?php include "./includes/menu.php" ?>
 
+<h1>¡Ya casi estamos!</h1>
+
     <form method="get" action="checkout.php">
-        <h1>¡Ya casi estamos!</h1>
         <div class="itemsCard">
             <div id="items">
 
