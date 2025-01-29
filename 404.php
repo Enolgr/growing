@@ -15,7 +15,7 @@
     <main>
         <div class="container card">
             <h1 id="notfound">404</h1>
-            <p>¡Ups! Ha habido un error</p>
+            <p id="ups">¡Ups! Ha habido un error</p>
             <button class="btn">Volver al inicio</button>        
         </div>
     </main>

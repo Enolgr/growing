@@ -15,30 +15,46 @@ main {
     background-position: center;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 40vw;
+    width: 50vw;
     height: 35vh;
     color: var(--fondo );
 }
 
-#notfound {
-    color: var(--fondo);
-}
-
 .card {
     background-color: var(--colorlogo);
+    border-radius: 2.5rem;
 }
 
-p, button {
-    font-size: 1.10vw;
+.texto {
+    text-align: center;
+    width: 100%;
+}
+
+p, .btn {
+    font-size: 1.5vw;
     margin: 1.5vh;
     width: 12vw;
     height: 5.5vh;
+}
+
+.btn {
+    background-color: var(--verde);
     transition: none;
-}   
+    border-radius: 2.5rem;
+}
 
+#ups {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+}
 
+#notfound {
+    font-size: 4vw;
+    color: var(--fondo);
+}
