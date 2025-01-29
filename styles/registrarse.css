@@ -2,6 +2,10 @@
   --verdeclaro: #41a50c;
 }
 
+.contenedor-card{
+    height: 100vh;
+}
+
 .card-oscura {
   width: 90%;
   height: 80vh;
@@ -13,6 +17,7 @@
 .contenedor-checkbox{
     display: flex;
     flex-direction: row;
+    gap: 1rem;
 }
 .span-checkbox {
   color: var(--verdeclaro);
