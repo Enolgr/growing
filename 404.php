@@ -12,13 +12,19 @@
 
 <body>
     <?php include_once "./includes/menu.php" ?>
-    <main>
-        <div class="container card">
-            <h1 id="notfound">404</h1>
-            <p id="ups">¡Ups! Ha habido un error</p>
-            <button class="btn">Volver al inicio</button>        
+    <main class="contenedor-card">
+        <div class="card" id="img-card">
+            <div id="inside-card">
+                <h1 id="notfound">404</h1>
+                <p id="ups">
+                    ¡Ups!<br>
+                    Ha habido un error
+                </p>
+                <button class="btn">Volver al inicio</button>
+            </div>        
         </div>
     </main>
+    <?php include_once "./includes/marquee.php" ?>
     <?php include_once "./includes/footer.php" ?>
 </body>
 </html>
