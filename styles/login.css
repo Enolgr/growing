@@ -16,9 +16,10 @@ h2 {
   line-height: 100%;
   margin: 0;
 }
+
 .contenedor-card {
   display: flex;
-  height: 70vh;
+  height: 90vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -37,14 +38,14 @@ h2 {
 #img-card {
   background-image: url(../img/images/pexels-scottwebb-403575\ 1.webp);
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
 .card-oscura {
   width: 90%;
-  height: 50vh;
-  padding: 2rem 4rem;
+  height: 70vh;
+  padding: 2rem 2rem 7rem;
   background: var(--grisclaro);
   border-radius: 0.875rem;
 }
@@ -56,6 +57,7 @@ h2 {
 .titulo-card {
   font-size: 3rem;
   color: var(--colorlogo);
+  width: fit-content;
 }
 
 .contenedor-formulario {
@@ -63,7 +65,15 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   align-items: left;
-  width: 80vw;
+  width: 50%;
+  gap: 1rem;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1rem;
 }
 
 .opciones {
@@ -73,42 +83,20 @@ h2 {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
-  width: 60%;
+  width: 100%;
 }
+
+.boton {
+  width: 9.5rem;
+}
+
+.contenedor-registrarse a,
 .opciones p {
   color: var(--colorlogo);
 }
-.opciones p,
-.opciones button {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-}
 
-input {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  font-size: 1rem;
-}
-
-.contenedor-boton {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.contenedor-inputs {
-  width: 100%;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+.contenedor-registrarse {
+  width: 50%;
+  margin-top: 3rem;
+  text-align: center;
 }

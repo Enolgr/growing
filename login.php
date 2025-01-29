@@ -20,26 +20,27 @@
         <div class="card">
             <form action="login.php" class="card-oscura" id="img-card" method="post">
                 <h2 class="titulo-card">Inicia sesión</h2>
+
                 <div class="contenedor-formulario">
                     <input type="text" id="email" name="email" placeholder="Email" required>
                     <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
+
+                    <div class="opciones">
+                        <p>He olvidado mi contraseña</p>
+                        <button type="submit" class="boton">Iniciar sesión</button>
+                    </div>
+
                 </div>
-                <div class="opciones">
-                    <p>He olvidado mi contraseña</p>
-                    <button type="submit" class="boton">Iniciar sesión</button>
+
+                <div class="contenedor-registrarse">
+                    <a href="registrarse.php">¿Todavía no tienes cuenta? Registrate aqui</a>
                 </div>
-                <div class=""></div>
-                <a href="registrarse.php">¿Todavía no tienes cuenta? Registrate aqui</a>
+
             </form>
         </div>
-
     </section>
+    <!-- Footer & Marquee -->
     <?php include_once "./includes/marquee.php"; ?>
-    <!-- Aqui va el Footer -->
-    <footer>
-
-        <?php include_once "./includes/footer.php"; ?>
-    </footer>
+    <?php include_once "./includes/footer.php"; ?>
 </body>
-
 </html>
