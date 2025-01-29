@@ -26,7 +26,6 @@
                 <label for="item1">Material 2</label>
                 <div id="itemPrice2">2€</div>
                 <div id="itemImg2"><img src=""></img></div>
-
                 <input type="checkbox" id="item3" name="item3" value=""></li>
                 <label for="item1">Material3</label>
                 <div id="itemPrice3">10€</div>

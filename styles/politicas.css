@@ -34,12 +34,9 @@
 .title{
     color: #2c4c46;
     font-size: 400;
+    text-align:end;
 }
 
-.title2{
-    color: #2c4c46;
-    font-size: 400;
-}
 
 h2{
     color:#2c4c46;
@@ -64,4 +61,37 @@ line-height: 200%;
     flex-direction: row;
     align-items: center;
     justify-content: left;
+}
+
+.check-checkout p{
+    margin-left: 0.2rem;
+}
+
+.sendData input{
+    justify-content: space-between;
+    margin: 0.6rem 0;
+}
+.nameLast{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.directionData{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+
+.payMethod input{
+    justify-content: space-between;
+    margin: 0.6rem 0;
+}
+
+.dateCode{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
 }
