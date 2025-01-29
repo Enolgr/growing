@@ -10,7 +10,8 @@
 </head>
 
 <body>
-   <!-- Aquí iría el nav -->
+   <!-- Aqui iria el nav -->
+   <?php include_once "./includes/menu.php"?>
 
    <!-- Informacion del curso -->
    <div class="info-curso">
