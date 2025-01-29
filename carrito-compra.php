@@ -8,28 +8,66 @@
     <link rel="stylesheet" href="./styles/general.css">
 </head>
 <body>
-    <form method="get" action="checkout.php">
-        <div class="itemsCard">
-            <h1>¡Ya casi estamos!</h1>
-            <ul id="items">
-                <input type="checkbox" id="item1" name="item1" value=""></li>
-                <label for="item1">Material 1</label>
-                <div id="itemPrice1">4€</div>
-                <div id="itemImg1"><img src=""></img></div>
-                
-                <input type="checkbox" id="item2" name="item2" value=""></li>
-                <label for="item1">Material 2</label>
-                <div id="itemPrice2">2€</div>
-                <div id="itemImg2"><img src=""></img></div>
 
-                <input type="checkbox" id="item3" name="item3" value=""></li>
-                <label for="item1">Material3</label>
-                <div id="itemPrice3">10€</div>
-                <div id="itemImg3"><img src=""></img></div>
-            </ul>
-            <div id="total">Total:</div>
-            <button type="button" class="btn" id="pay">Finalizar compra</button>
+<?php include "./includes/menu.php" ?>
+
+    <form method="get" action="checkout.php">
+        <h1>¡Ya casi estamos!</h1>
+        <div class="itemsCard">
+            <div id="items">
+
+                <div class="item">
+                <div class="nombre-producto" >
+                <input type="checkbox" value="">
+                <label class="nombreProducto" for="">Producto 1</label>
+                </div>
+                <div>
+                    <p class="precio" >2.00€</p>
+                    <img src="" alt="">
+                </div>
+                </div>
+                
+                <div class="item">
+                <div class="nombre-producto">
+                <input type="checkbox" value="">
+                <label class="nombreProducto" for="">Producto 2</label>
+                </div>
+                <div>
+                    <p class="precio" >2.00€</p>
+                    <img src="" alt="">
+                </div>
+                </div>
+                
+                <div class="item">
+                <div class="nombre-producto" >
+                <input type="checkbox" value="">
+                <label class="nombreProducto" for="">Producto 3</label>
+                </div>
+                <div>
+                    <p class="precio" >2.00€</p>
+                    <img src="" alt="">
+                </div>
+                </div>
+                
+            </div>
+            <div>
+                <div class="total" >
+                    <p>Total</p>
+                    <p>(iva incluido)</p>
+                </div>
+
+                <div class="finalizar" >
+                    <input type="text" class="descuento">
+                    <div class="boton-finalizar" >
+                        <p>6.00€</p>
+                        <button type="button" class="btn" id="pay">Finalizar compra</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
+
+    <?php include "./includes/marquee.php" ?>
+    <?php include "./includes/footer.php" ?>
 </body>
 </html>
