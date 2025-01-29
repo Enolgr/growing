@@ -12,7 +12,7 @@
 
 <?php include "./includes/menu.php" ?>
 
-<h1>Ya casi estamos!</h1>
+<h1>Ya casi estamos! <img id="plantita" src="./img/images/seedling_1f331.png" alt=""></h1>
 
     <form id="card"class="card" method="get" action="checkout.php">
         
@@ -52,6 +52,9 @@
                 </div>
                 
             </div>
+
+            <div class="linea"></div>
+
             <div class="contenedor-finalizar" >
                 <div class="total" >
                     <p>Total</p>

@@ -11,10 +11,27 @@
 }
 
 h1{
-width: 90%;
-text-align: left;
-margin-top: 5rem;
+font-size: 39px;
+font-style: normal;
+font-weight: 400;
 color: var(--colorlogo);
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 #items{
