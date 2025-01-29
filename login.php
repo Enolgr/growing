@@ -16,13 +16,14 @@
     <?php include_once "./includes/menu.php"; ?>
 
     <!-- Formulario de inicio de sesión -->
-    <section>
+    <section class="contenedor-card">
         <div class="card">
-            <form action="login.php" class="card-oscura" method="post">
-                <h1 class="titulo-card">Inicia sesión</h1>
-                <input type="text" id="email" name="email" placeholder="Email" required>
-                <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
-
+            <form action="login.php" class="card-oscura" id="img-card" method="post">
+                <h2 class="titulo-card">Inicia sesión</h2>
+                <div class="contenedor-formulario">
+                    <input type="text" id="email" name="email" placeholder="Email" required>
+                    <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
+                </div>
                 <div class="opciones">
                     <p>He olvidado mi contraseña</p>
                     <button type="submit" class="boton">Iniciar sesión</button>
@@ -36,7 +37,7 @@
     <?php include_once "./includes/marquee.php"; ?>
     <!-- Aqui va el Footer -->
     <footer>
-        
+
         <?php include_once "./includes/footer.php"; ?>
     </footer>
 </body>
