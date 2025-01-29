@@ -1,0 +1,19 @@
+:root {
+  --verdeclaro: #41a50c;
+}
+
+.card-oscura {
+  width: 90%;
+  height: 80vh;
+  padding: 2rem 2rem 7rem;
+  background: var(--grisclaro);
+  border-radius: 0.875rem;
+}
+
+.contenedor-checkbox{
+    display: flex;
+    flex-direction: row;
+}
+.span-checkbox {
+  color: var(--verdeclaro);
+}
