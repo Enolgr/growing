@@ -6,12 +6,14 @@
     <title>Política de Cookies</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/politicas.css">
   </head>
   <body>
     <?php include_once "./includes/menu.php"?>
     
-    <h1>Política de Cookies para Growing</h1>   
-    <main>
+    
+    <section class= "legalContainer">
+    <h1 class="title">Política de Cookies para Growing</h1>
       <p><strong>Última actualización:</strong> 11/01/2025</p>
 
       <p>
@@ -146,9 +148,11 @@
       <p>
         <a href="email">growing@gmail.com</a>
       </p>
-    </main>
-    <footer>
-      <p><a href="index.html">Volver al inicio</a></p>
-    </footer>
+    </section>
+    <section class="footer">
+      <!-- Marquee & Footer -->
+    <?php include_once "./includes/marquee.php"; ?>
+    <?php include_once "./includes/footer.php"; ?>
+    </section>
   </body>
 </html>

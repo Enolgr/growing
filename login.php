@@ -6,12 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Document</title>
+    <!-- Estilos CSS-->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
     <link rel="stylesheet" href="./styles/login.css">
 </head>
 
 <body>
+    <!--Aquí va el menú de navegación con el título de la página-->
     <?php include_once "./includes/menu.php" ?>
 
     <!-- Formulario de inicio de sesión -->
