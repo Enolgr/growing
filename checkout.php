@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos CSS-->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/politicas.css">
+    
     <title>Checkout</title>
 </head>
 <body>
-    <h1>Finaliza tu compra</h1>
+<?php include_once "./includes/menu.php"?>
+    <h2>Finaliza tu compra</h2>
+    <section class= "legalContainer">
         <form action="****.php" method="post">
             <div class="checkoutCard"><!--Tarjeta con los datos de pago y envío  entera -->
                 <!-- Apartdo datos de entrega -->
@@ -35,18 +42,18 @@
                 <div class="payMethod">
                     <h2>Pago</h2>
                     <p>Todas las transacciónes son seguras y están encriptadas</p>
-                    <input type="radio" id="payment">Tarjeta de crédito</input>
+                    <input type="radio" id="payment" name="payment">Tarjeta de crédito</input>
                     <img src="#">
                     <input type="text" id="cardNum" placeholder="Número de la tarjeta">
                     <input type="text" id="expirationDate" placeholder="Fecha de vencimiento (MM / AA)">
                     <input type="text" id="ownerName" placeholder="Nombre del titular">
                     <input type="checkbox" id="deliveryAdress">Usar la dirección de envío como la dirección de facturación</input>
-                    <input type="radio" id="payment">Pagar con Bizum</input>
-                    <img src="#" id="bizumImg">
-                    <input type="radio" id="payment">Google Pay y Apple Pay</input>
+                    <input type="radio" id="payment" name="payment">Pagar con Bizum</input>
+                    <img src="#" id="bizumImg" name="payment">
+                    <input type="radio" id="payment" name="payment">Google Pay y Apple Pay</input>
                     <img src="#" id="googlePayImg">
                     <img src="#" id="applePayImg">
-                    <input type="radio" id="payment">PayPal</input>
+                    <input type="radio" id="payment" name="payment">PayPal</input>
                     <img src="#" id="paypalImg">
                 </div>
                 <!-- Aquí se mostrará el total y el botón de pagar ahora -->
@@ -54,5 +61,11 @@
                 <button type="button" class="btn" id="payNow">Pagar ahora</button>
             </div>
         </form>
+    </section>
+    <section class="footer">
+    <!-- Marquee & Footer -->
+    <?php include_once "./includes/marquee.php"; ?>
+    <?php include_once "./includes/footer.php"; ?>
+    </section>
 </body>
 </html>
