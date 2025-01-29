@@ -7,16 +7,17 @@
     <title>Aviso Legal</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/politicas.css">
 </head>
 
 <body>
     <!-- Menu -->
     <?php include_once "./includes/menu.php" ?>
-    <section>
-        <h1>Aviso Legal de Cursos de Plantas</h1>
+    <section class= "legalContainer">
+        <h1 class="title">Política de Cookies</h1>
         <p><strong>Última actualización:</strong> 18 de diciembre de 2024</p>
 
-        <p>El presente Aviso Legal regula las condiciones de uso del sitio web <strong>Growing</strong>cuya titularidad
+        <p>El presente Aviso Legal regula las condiciones de uso del sitio web <strong>Growing</strong> cuya titularidad
             corresponde a:</p>
 
         <ul>
@@ -30,8 +31,8 @@
 
         <h2>1. Uso del Sitio Web</h2>
         <p>El acceso al Sitio Web es gratuito y está destinado a proporcionar información sobre nuestros servicios
-            relacionados con cursos de plantas. El usuario se compromete a utilizar el Sitio Web de forma lícita y
-            respetando las presentes condiciones, así como la normativa vigente.</p>
+            relacionados con cursos de plantas. El usuario se compromete a utilizar el Sitio Web de forma lícita,
+            respetando las presentes condiciones y la normativa vigente.</p>
 
         <p>Está prohibido:</p>
         <ul>
