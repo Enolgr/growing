@@ -7,13 +7,14 @@
     <title>Política de Privacidad</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/politicas.css">
 </head>
 
 <body>
     <?php include_once "./includes/menu.php" ?>
-    <h1>Política de Privacidad de Growing</h1>
+    <section class= "legalContainer">
+    <h1 class="title">Política de Privacidad de Growing</h1>
 
-    <main>
         <p><strong>Última actualización:</strong>30/01/2025</p>
 
         <p>
@@ -215,7 +216,7 @@
         <p><strong>Dirección postal:</strong> Calle de las Plantas, 123
             Edificio Verde, Oficina 45
             28001 Madrid, España</p>
-    </main>
+    </section>
     <!-- Marquee & Footer -->
     <?php include_once "./includes/marquee.php"; ?>
     <?php include_once "./includes/footer.php"; ?>

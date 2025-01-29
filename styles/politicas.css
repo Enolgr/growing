@@ -23,12 +23,12 @@
 }
 
 
-.legalContainer{
-    background-color:var(--grisclaro);
-    border-radius: 6%;
-    width:1317px;
-    padding:2%;
-    margin-top:4%;
+.legalContainer {
+    background-color: var(--grisclaro);
+    border-radius: 40px;
+    width: 80%;
+    padding: 2%;
+    margin-top: 4%;
     margin-bottom: 6%;
 }
 
@@ -36,3 +36,16 @@
     color: #2c4c46;
     font-size: 400;
 }
+
+h2{
+    color:#2c4c46;
+}
+li {
+    font-family: "DM Sans", sans-serif;
+    margin: 2%;
+}
+
+p{
+    margin: 2%;
+}
+

@@ -7,7 +7,7 @@
     <title>Aviso Legal</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
-    <link rel="stylesheet" href="./styles/avisoLegal.css">
+    <link rel="stylesheet" href="./styles/politicas.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <h1 class="title">Política de Cookies</h1>
         <p><strong>Última actualización:</strong> 18 de diciembre de 2024</p>
 
-        <p>El presente Aviso Legal regula las condiciones de uso del sitio web <strong>Growing</strong>cuya titularidad
+        <p>El presente Aviso Legal regula las condiciones de uso del sitio web <strong>Growing</strong> cuya titularidad
             corresponde a:</p>
 
         <ul>
