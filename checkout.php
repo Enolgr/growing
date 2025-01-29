@@ -26,7 +26,10 @@
                     <input type="text" id="postalCode" name="postalCode" placeholder="Codigo postal" required>
                     <input type="tel" id="phone" name="phone" placeholder="Teléfono" required>
                     <br>
-                    <input type="checkbox" id="saveInfo">Guardar mi información y pagar más rápido la proxima vez</input>
+                    <div class="check-checkout">
+                        <?php include_once "./includes/checkbox.php"; ?>
+                        <p>Verificar metodo</p>
+                    </div>
                 </div>
 
                 <!-- Apartdo  empresa envío -->

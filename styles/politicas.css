@@ -27,9 +27,8 @@
     background-color: var(--grisclaro);
     border-radius: 40px;
     width: 90%;
-    padding: 2%;
-    margin-top: 6%;
-    margin-bottom: 12%;
+    padding: 2rem;
+    margin: 4rem 0 8rem 0; /*No se debe aplicar mas de 2 rem pero en este caso debe hacerse ya que las medidas lo requieren*/
 }
 
 .title{
@@ -45,12 +44,24 @@
 h2{
     color:#2c4c46;
 }
+
+ul{
+    line-height: 200%;
+}
 li {
     font-family: "DM Sans", sans-serif;
-    margin: 2%;
 }
 
+h2{
+    margin: 1rem 0;
+}
 p{
-    margin: 2%;
+line-height: 200%;
 }
 
+.check-checkout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
