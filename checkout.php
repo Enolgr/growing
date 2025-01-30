@@ -14,7 +14,7 @@
     <?php include_once "./includes/menu.php"?>
     <div class="titleArrow">
         <img src="./img/icons/back.svg" alt="">
-        <h2 class="title">Finaliza tu compra</h2>
+        <h1 class="title2">Finaliza tu compra</h1>
     </div>
     <section class= "legalContainer">
         <form action="****.php" method="post">

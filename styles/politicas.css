@@ -34,9 +34,13 @@
 .title{
     color: #2c4c46;
     font-size: 400;
-    text-align:end;
 }
 
+.title2{
+    color: #2c4c46;
+    font-size: 39px;
+
+}
 
 h2{
     color:#2c4c46;
@@ -54,6 +58,14 @@ h2{
 }
 p{
 line-height: 200%;
+}
+
+.titleArrow{
+    display: flex;
+    justify-content: start;
+    width: 90%;
+    gap: 1rem;
+    margin:1rem 0 1rem 0;
 }
 
 .check-checkout{
