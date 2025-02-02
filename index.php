@@ -50,11 +50,10 @@
   <?php include_once "./includes/marquee-solid.php"; ?>
 
   <div class="cursos-top">
-    <div class="titulo-seccion">
-        <h3 class="titulo-seccion-h3">Los cursos más top</h3>
-    </div>
 
-    
+        <h3 class="titulo-seccion-h3">Los cursos más top</h3>
+
+
     <div class="cursos-top-grid">
         <div class="curso-card">
             <img class="image-card" src="./img/images/img-cursos.webp" alt="">
@@ -75,7 +74,20 @@
 
 
     </div>
+    <button class="btn">Descubre mas cursos</button>
   </div>
+
+
+  <div class="opiniones">
+    <div class="titulo-opiniones"><h3>¿Qué opinan sobre <br>nuestros cursos?</h3></div>
+
+  </div>
+
+<?php include './includes/newsletter.php'; ?>
+
+<?php include './includes/marquee.php'; ?>
+<?php include './includes/footer.php'; ?>
+
   <script src="./scripts/slider.js"></script>
 </body>
 </html>
