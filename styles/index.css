@@ -1,23 +1,69 @@
-body, html{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+/***** CONTENEDOR PRINCIPAL *****/
+.slider-container {
+  width: 90vw;
+  height: 70vh;
+  margin: 2rem auto;
+  border-radius: 40px;
+  overflow: hidden;
+  position: relative;
 }
 
-
-.div-grid{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+/***** SLIDER *****/
+.slider {
+  /* Tres diapositivas: 3 x 100% = 300% */
+  display: flex;
+  width: 300%;
+  margin: 0;
+  padding: 0;
+  /* Transición suave */
+  transition: transform 0.5s ease-in-out;
 }
 
-.done{
-    background-color: #896666;
+/***** DIAPOSITIVA INDIVIDUAL *****/
+.slide {
+  width: 100%;
+  height: 70vh;
+  flex-shrink: 0; /* Evita que los slides se compriman */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Alineación interna */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 3rem;
+}
+
+/* Texto del h1 con el color principal (ejemplo) */
+.slide h1 {
+  color: var(--colorlogo);
+}
+
+/* Botón dentro de la diapositiva */
+.btn {
+  width: fit-content;
+}
+
+/***** PUNTOS (DOTS) PARA NAVEGACIÓN *****/
+.dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: var(--colorlogo); /* O el color que quieras */
 }
