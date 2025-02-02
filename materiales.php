@@ -14,7 +14,7 @@
     <?php include_once "./includes/menu.php" ?>
 
     <div class="encabezado">
-        <div class="titulo" >
+        <div id="titulo" >
         <a href=""><img src="./img/icons/back.svg" alt=""></a>
         <h1>Todo lo que necesitas para hacer el curso</h1>
         </div>
@@ -75,9 +75,9 @@
                 </div>
             </div>
         </div>
-</form>
+    </form>
 
-<?php include "./includes/marquee.php" ?>
-<?php include "./includes/footer.php" ?>
+    <?php include "./includes/marquee.php" ?>
+    <?php include "./includes/footer.php" ?>
 </body>
 </html>

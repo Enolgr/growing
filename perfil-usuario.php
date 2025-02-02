@@ -44,9 +44,7 @@
                 </form>
             </div>
         </section>
-
-
-
+        
     </main>
     <?php include_once "./includes/marquee.php"?>
     <?php include_once "./includes/footer.php"?>
