@@ -15,21 +15,26 @@
 <body>
     <?php include_once "./includes/menu.php" ?>
     <main>
-        <h1 class="titulo-card">Gestiona tu perfil</h1>
-        <section class="contenedor-cards">
-            <div class="card-oscura">
-                <h2>Mis pedidos 📦</h2>
-                <p class="detalles-pedidos">Accede al historial de tus pedidos, Lorem ipsum odor amet, consectetuer adipiscing elit. Netus
-                    pretium dictum auctor integer magnis suscipit justo orci.</p>
-                <a href="tusPedidos.php"><button type="submit" class="boton">Ver mis pedidos</button></a>
-            </div>
+        <div class="contenedor-general">
+            <h1 class="titulo-card">Gestiona tu perfil</h1>
 
-            <div class="card-oscura">
-                <h2>Mis cursos 🌵</h2>
-                <p class="detalles-cursos">Accede al historial de tus cursos, Lorem ipsum odor amet, consectetuer adipiscing elit. Netus pretium
-                    dictum auctor integer magnis suscipit justo orci.</p>
-                <a href="mis-cursos.php"><button type="submit" class="boton">Ver mis cursos</button></a>
-            </div>
+            <section class="contenedor-cards">
+                <div class="card-oscura">
+                    <h2>Mis pedidos 📦</h2>
+                    <p class="detalles-pedidos">Accede al historial de tus pedidos, Lorem ipsum odor amet, consectetuer
+                        adipiscing elit. Netus
+                        pretium dictum auctor integer magnis suscipit justo orci.</p>
+                    <a href="tusPedidos.php" type="submit" class="boton">Ver mis pedidos</a>
+                </div>
+
+                <div class="card-oscura">
+                    <h2>Mis cursos 🌵</h2>
+                    <p class="detalles-cursos">Accede al historial de tus cursos, Lorem ipsum odor amet, consectetuer
+                        adipiscing elit. Netus pretium
+                        dictum auctor integer magnis suscipit justo orci.</p>
+                    <a href="mis-cursos.php" type="submit" class="boton">Ver mis cursos</a>
+                </div>
+        </div>
         </section>
 
         <section>
