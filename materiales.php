@@ -15,10 +15,10 @@
 
     <div class="encabezado">
         <div class="titulo" >
-        <img src="./img/icons/back.svg" alt="">
+        <a href=""><img src="./img/icons/back.svg" alt=""></a>
         <h1>Todo lo que necesitas para hacer el curso</h1>
         </div>
-        <p>Para nuestros cursos, necesitarás algunos materiales. Puedes usar los que tengas en casa o pedirnos los recomendados. Te los enviamos en 2-3 días laborales, ¡sin gastos de envío! 😊</p>
+        <p id="descripcion">Para nuestros cursos, necesitarás algunos materiales. Puedes usar los que tengas en casa o pedirnos los recomendados. Te los enviamos en 2-3 días laborales, ¡sin gastos de envío! 😊</p>
     </div>
 
     <form id="card"class="card" method="get" action="checkout.php">
