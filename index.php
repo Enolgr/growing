@@ -47,6 +47,35 @@
     </div>
   </div>
 
+  <?php include_once "./includes/marquee-solid.php"; ?>
+
+  <div class="cursos-top">
+    <div class="titulo-seccion">
+        <h3 class="titulo-seccion-h3">Los cursos más top</h3>
+    </div>
+
+    
+    <div class="cursos-top-grid">
+        <div class="curso-card">
+            <img class="image-card" src="./img/images/img-cursos.webp" alt="">
+            <p class="titulo-card">Titulo Curso</p>
+        </div>
+        <div class="curso-card">
+            <img class="image-card" src="./img/images/img-cursos.webp" alt="">
+            <p class="titulo-card">Titulo Curso</p>
+        </div>
+        <div class="curso-card">
+            <img class="image-card" src="./img/images/img-cursos.webp" alt="">
+            <p class="titulo-card">Titulo Curso</p>
+        </div>
+        <div class="curso-card">
+            <img class="image-card" src="./img/images/img-cursos.webp" alt="">
+            <p class="titulo-card">Titulo Curso</p>
+        </div>
+
+
+    </div>
+  </div>
   <script src="./scripts/slider.js"></script>
 </body>
 </html>
