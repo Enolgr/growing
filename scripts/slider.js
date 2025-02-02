@@ -1,25 +1,50 @@
-let currentIndex = 0;
-
-function changeSlide(index) {
-    currentIndex = index;
-    const slider = document.getElementById("slider");
-    // Mover el slider según el índice seleccionado (33.333% por slide)
-    slider.style.transform = `translateX(-${index * 33.333}%)`;
-    // Actualiza la apariencia de los puntos
-    updateDots();
-}
-
-function updateDots() {
-    const dots = document.querySelectorAll(".dot");
-    dots.forEach((dot, idx) => {
-        dot.classList.toggle("active", idx === currentIndex);
+document.addEventListener('DOMContentLoaded', function () {
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    const slider = document.querySelector('.slider');
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+    let slideInterval;
+  
+    // Mostrar el slide actual desplazándolo lateralmente
+    function showSlide(index) {
+      slider.style.transform = `translateX(-${index * 100}%)`;
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+    }
+  
+    // Ir al siguiente slide
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % totalSlides;
+      showSlide(currentSlide);
+    }
+  
+    // Ir a un slide específico (cuando se hace clic en un punto)
+    function goToSlide(index) {
+      currentSlide = index;
+      showSlide(currentSlide);
+      resetAutoSlide();
+    }
+  
+    // Reiniciar el temporizador del slider automático
+    function resetAutoSlide() {
+      clearInterval(slideInterval);
+      startAutoSlide();
+    }
+  
+    // Slider automático
+    function startAutoSlide() {
+      slideInterval = setInterval(nextSlide, 5000);
+    }
+  
+    // Asignar eventos a los puntos de navegación
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => goToSlide(index));
     });
-}
-
-/* 
-  Opcional: Inicializa en la primera diapositiva 
-  para que el primer punto aparezca activo.
-*/
-document.addEventListener("DOMContentLoaded", () => {
-    changeSlide(0);
-});
+  
+    // Inicialización
+    showSlide(currentSlide);
+    startAutoSlide();
+  });
+  

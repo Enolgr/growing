@@ -1,69 +1,102 @@
-/***** CONTENEDOR PRINCIPAL *****/
-.slider-container {
-  width: 90vw;
-  height: 70vh;
-  margin: 2rem auto;
-  border-radius: 40px;
+/* Contenedor principal */
+.hero-tarifas {
   overflow: hidden;
-  position: relative;
-}
-
-/***** SLIDER *****/
-.slider {
-  /* Tres diapositivas: 3 x 100% = 300% */
-  display: flex;
-  width: 300%;
-  margin: 0;
-  padding: 0;
-  /* Transición suave */
-  transition: transform 0.5s ease-in-out;
-}
-
-/***** DIAPOSITIVA INDIVIDUAL *****/
-.slide {
-  width: 100%;
-  height: 70vh;
-  flex-shrink: 0; /* Evita que los slides se compriman */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* Alineación interna */
+  width: 90%;
+  max-width: 2000px; 
+  margin: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  align-items: flex-start;
   gap: 2rem;
-  padding: 3rem;
+  margin-top: 2rem;
 }
 
-/* Texto del h1 con el color principal (ejemplo) */
-.slide h1 {
+.contenedor-slider{
+  border-radius: 30px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* Slider */
+.slider {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  transition: transform 1s ease-in-out; /* Desplazamiento suave */
+  border-radius: 30px;
+  height: 45vh;
+}
+
+/* Cada slide */
+.slide {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor-slider{
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  justify-content: center;
+  width: 90%;
+  gap: 2rem;
+}
+
+/* Texto */
+.hero-titulo {
   color: var(--colorlogo);
+  font-family: "Passion One";
+  font-size: 5.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin: 0;
 }
 
-/* Botón dentro de la diapositiva */
-.btn {
-  width: fit-content;
-}
-
-/***** PUNTOS (DOTS) PARA NAVEGACIÓN *****/
-.dots-container {
+/* Puntos de navegación */
+.slider-dots {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-  margin-top: 1rem;
+  gap: 0.5rem;
 }
 
 .dot {
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   background-color: #bbb;
   border-radius: 50%;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .dot.active {
-  background-color: var(--colorlogo); /* O el color que quieras */
+  background-color: #1b4332;
+}
+
+/* Imágenes de fondo para los slides */
+#slide1 {
+  background-image: url(../img/images/HERO\ BANNER.png);
+}
+
+#slide2 {
+  background-image: url(../img/images/slider2.webp);
+}
+
+#slide3 {
+  background-image: url(../img/images/slider3.webp);
+}
+
+
+
+
+.btn{
+  width: fit-content !important;
 }
