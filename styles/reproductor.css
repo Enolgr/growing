@@ -1,0 +1,128 @@
+/* ETIQUETAS */
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h2 {
+    font-family: "Passion One";
+    color: var(--colorlogo);
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+/* REPRODUCTOR */
+
+.reproductor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    gap: 2rem;
+}
+
+/* ------------------------------------------------ */
+
+.tituloReproductor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 2rem;
+}
+
+/* ------------------------------------------------ */
+
+.video {
+    width: 90%;
+    height: 65vh;
+    background-image: url("../img/images/pexels-cottonbro-4503750.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+}
+
+#play-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+#play-icon {
+    transition: ease-in-out 0.3s;
+}
+
+#play-icon:hover {
+    cursor: pointer;
+    scale: 1.04;
+}
+
+/* ------------------------------------------------ */
+
+.button-caps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.btn {
+    width: fit-content;
+}
+
+#button-left {
+    background-color: var(--gris);
+}
+
+/* LISTA CAPITULOS */
+
+.capitulos {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* ------------------------------------------------ */
+
+.tituloCapitulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 90%;
+    
+}
+
+/* ------------------------------------------------ */
+
+.listaCapitulos {
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+    width: 90%;
+    background-color: var(--grisclaro);
+    border-radius: 40px;
+}
+
+#chapter-01 {
+    color: var(--verdeclaro);
+}
