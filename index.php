@@ -74,7 +74,7 @@
 
 
     </div>
-    <button class="btn">Descubre mas cursos</button>
+    <button class="btn">Descubre más cursos</button>
   </div>
 
 
