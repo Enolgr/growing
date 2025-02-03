@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,105 +9,146 @@
     <!-- CSS & normalize -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/detalles-productos.css">
 </head>
+
 <body>
-    
-<section class="contenedor_producto">
+    <?php include_once "./includes/menu.php" ?>
 
-<div class="producto">
+    <section class="card" id="card">
 
-<div class="texto_producto">
+            <div class="producto">
 
-<h3 class="nombre_producto">Nombre producto</h3>
+                <div class="texto-producto" >
 
-<p class="descripcion_producto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, rem adipisci, fugit ducimus aspernatur corporis minus molestias nulla sequi quaerat placeat amet eum iure tempore. Odio, impedit dolorem. Ad, fugiat?</p>
+                    <div class="texto" >
 
-<div class="contenedor_precio">
+                    <h3>Nombre producto</h3>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Mus quisque condimentum volutpat maximus, potenti interdum ridiculus! Ornare integer taciti luctus nascetur cursus inceptos aptent natoque. Condimentum volutpat nascetur; sem urna etiam magna accumsan varius mus. Curae natoque fringilla pulvinar nam morbi quis torquent. Aptent ex facilisi posuere diam pretium pretium; diam commodo. Morbi faucibus porttitor urna elit; orci cras aenean ligula porta? Sociosqu interdum eu sem; montes malesuada platea nulla at. Dictum maecenas ex duis tempus urna inceptos aptent sem sodales.</p>
 
-<p>6,00€</p>
-<button>Añadir al carrito</button>
+                    </div>
 
-</div>
+                    <div class="contenedor-precio">
 
-<div class="imagen_producto">
+                        <p>6,00€</p>
+                        <button class="btn" >Añadir al carrito</button>
 
-<img src="./img/images/img-cursos.webp" alt="">
+                    </div>
 
-</div>
+                </div>
 
-</div>
+                <div class="imagen-producto">
 
-</div>
+                    <img src="./img/images/img-cursos.webp" alt="">
 
-</section>
+                </div>
 
-<section class="info_producto">
+            </div>
 
-<h2 class="info_titulo">Instrucciones</h2>
+    </section>
 
-<div class="contenedor_instrucciones">
+    <h2 class="info-titulo">Instrucciones</h2>
 
-<div class="dificultad">
+    <section class="card info-producto">
 
-<h3>dificultad</h3>
+        <div class="contenedor-instrucciones">
 
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
+            <div class="contenedor-info dificultad">
 
-</div>
+                <h3>1 .Dificultad</h3>
 
-<div class="toxicidad">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
 
-<h3>Toxicidad</h3>
+            </div>
 
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
+            <div class="linea" ></div>
 
-</div>
+            <div class="contenedor-info toxicidad">
 
-<div class="luz">
+                <h3>2. Toxicidad</h3>
 
-<h3>Luz</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
 
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
+            </div>
 
-</div>
+            <div class="linea" ></div>
 
-<div class="riesgo">
+            <div class="contenedor-info luz">
 
-<h3>riesgo</h3>
+                <h3>3. Luz</h3>
 
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
 
-</div>
+            </div>
 
-<div class="temporada">
+            <div class="linea" ></div>
 
-<h3>Temporada</h3>
+            <div class="contenedor-info riesgo">
 
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
+                <h3>4. riesgo</h3>
 
-</div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
 
-</div>
+            </div>
 
-</section>
+            <div class="linea" ></div>
 
-<section class="otros_productos">
+            <div class="contenedor-info temporada">
 
-<div class="producto">
+                <h3>5. Temporada</h3>
 
-<img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
 
-<p>Producto</p>
+            </div>
 
-<p>precio</p>
+        </div>
 
-<button>Añadir al carrito</button>
+    </section>
 
-</div>
+    <h2 id="otros-productos" >Otros productos relacionados</h2>
 
-</section>
+    <section class="otros-productos">
 
+        <div class="producto-card card">
 
-    
+            <img src="./img/images/img-cursos.webp" alt="">
+
+            <p class="nombre" >Producto</p>
+
+            <p class="precio" >0€</p>
+
+            <button class="btn">Añadir al carrito</button>
+
+        </div>
+
+                <div class="producto-card card">
+
+            <img src="./img/images/img-cursos.webp" alt="">
+
+            <p class="nombre" >Producto</p>
+
+            <p class="precio" >0€</p>
+
+            <button class="btn">Añadir al carrito</button>
+
+        </div>
+
+        <div class="producto-card card">
+
+            <img src="./img/images/img-cursos.webp" alt="">
+
+            <p class="nombre" >Producto</p>
+
+            <p class="precio" >0€</p>
+
+            <button class="btn">Añadir al carrito</button>
+
+        </div>
+
+    </section>
+
+    <?php include "./includes/marquee.php" ?>
+    <?php include "./includes/footer.php" ?>
 </body>
+
 </html>

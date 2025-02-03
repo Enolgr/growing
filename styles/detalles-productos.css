@@ -1,0 +1,171 @@
+h3{
+    color: #2C4C46;
+    font-family: "DM Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 25px */
+    margin-left: 1rem;
+}
+
+.info-titulo{
+    width: 90%;
+    text-align: left;
+    color: #2C4C46;
+    font-family: "Passion One";
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 39px */
+}
+
+
+.card{
+    width: 90%;
+    padding: 40px;
+    margin: 3rem;
+}
+
+#card{
+    margin-bottom: 6rem;
+}
+
+.producto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20rem;
+}
+
+.producto h3{
+    color: #2C4C46;
+    font-family: "Passion One";
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 39px */
+}
+
+.producto p{
+    color: #292929;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.imagen-producto img{
+    border-radius: 40px;
+}
+
+.texto-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contenedor-precio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contenedor-precio p{
+    color: #41A50C;
+    font-family: "DM Sans";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 31px */
+}
+
+.info-productos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.contenedor-info p{
+    color: #292929;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 1rem;
+}
+
+.linea {
+    background: #A6A6A6;
+    height: 1px;
+    margin: 2rem 0rem;
+}
+
+.producto-card{
+    display: flex;
+    width: 367px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    gap: 30px;
+}
+
+.producto-card img{
+    width: 327px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 40px;
+}
+
+.nombre{
+    color: #000;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 31px */
+}
+
+.precio{
+    color: #41A50C;
+    font-family: "DM Sans";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 31px */
+}
+
+.btn{
+    width: 100%;
+}
+
+.otros-productos{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+#otros-productos{
+    width: 90%;
+    text-align: left;
+    color: #2C4C46;
+    font-family: "Passion One";
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 61px */
+
+}
