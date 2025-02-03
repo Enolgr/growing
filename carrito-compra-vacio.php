@@ -7,7 +7,6 @@
     <title>Carrito de Compra</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
-    <link rel="stylesheet" href="./styles/materiales.css">
     <link rel="stylesheet" href="./styles/carrito-compra-vacio.css">
 </head>
 
@@ -18,7 +17,7 @@
         <section class="carrito-vacio">
             <h2>¡Tu cesta está vacía!<img src="./img/images/seedling_1f331.png" alt=""></h2>
             <p>Además de nuestros cursos sobre botánica, también contamos con una tienda online donde puedes encontrar todo el material necesario para tus clases y otros productos especiales, como plantas y accesorios 🌱✨ ¡Echa un vistazo y descubre todo lo que tenemos para ti! 😊</p>
-            <div id="boton">
+            <div>
                 <button type="button" class="btn" id="ir-tienda">Ir a la tienda</button>
             </div>
         </section>

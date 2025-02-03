@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/carrito-compra.css">
 </head>
 <body>
-
+    
 <?php include "./includes/menu.php" ?>
 
 <h1>Ya casi estamos! <img id="plantita" src="./img/images/seedling_1f331.png" alt=""></h1>
