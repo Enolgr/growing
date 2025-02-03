@@ -111,9 +111,12 @@ label{
     
 }
 .deliveryData {
+    max-height: 1.8rem;
     display: flex;
-    flex-direction:row;
-    grid-template-columns: repeat(2, 1fr); /* Ahora tienes dos columnas */
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
 }
 
 .radius {
@@ -121,15 +124,11 @@ label{
     width: 1rem;
 }
 
-.radiusAndCreditContainer{
-    display: flex;
-    flex-direction:row;
-    grid-template-columns: repeat(1, 1fr); /* Ahora tienes dos columnas */
-}
+
 
 .subtitle {
-    order: 2;  /* El p debajo del label */
-    margin-top: 0;  /* Ajuste para quitar márgenes extra */
+    margin: 0 0 1rem 3rem;
+
 }
 
 .payMethod input{
@@ -139,11 +138,24 @@ label{
 
 .payMethod img{
     width: 2.5rem;
-    align-items: end;
+    align-self: flex-end;
 }
 .creditCardContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#expirationDate{
+    width: 48%;
+    margin:  0 0.5rem 0 0;
+}
+
+#secureCode{
+    width: 48%;
+    margin:  0 0 0 1.9rem;
 }
 .otherMethodsContainer{
     display: flex;
@@ -160,6 +172,7 @@ justify-content: flex-start;
 
 .dateCode{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     gap: 1rem;
 }
@@ -186,6 +199,7 @@ justify-content: flex-start;
 .priceAndButton{
     display: flex;
     justify-content:space-between;
+    margin: 0.5rem 0 0 0;
 }
 
 
