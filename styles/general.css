@@ -84,7 +84,7 @@ p {
   background-color: var(--colorlogo);
   color: #fff;
   display: flex;
-  width: 7.625rem;
+  width: fit-content;
   height: 2.625rem;
   padding: 0.5rem 1rem;
   justify-content: center;
@@ -92,6 +92,7 @@ p {
   gap: 0.625rem;
   transition: ease-in-out 0.3s;
   border: none;
+  
 }
 
 .btn:hover {
@@ -190,6 +191,17 @@ p {
   padding: 1.6rem 0;
 }
 
+.random-marquee-solid {
+  margin: 2rem 0; 
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: var(--colorlogo);
+  font-family: "Passion One", Arial, Helvetica, sans-serif;
+  color: var(--fondo);
+  font-size: 2rem;
+  padding: 1.6rem 0;
+  font-weight: 100;
+}
 
 
 /* footer */

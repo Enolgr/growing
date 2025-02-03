@@ -1,15 +1,16 @@
 <?php
 echo '
-<header id="menu">
-<div class="logo-menu"><img src="./img/logo.svg" alt="logo-growing"></div>
+<header id="menu"><a href="./index.php">
+<div class="logo-menu"><img src="./img/logo.svg" alt="logo-growing"></div></a>
 <div class="items-menu">
-    <a href="#1">Cursos</a>
-    <a href="#2">Tienda</a>
-    <a href="#3">Tarifas</a>
+    <a href="./cursos.php">Cursos</a>
+    <a href="./tienda.php">Tienda</a>
+    <a href="./tarifas.php">Tarifas</a>
     <span class="anchor-bg"><a href="#4">Lo más popular</a></span>
     <div class="icons-nav">
-        <img src="./img/icons/Carrito.svg" alt="carrito">
-        <img src="./img/icons/Perfil.svg" alt="perfil">
+    <a href="./carrito-compra.php">
+        <img src="./img/icons/Carrito.svg" alt="carrito"></a>
+        <a href="./perfil-usuario.php"><img src="./img/icons/Perfil.svg" alt="perfil"></a>
     </div>
 </div>
 </header>'
