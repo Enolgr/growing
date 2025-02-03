@@ -16,7 +16,7 @@
 
 <section class="contenedor-tarifas">
 <div class="contenedor-titulo">
-    <div class="titulo" >
+    <div class="titulo">
         <h1 >Aprende sobre botánica con el plan ideal para ti</h1>
     </div>
     <div class="iconos" >

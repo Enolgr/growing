@@ -1,0 +1,78 @@
+h1{
+    width: 89%;
+    text-align: left;
+    color: #2C4C46;
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 100%; /* 61px */
+}
+
+.cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.nombre-curso{
+    color: #000;
+    font-family: "DM Sans";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 31px */
+}
+
+.detalles-curso{
+    display: flex;
+    width: 367px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 40px;
+    background: #FFFFFF;
+}
+
+.img-curso{
+    text-align: center;
+    height: 20rem;
+
+}
+.img-curso img{
+    width: 327px;
+    height: 327px;
+    border-radius: 20px;    
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paginacion{
+    margin: 2rem;
+    gap: 5px;
+}
+
+.pagina{
+    border-radius: 12px;
+    padding: 5px 10px;
+    background: #FFFFFF;
+    border: none;
+    transition: all 0.3s;
+}
+
+.pagina:hover{
+    background: #41A50C;
+}
+
+.newsletter{
+    width: 89%;
+    margin: 10rem;
+}
