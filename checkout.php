@@ -50,7 +50,7 @@
                         <label for="delivery1">GLS Economy</label>
                     </div>
                     <p class="subtitle">Entrega en 48-72h</p>
-                    <div class="deliveryData" id="deliveryN1">
+                    <div class="deliveryData" id="deliveryN2">
                         <input class="radius" type="radio" id="delivery2" name="delivery" value="correosExpress"></input>
                         <label for="delivery2">Correos Express</label>
                     </div>
@@ -64,13 +64,15 @@
                     <div class="creditCardContainer">
                             <input class="radius "type="radio" id="creditCard" name="payment"></input>
                             <label for="bizum">Tarjeta de crédito</label>
-                            <img src="./img/logos/visa-classic-svgrepo-com.svg" id="visaPayImg" alt="Pago con Visa">
-                            <img src="./img/logos/mastercard-full-svgrepo-com.svg" id="MasterCardPayImg" alt="Pago con Master Card">
+                            <div class="visaMasterLogos">
+                                <img src="./img/logos/visa-classic-svgrepo-com.svg" id="visaPayImg" alt="Pago con Visa">
+                                <img src="./img/logos/mastercard-full-svgrepo-com.svg" id="MasterCardPayImg" alt="Pago con Master Card">
+                            </div>
                     </div>
                     <div class="creditForm">
                         <input type="text" id="cardNum" placeholder="Número de la tarjeta">
                         <div class="dateCode">
-                            <input type="text" id="expirationDate" placeholder="Fecha de vencimiento (MM / AA)">
+                            <input type="text" id="expirationDate" placeholder="Fecha de vencimiento (MM / AA)"><br>
                             <input type="text" id="secureCode" placeholder="Código de seguridad">
                         </div>
                         <input type="text" id="ownerName" placeholder="Nombre del titular">
@@ -80,25 +82,29 @@
                         <p>Usar la dirección de envío como la dirección de facturación</p>
                     </div>
                     <div class="otherMethodsContainer">
-                        <div class="Radius">
-                            <input type="radio" id="bizum" name="payment"></input>
-                            <input type="radio" id="googleApple" name="payment"></input>
-                            <input type="radio" id="payPal" name="payment"></input>
-                        </div>
-                        <div class="payText">
+                        <div class="paymentOption">
+                            <input class="radius" type="radio" id="bizum" name="payment">
                             <label for="bizum">Pagar con Bizum</label>
-                            <label for="googleApple">Google Pay y Apple Pay</label>
-                            <label for="payPal">PayPal</label>
+                            <div class="imgsPayment">
+                                <img src="./img/logos/Bizum.svg" id="bizumImg" alt="Pago con Bizum">
+                            </div>
+                            
                         </div>
-                        <div class="imgsContainer">
-                            <img src="./img/logos/Bizum.svg" id="bizumImg" name="payment" alt="Pago con Bizum">
-                            <div class="appleGoogle">
+                        <div class="paymentOption">
+                            <input class="radius" type="radio" id="googleApple" name="payment">
+                            <label for="googleApple">Google Pay y Apple Pay</label>
+                            <div class="imgsPayment">
                                 <img src="./img/logos/google-pay-svgrepo-com.svg" id="googlePayImg" alt="Pago con Google">
                                 <img src="./img/logos/apple-pay-svgrepo-com.svg" id="applePayImg" alt="Pago con Apple Pay">
                             </div>
-                            <img src="./img/logos/paypal.svg" id="paypalImg" alt="Pago con PayPal ">
                         </div>
-                    </div>
+                        <div class="paymentOption">
+                            <input class="radius" type="radio" id="payPal" name="payment">
+                            <label for="payPal">PayPal</label>
+                            <div class="imgsPayment">
+                                <img src="./img/logos/paypal.svg" id="paypalImg" alt="Pago con PayPal">
+                            </div>
+                        </div>
                 </div>
                 <hr>
                 <!-- Aquí se mostrará el total y el botón de pagar ahora -->
