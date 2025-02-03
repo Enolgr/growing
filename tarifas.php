@@ -8,11 +8,14 @@
     <!-- CSS & normalize -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/tarifas.css">
 </head>
 <body>
 
-<section class="contenedor-tarifas" >
-<div class="contenedor-titulo" >
+<?php include_once "./includes/menu.php" ?>
+
+<section class="contenedor-tarifas">
+<div class="contenedor-titulo">
     <div class="titulo" >
         <h1 >Aprende sobre botánica con el plan ideal para ti</h1>
     </div>
@@ -25,22 +28,20 @@
     </div>
 </div>
 
-<div class="metodo-pago" >
     <div class="metodo" >
-        <div  class="oferta" >
+        <div  id="oferta" >
             <p>Oferta</p>
         </div>
         <div class="año" >
-            <p>año</p>
+            <p>Anual</p>
         </div>
         <div class="selector" >
             <img src="" alt="">
         </div>
         <div class="mes" >
-            <p>Mes</p>
+            <p>Mensual</p>
         </div>
     </div>
-</div>
 
 <div class="tarifas" >
 
@@ -57,20 +58,20 @@
     </div>
 
     <div class="contenedor-ventajas" >
-        <p class="ventaja" >Ventaja 1</p>
-        <p class="ventaja" >Ventaja 2</p>
-        <p class="ventaja" >Ventaja 3</p>
+        <div class="ventaja" ><img src="./img/icons/Frame 141.svg" alt=""><p  >Ventaja 1</p></div>
+        <div class="ventaja" ><img src="./img/icons/Frame 141.svg" alt=""><p  >Ventaja 2</p></div>
+        <div class="ventaja" ><img src="./img/icons/Frame 141.svg" alt=""><p  >Ventaja 3</p></div>
     </div>
 
-    <button>Este es mi plan</button>
+    <button class="btn">Este es mi plan</button>
 
 </div>
 
 <div class="card">
 
-<div class="mejor-opcion" >
-    <p>Mejor opcion</p>
-</div>
+    <div id="mejor-opcion" >
+        <p>Mejor opcion</p>
+    </div>
 
     <div class="titulo-tarifa" >
     <h2 class="nombre-tarifa" >Jardin</h2>
@@ -83,12 +84,12 @@
     </div>
 
     <div class="contenedor-ventajas" >
-        <p class="ventaja" >Ventaja 1</p>
-        <p class="ventaja" >Ventaja 2</p>
-        <p class="ventaja" >Ventaja 3</p>
+        <div class="ventaja" ><img src="./img/icons/Frame 141.svg" alt=""><p  >Ventaja 1</p></div>
+        <div class="ventaja" ><img src="./img/icons/Frame 141.svg" alt=""><p  >Ventaja 2</p></div>
+        <div class="ventaja" ><img src="./img/icons/Frame 141.svg" alt=""><p  >Ventaja 3</p></div>
     </div>
 
-    <button>Empecemos</button>
+    <button class="btn" >Empecemos</button>
 
 </div>
 
@@ -105,12 +106,12 @@
     </div>
 
     <div class="contenedor-ventajas" >
-        <p class="ventaja" >Ventaja 1</p>
-        <p class="ventaja" >Ventaja 2</p>
-        <p class="ventaja" >Ventaja 3</p>
+        <div class="ventaja" ><img src="./img/icons/Frame 141.svg" alt=""><p  >Ventaja 1</p></div>
+        <div class="ventaja" ><img src="./img/icons/Frame 141.svg" alt=""><p  >Ventaja 2</p></div>
+        <div class="ventaja" ><img src="./img/icons/Frame 141.svg" alt=""><p  >Ventaja 3</p></div>
     </div>
 
-    <button>Quiero este plan</button>
+    <button class="btn" >Quiero este plan</button>
 
 </div>
 </div>
@@ -146,7 +147,8 @@
 
 </div>
 
-<button>Boton 1</button>
+<button class="btn">Boton 1</button>
+
 </section>
 
 <section class="contenedor-opiniones" >
@@ -159,54 +161,14 @@
         <div class="opiniones" >
             <div class="opinion" >
                 <img src="./img/images/persona-random1.webp" alt="" class="avatar" >
-                <p class="name-user" >Nombre persona</p>
-                <p class="descripcion-reseña" >reseña</p>
+                <p class="name-user" >Laura Martínez</p>
+                <p class="descripcion-reseña" >Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum ultrices finibus sit duis aliquet et. Imperdiet cubilia ridiculus dui; interdum consectetur varius at. Ipsum suscipit erat finibus facilisi varius metus donec ridiculus.</p>
             </div>
 
             <div class="opinion" >
                 <img src="./img/images/persona-random2.webp" alt="" class="avatar" >
-                <p class="name-user" >Nombre persona</p>
-                <p class="descripcion-reseña" >reseña</p>
-            </div>
-        </div>
-
-        <div class="curso" >
-            <img src="./img/images/img-cursos.webp" alt="">
-            <p>Titulo curso</p>
-        </div>
-
-        <div class="curso" >
-            <img src="./img/images/img-cursos.webp" alt="">
-            <p>Titulo curso</p>
-        </div>
-
-        <div class="curso" >
-            <img src="./img/images/img-cursos.webp" alt="">
-            <p>Titulo curso</p>
-        </div>
-    </div>
-
-    <button>Boton 1</button>
-</section>
-
-<section class="contenedor-opiniones" >
-
-<div>
-    <div>
-
-        <h1 class="titulo opiniones" >¿Qué opinan sobre nuestros cursos?</h1>
-
-        <div class="opiniones" >
-            <div class="opinion" >
-                <img src="./img/images/persona-random1.webp" alt="" class="avatar" >
-                <p class="name_user" >Nombre persona</p>
-                <p class="descripcion_reseña" >reseña</p>
-            </div>
-
-            <div class="opinion" >
-                <img src="./img/images/persona-random2.webp" alt="" class="avatar" >
-                <p class="name_user" >Nombre persona</p>
-                <p class="descripcion_reseña" >reseña</p>
+                <p class="name-user" >Chiara</p>
+                <p class="descripcion-reseña" >Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum ultrices finibus sit duis aliquet et. Imperdiet cubilia ridiculus dui; interdum consectetur varius at. Ipsum suscipit erat finibus facilisi varius metus donec ridiculus.</p>
             </div>
 
             <div class="paginacion" style="background-color: blue; height: 10px; width: 30px;">
