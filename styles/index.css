@@ -1,23 +1,181 @@
-body, html{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+/* Contenedor principal */
+.hero-tarifas {
+  overflow: hidden;
+  width: 90%;
+  max-width: 2000px; 
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contenedor-slider{
+  border-radius: 30px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* Slider */
+.slider {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  transition: transform 1s ease-in-out; /* Desplazamiento suave */
+  border-radius: 30px;
+  height: 45vh;
+}
+
+/* Cada slide */
+.slide {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor-slider{
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  justify-content: center;
+  width: 90%;
+  gap: 2rem;
+}
+
+/* Texto */
+.hero-titulo {
+  color: var(--colorlogo);
+  font-family: "Passion One";
+  font-size: 5.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin: 0;
+}
+
+/* Puntos de navegación */
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dot.active {
+  background-color: #1b4332;
+}
+
+/* Imágenes de fondo para los slides */
+#slide1 {
+  background-image: url(../img/images/HERO\ BANNER.png);
+}
+
+#slide2 {
+  background-image: url(../img/images/slider2.webp);
+}
+
+#slide3 {
+  background-image: url(../img/images/slider3.webp);
 }
 
 
-.div-grid{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+
+.cursos-top{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 90%;
 }
 
-.done{
-    background-color: #896666;
+.titulo-seccion-h3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-family: 'Passion One',Arial, Helvetica, sans-serif;
+  color: var(--colorlogo);
+  width: 100%;
+  text-align: left;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.cursos-top-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%; 
+}
+
+.curso-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  gap: 0.5rem;
+}
+
+.image-card {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.titulo-card {
+  color: #292929 !important;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem !important; 
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; 
+}
+
+.opiniones{
+  background-color: var(--colorlogo);
+  height: 90vh;
+  width: 90%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: first baseline;
+}
+
+.titulo-opiniones{
+  width: 90%;
+  padding: 3rem 0;
+}
+
+.titulo-opiniones h3{
+  color: #FFF;
+font-family: "Passion One";
+font-size: 61px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 61px */
 }
