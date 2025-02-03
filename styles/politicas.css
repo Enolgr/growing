@@ -119,13 +119,6 @@ label{
     flex-wrap: wrap;
 }
 
-.radius {
-    margin: 0 1rem;
-    width: 1rem;
-}
-
-
-
 .subtitle {
     margin: 0 0 1rem 3rem;
 
@@ -207,8 +200,45 @@ margin-left: auto;
     margin: 0.5rem 0 0 0;
 }
 
+/*-------------------------Radios--------------------------------------------------------------------*/
 
+/* Estilo base para los radio buttons */
+.radius {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%; /* Hace que el radio button sea redondo */
+    border: 2px solid green; /* Borde verde */
+    background-color: white; /* Fondo blanco por defecto */
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
 
+/* Cuando el radio button está seleccionado */
+.radius:checked {
+    background-color: white; /* Fondo blanco cuando está seleccionado */
+    border-color: green; /* Borde verde cuando está seleccionado */
+}
 
+/* Círculo interior cuando el radio button está seleccionado */
+.radius:checked::after {
+    content: '';
+    position: absolute;
+    left: 25%; /* Centra el punto dentro del círculo */
+    top: 25%; /* Centra el punto dentro del círculo */
+    width: 50%; /* El punto ocupará el 50% del radio button */
+    height: 50%; /* El punto ocupará el 50% del radio button */
+    border-radius: 50%;
+    background-color: green; /* Círculo interior verde cuando está seleccionado */
+}
+
+/* Estilo del label para alinear el texto */
+label {
+    margin-left: 10px;
+    cursor: pointer;
+}
 
 
