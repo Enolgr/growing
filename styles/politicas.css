@@ -148,15 +148,11 @@ label{
     flex-wrap: wrap;
 }
 
-#expirationDate{
-    width: 48%;
-    margin:  0 0.5rem 0 0;
+.creditForm{
+    display: flex;
+    flex-direction: column;
 }
 
-#secureCode{
-    width: 48%;
-    margin:  0 0 0 1.9rem;
-}
 .otherMethodsContainer{
     display: flex;
     flex-direction:row;

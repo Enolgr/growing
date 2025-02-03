@@ -66,10 +66,14 @@
                             <label for="bizum">Tarjeta de crédito</label>
                             <img src="./img/logos/visa-classic-svgrepo-com.svg" id="visaPayImg" alt="Pago con Visa">
                             <img src="./img/logos/mastercard-full-svgrepo-com.svg" id="MasterCardPayImg" alt="Pago con Master Card">
-                            <input type="text" id="cardNum" placeholder="Número de la tarjeta">
+                    </div>
+                    <div class="creditForm">
+                        <input type="text" id="cardNum" placeholder="Número de la tarjeta">
+                        <div class="dateCode">
                             <input type="text" id="expirationDate" placeholder="Fecha de vencimiento (MM / AA)">
                             <input type="text" id="secureCode" placeholder="Código de seguridad">
-                            <input type="text" id="ownerName" placeholder="Nombre del titular">
+                        </div>
+                        <input type="text" id="ownerName" placeholder="Nombre del titular">
                     </div>
                     <div class="check-checkout">
                         <?php include "./includes/checkbox.php";?>
