@@ -20,7 +20,8 @@
                     ¡Ups!<br>
                     Ha habido un error
                 </p>
-                <button class="btn" id="boton-inicio">Volver al inicio</button>
+                <a href="./index.php">
+                <button class="btn" id="boton-inicio">Volver al inicio</button></a>
             </div>        
         </div>
     </main>
