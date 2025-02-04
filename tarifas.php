@@ -192,7 +192,7 @@ include "./includes/newsletter.php";
 include "./includes/marquee.php";
 include "./includes/footer.php" ?>
 
-?>
+
 
 </body>
 </html>
