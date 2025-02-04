@@ -220,22 +220,19 @@
 </div>
 
 </section>
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 <section class="contenedor-form">
 >>>>>>> a465212 (cambios en tarifa)
 
 <?php
-
+=======
 
 ?>
 
->>>>>>> main
 include "./includes/newsletter.php";
 include "./includes/marquee.php";
 include "./includes/footer.php" ?>
+
+?>
 
 </body>
 </html>

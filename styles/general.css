@@ -210,6 +210,7 @@ footer {
 }
 
 .links {
+  flex-wrap: wrap;
   width: fit-content;
   display: flex;
   flex-direction: row;
@@ -319,4 +320,74 @@ input {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+
+/* Checkbox */
+
+.custom-checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-checkbox input {
+  display: none; /* Oculta el checkbox original */
+}
+
+.custom-checkbox span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 0.3125rem;
+  border: 1px solid #2C4C46;
+  background: #2C4C46;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-checkbox svg {
+  display: none; 
+}
+
+.custom-checkbox input:checked + span svg {
+  display: block; /* Muestra el SVG cuando está marcado */
+}
+
+.white-checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-checkbox input {
+  display: none; /* Oculta el checkbox original */
+}
+
+.white-checkbox span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 0.3125rem;
+  border: 1px solid #2C4C46;
+  background: transparent; /* Fondo transparente por defecto */
+  cursor: pointer;
+  position: relative;
+}
+
+.white-checkbox svg {
+  display: none; 
+}
+
+.white-checkbox input:checked + span {
+  background: #2C4C46; /* Fondo verde cuando está marcado */
+}
+
+.white-checkbox input:checked + span svg {
+  display: block; /* Muestra el SVG cuando está marcado */
 }
