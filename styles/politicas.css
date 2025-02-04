@@ -168,7 +168,7 @@ margin-left: auto;
 .totalPrice p{
     font-size: x-large;
     font-weight: bold;
-    color: var(--verdeSubtitulos);
+    color: #47b30c;
     margin: 0 1rem;
 }
 
