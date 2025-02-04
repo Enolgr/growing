@@ -183,8 +183,12 @@
 
 </section>
 <section class="contenedor-form">
+>>>>>>> a465212 (cambios en tarifa)
 
 <?php
+=======
+
+?>
 
 include "./includes/newsletter.php";
 include "./includes/marquee.php";
