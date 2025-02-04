@@ -15,7 +15,7 @@
 
     <div class="encabezado">
         <div id="titulo" >
-        <a href=""><img src="./img/icons/back.svg" alt=""></a>
+        <a href="./tienda.php"><img src="./img/icons/back.svg" alt=""></a>
         <h1>Todo lo que necesitas para hacer el curso</h1>
         </div>
         <p id="descripcion">Para nuestros cursos, necesitarás algunos materiales. Puedes usar los que tengas en casa o pedirnos los recomendados. Te los enviamos en 2-3 días laborales, ¡sin gastos de envío! 😊</p>
