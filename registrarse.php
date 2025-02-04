@@ -1,25 +1,53 @@
+<!-- Página para Iniciar Sesión -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-</head>
-<body>
+    <title>Registrarse</title>
+    <!-- CSS & normalize -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/registrarse.css">
 
-    <section>
-        <div class="">
-            <form action="registro.php" method="post">
-                <div clas="">
-                    <h1>Registro</h1>
+
+
+</head>
+
+<body>
+    <?php include_once "./includes/menu.php"; ?>
+
+    <!-- Formulario de inicio de sesión -->
+    <section class="contenedor-card">
+        <div class="card">
+            <form action="registrarse.php" class="card-oscura" id="img-card" method="post">
+                <h2 class="titulo-card">Regístrate</h2>
+
+                <div class="contenedor-formulario">
                     <input type="text" id="name" name="name" placeholder="Nombre" required>
                     <input type="text" id="email" name="email" placeholder="Email" required>
                     <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
-                    <input type="password" id="pass2" name="pass2" placeholder="Confirmar Contraseña" required>
-                    <button type="submit">Registrarse</button>
+
+                    <div class="opciones">
+                        <div class="contenedor-checkbox">
+                            <?php include_once "./includes/white-checkbox.php"?>
+                            <p>He leído y acepto la <span class="span-checkbox">Política de Privacidad</span></p>
+                        </div>
+                        <button type="submit" class="boton">Registrarme</button>
+                    </div>
+                </div>
+
+                <div class="contenedor-registrarse">
+                    <a href="login.php">¿Ya tienes cuenta? Iniciar sesión</a>
                 </div>
             </form>
         </div>
     </section>
+    <!-- Footer & Marquee -->
+    <?php include_once "./includes/marquee.php"; ?>
+    <?php include_once "./includes/footer.php"; ?>
 </body>
+
 </html>
