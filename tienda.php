@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Cursos</title>
+    <title>Tienda</title>
     <!-- Normalize & CSS -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/general.css">
@@ -14,13 +14,23 @@
     <?php include_once "./includes/menu.php" ?>
     
     <div class="lorem-ipsum">
+        <div class="titulo">
         <h1>No sólo haz cursos, también<br> compra nuestros productos ;)</h1>
+    <div class="iconos">
+
+        <img class="plantita" src="./img/icons/planta1.svg" alt="">
+        <img class="plantita" src="./img/icons/planta2.svg" alt="">
+        <img class="plantita" src="./img/icons/planta3.svg" alt="">
+    </div>
+    
+    </div>
         <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Netus pretium dictum auctor integer magnis suscipit justo orci. Lorem ipsum odor amet, consectetuer adipiscing elit. 😊</p>
     </div>
     
 
     <!-- Información cursos -->
     <section class="cursos">
+        <div class="cursos-list">
         <div class="detalles-curso">
             <div class="img-curso">
                 <img src="./img/images/pexels-cottonbro-4503269.webp" alt="curso palas">
@@ -86,7 +96,7 @@
                 <a href="./detalles-productos.php"><button class="btn2" id="btn2">Añadir al carrito</button></a>
             </div>
         </div>
-
+        </div>
         <div class="paginacion">
             <button class="pagina">1</button>
             <button class="pagina">2</button>
