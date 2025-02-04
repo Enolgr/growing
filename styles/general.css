@@ -107,7 +107,7 @@ p {
 
 .card {
   border-radius: 0.875rem;
-  background: #e7e7e7;
+  background: var(--gristarjeta);
 }
 
 .card-oscura {

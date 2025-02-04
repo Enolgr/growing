@@ -29,7 +29,7 @@
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
                 <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt="favoritos">
+                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
             </div>
         </div>
 
@@ -45,7 +45,7 @@
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
                 <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt="favoritos">
+                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
             </div>
         </div>
 
@@ -61,7 +61,7 @@
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
                 <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt="favoritos">
+                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
             </div>
         </div>
 
@@ -77,7 +77,7 @@
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
                 <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt="favoritos">
+                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
             </div>
         </div>
 
@@ -93,7 +93,7 @@
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
                 <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt="favoritos">
+                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
             </div>
         </div>
 
@@ -109,7 +109,7 @@
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
                 <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt="favoritos">
+                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
             </div>
         </div>
 
@@ -132,6 +132,9 @@
     <!-- Marquee & Footer -->
     <?php include_once "./includes/marquee.php";
     include_once "./includes/footer.php"; ?>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./scripts/estrellas.js"></script>
 </body>
 
 </html>

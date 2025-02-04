@@ -76,3 +76,7 @@ h1{
     width: 89%;
     margin: 10rem;
 }
+
+.estrella{
+    cursor: pointer;
+}
