@@ -1,0 +1,128 @@
+/* ------------ ETIQUETAS ------------ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 4rem;
+    color: var(--colorlogo);
+}
+
+h1 {
+    color: var(--colorlogo);
+    font-size: 3.8125rem;
+}
+
+h4 {
+    font-size: 1.5625rem;
+}
+
+h3 {
+    font-size: 1.9375rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+hr {
+    width: 100%;
+}
+
+/* ------------ CLASES ------------ */
+
+.pedidos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.pedidos-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grisclaro);
+    border-radius: 2.5rem;
+    width: 45%; 
+    height: auto;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+/* ---- */
+
+.titulo-pedidos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ---- */
+
+.lista-pedidos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.pedido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.datos-pedido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.imp-pedido {
+    width: 10%;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/images/pexels-cottonbro-4503750.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* ---- */
+
+.total-pedidos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ---- */
+
+.entrega-pedidos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* ------------ ID ------------ */
+
+#title {
+    width: 90%;
+}
