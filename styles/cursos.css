@@ -5,6 +5,7 @@ h1{
     font-size: 61px;
     font-weight: 400;
     line-height: 100%; /* 61px */
+    margin-top: 5rem;
 }
 
 .cursos{
@@ -63,9 +64,14 @@ h1{
 .pagina{
     border-radius: 12px;
     padding: 5px 10px;
-    background: #FFFFFF;
+    background: #A6A6A6;
+    color: #FFF;
+    font-family: "DM Sans";
     border: none;
     transition: all 0.3s;
+    width: 40px;
+    height: 40px;
+
 }
 
 .pagina:hover{
