@@ -28,8 +28,8 @@
             <!-- Icono para añadir a favoritos -->
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
-                <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
+                <a href="./detalles-curso.php"><button class="btn" id="btn">Ver curso</button></a>
+                <img src="./img/icons/Fav.svg" alt="favoritos" class="estrella">
             </div>
         </div>
 
@@ -44,8 +44,8 @@
             <!-- Icono para añadir a favoritos -->
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
-                <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
+                <a href="./detalles-curso.php"><button class="btn" id="btn">Ver curso</button></a>
+                <img src="./img/icons/Fav.svg" alt="favoritos" class="estrella">
             </div>
         </div>
 
@@ -60,8 +60,8 @@
             <!-- Icono para añadir a favoritos -->
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
-                <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
+                <a href="./detalles-curso.php"><button class="btn" id="btn">Ver curso</button></a>
+                <img src="./img/icons/Fav.svg" alt="favoritos" class="estrella">
             </div>
         </div>
 
@@ -76,8 +76,8 @@
             <!-- Icono para añadir a favoritos -->
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
-                <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
+                <a href="./detalles-curso.php"><button class="btn" id="btn">Ver curso</button></a>
+                <img src="./img/icons/Fav.svg" alt="favoritos" class="estrella">
             </div>
         </div>
 
@@ -92,8 +92,8 @@
             <!-- Icono para añadir a favoritos -->
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
-                <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
+                <a href="./detalles-curso.php"><button class="btn" id="btn">Ver curso</button></a>
+                <img src="./img/icons/Fav.svg" alt="favoritos" class="estrella">
             </div>
         </div>
 
@@ -108,19 +108,19 @@
             <!-- Icono para añadir a favoritos -->
             <div class="icons">
               <!-- Redirigir a la pagina de detalles del curso -->
-                <a href="#"><button class="boton" id="boton">Ver curso</button></a>
-                <img src="./img/icons/Fav.svg" alt ="favoritos" class="estrella">
+                <a href="./detalles-curso.php"><button class="btn" id="btn">Ver curso</button></a>
+                <img src="./img/icons/Fav.svg" alt="favoritos" class="estrella">
             </div>
         </div>
 
         <div class="paginacion">
-            <button class="pagina" >1</button>
-            <button class="pagina" >2</button>
-            <button class="pagina" >3</button>
-            <button class="pagina" >4</button>
-            <button class="pagina" >5</button>
-            <button class="pagina" >...</button>
-            <button class="pagina" >10</button>
+            <button class="pagina">1</button>
+            <button class="pagina">2</button>
+            <button class="pagina">3</button>
+            <button class="pagina">4</button>
+            <button class="pagina">5</button>
+            <button class="pagina">...</button>
+            <button class="pagina">10</button>
         </div>
 
     </section>

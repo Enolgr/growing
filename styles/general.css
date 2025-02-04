@@ -58,7 +58,7 @@ a {
   transition: ease-in-out 0.2s;
 }
 
-a:hover {
+header a:hover {
   scale: var(--hover-scale-lg);
 }
 

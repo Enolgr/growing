@@ -43,6 +43,7 @@ margin: 5rem 0;
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 39px */
+    margin: 0;
 }
 
 .producto p{
