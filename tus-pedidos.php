@@ -17,6 +17,7 @@
       </div>
       
       <div class="pedidos-container">
+        <!-- PEDIDO 1 -->
         <div class="pedidos-card">
           <div class="titulo-pedidos">
             <h3>Nº Pedido</h3>
@@ -30,8 +31,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
 
@@ -41,8 +41,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
 
@@ -52,8 +51,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
           </div>
@@ -61,9 +59,14 @@
           <hr>
 
           <div class="total-pedidos">
-            <h3>Total</h3>
-            <p>6,00€<p>
-            <button class="btn">Descargar factura</button>
+            <div class="iva-incluido">
+              <h3>Total</h3>
+              <p>(Iva incluido)</p>
+            </div>
+            <div class="total-div">
+              <p>6,00€</p>
+              <button class="btn">Descargar factura</button>
+            </div>
           </div>
 
           <div class="entrega-pedidos">
@@ -72,6 +75,7 @@
           </div>
         </div>
 
+        <!-- PEDIDO 2 -->
         <div class="pedidos-card">
           <div class="titulo-pedidos">
             <h3>Nº Pedido</h3>
@@ -85,8 +89,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
 
@@ -96,8 +99,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
 
@@ -107,8 +109,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
           </div>
@@ -116,9 +117,14 @@
           <hr>
 
           <div class="total-pedidos">
-            <h3>Total</h3>
-            <p>6,00€<p>
-            <button class="btn">Descargar factura</button>
+            <div class="iva-incluido">
+              <h3>Total</h3>
+              <p>(Iva incluido)</p>
+            </div>
+            <div class="total-div">
+              <p>6,00€</p>
+              <button class="btn">Descargar factura</button>
+            </div>
           </div>
 
           <div class="entrega-pedidos">
@@ -127,6 +133,7 @@
           </div>
         </div>
 
+        <!-- PEDIDO 3 -->
         <div class="pedidos-card">
           <div class="titulo-pedidos">
             <h3>Nº Pedido</h3>
@@ -140,8 +147,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
 
@@ -151,8 +157,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
 
@@ -162,8 +167,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
           </div>
@@ -171,9 +175,14 @@
           <hr>
 
           <div class="total-pedidos">
-            <h3>Total</h3>
-            <p>6,00€<p>
-            <button class="btn">Descargar factura</button>
+            <div class="iva-incluido">
+              <h3>Total</h3>
+              <p>(Iva incluido)</p>
+            </div>
+            <div class="total-div">
+              <p>6,00€</p>
+              <button class="btn">Descargar factura</button>
+            </div>
           </div>
 
           <div class="entrega-pedidos">
@@ -182,6 +191,7 @@
           </div>
         </div>
 
+        <!-- PEDIDO 4 -->
         <div class="pedidos-card">
           <div class="titulo-pedidos">
             <h3>Nº Pedido</h3>
@@ -195,8 +205,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
 
@@ -206,8 +215,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
 
@@ -217,8 +225,7 @@
                 <p>2,00€</p>
               </div>
               <div class="img-pedido">
-                <div class="img">
-                </div>
+                <div class="img"></div>
               </div>
             </div>
           </div>
@@ -226,9 +233,14 @@
           <hr>
 
           <div class="total-pedidos">
-            <h3>Total</h3>
-            <p>6,00€<p>
-            <button class="btn">Descargar factura</button>
+            <div class="iva-incluido">
+              <h3>Total</h3>
+              <p>(Iva incluido)</p>
+            </div>
+            <div class="total-div">
+              <p>6,00€</p>
+              <button class="btn">Descargar factura</button>
+            </div>
           </div>
 
           <div class="entrega-pedidos">
