@@ -19,7 +19,7 @@
     <section class="contenedor-card">
         <div class="card">
             <form action="login.php" class="card-oscura" id="img-card" method="post">
-                <h2 class="titulo-card">Inicia sesión</h2>
+                <h2 class="titulo-card">Iniciar sesión</h2>
 
                 <div class="contenedor-formulario">
                     <input type="text" id="email" name="email" placeholder="Email" required>

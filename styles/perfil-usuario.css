@@ -75,3 +75,14 @@ p {
   width: fit-content;
   color: var(--fondo);
 }
+input ::placeholder{
+  padding: 0 0 0 0.6rem;
+  height: 2.8rem;
+  border-radius: 10px;
+  border: 1px solid #2C4C46;
+  background: #EAEDEC;
+  width: 100%;
+  font-size: 0.9rem; 
+  font-family: 'DM Sans', sans-serif; 
+  color: #2C4C46;
+}

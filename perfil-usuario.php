@@ -18,6 +18,7 @@
         <div class="contenedor-general">
             <h1 class="titulo-card">Gestiona tu perfil</h1>
 
+            <!-- Falta cambiar los iconos, descargarlos y ponerlos -->
             <section class="contenedor-cards">
                 <div class="card-oscura">
                     <h2>Mis pedidos 📦</h2>
@@ -26,7 +27,6 @@
                         pretium dictum auctor integer magnis suscipit justo orci.</p>
                     <a href="tusPedidos.php" type="submit" class="boton">Ver mis pedidos</a>
                 </div>
-
                 <div class="card-oscura">
                     <h2>Mis cursos 🌵</h2>
                     <p class="detalles-cursos">Accede al historial de tus cursos, Lorem ipsum odor amet, consectetuer
@@ -34,13 +34,15 @@
                         dictum auctor integer magnis suscipit justo orci.</p>
                     <a href="mis-cursos.php" type="submit" class="boton">Ver mis cursos</a>
                 </div>
+            </section>
         </div>
-        </section>
 
+        <!-- Formulario de datos -->
         <section>
             <div>
                 <img>
             </div>
+            
             <div>
                 <form method="post" action="***.php">
                     <div class="tarjetaRegistro">
