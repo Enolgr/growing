@@ -1,5 +1,5 @@
 h1{
-    width: 89%;
+    width: 90%;
     text-align: left;
     color: #2C4C46;
     font-size: 61px;
@@ -14,7 +14,7 @@ h1{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 2rem;
-    margin: 2rem;
+    margin: 2rem 0rem;
 }
 
 .nombre-curso{
