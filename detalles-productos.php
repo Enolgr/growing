@@ -105,9 +105,10 @@
 
     </section>
 
+    <section class="contenedor-otros-productos">
     <h2 id="otros-productos" >Otros productos relacionados</h2>
 
-    <section class="otros-productos">
+    <div class="otros-productos">
 
         <div class="producto-card card">
 
@@ -145,6 +146,7 @@
 
         </div>
 
+    </div>
     </section>
 
     <?php include "./includes/marquee.php" ?>
