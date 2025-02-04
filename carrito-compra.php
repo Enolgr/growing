@@ -65,7 +65,8 @@
                     <input type="text" class="descuento" placeholder="Código descuento">
                     <div class="boton-finalizar" >
                         <p>6.00€</p>
-                        <button type="button" class="btn" id="pay">Finalizar compra</button>
+                        <a href="./checkout.php">
+                        <button type="button" class="btn" id="pay">Finalizar compra</button></a>
                     </div>
                 </div>
             </div>
