@@ -18,7 +18,7 @@
             <h2>¡Tu cesta está vacía!<img src="./img/images/seedling_1f331.png" alt=""></h2>
             <p>Además de nuestros cursos sobre botánica, también contamos con una tienda online donde puedes encontrar todo el material necesario para tus clases y otros productos especiales, como plantas y accesorios 🌱✨ ¡Echa un vistazo y descubre todo lo que tenemos para ti! 😊</p>
             <div>
-                <button type="button" class="btn" id="ir-tienda">Ir a la tienda</button>
+              <a href="./tienda.php">  <button type="button" class="btn" id="ir-tienda">Ir a la tienda</button></a>
             </div>
         </section>
     </div>
