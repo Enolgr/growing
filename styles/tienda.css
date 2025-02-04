@@ -112,3 +112,19 @@ h1{
     border: none;
     cursor: pointer;
 }
+
+.lorem-ipsum{
+    display: grid;
+    text-align:start;
+    margin-left: 2rem;
+}
+
+.lorem-ipsum p{
+    width: 90%;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}

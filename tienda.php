@@ -12,8 +12,12 @@
 <body>
     <!-- Menu -->
     <?php include_once "./includes/menu.php" ?>
-
-    <h1>Nuestros cursos online</h1>
+    
+    <div class="lorem-ipsum">
+        <h1>No sólo haz cursos, también<br> compra nuestros productos ;)</h1>
+        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Netus pretium dictum auctor integer magnis suscipit justo orci. Lorem ipsum odor amet, consectetuer adipiscing elit. 😊</p>
+    </div>
+    
 
     <!-- Información cursos -->
     <section class="cursos">
