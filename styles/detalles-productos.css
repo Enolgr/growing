@@ -17,6 +17,7 @@ h3{
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 39px */
+
 }
 
 
@@ -149,8 +150,6 @@ margin: 5rem 0;
     line-height: 100%; /* 31px */
 }
 
-
-
 .otros-productos{
     width: 90%;
     display: flex;
@@ -181,3 +180,4 @@ margin: 5rem 0;
     justify-content: center;
     gap: 2rem;
 }
+

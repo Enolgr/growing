@@ -113,7 +113,9 @@
             </div>
         </div>
 
-        <div class="paginacion">
+    </section>
+
+    <div class="paginacion">
             <button class="pagina">1</button>
             <button class="pagina">2</button>
             <button class="pagina">3</button>
@@ -121,9 +123,7 @@
             <button class="pagina">5</button>
             <button class="pagina">...</button>
             <button class="pagina">10</button>
-        </div>
-
-    </section>
+    </div>
 
     <!-- Aqui iria la paginación de los cursos  -->
     <!-- Newsletter -->
