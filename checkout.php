@@ -13,7 +13,9 @@
 <body>
     <?php include_once "./includes/menu.php"?>
     <div class="titleArrow">
+        <a href="./carrito-compra.php">
         <img src="./img/icons/back.svg" alt="">
+        </a>
         <h1 class="title2">Finaliza tu compra</h1>
     </div>
     <section class= "legalContainer">

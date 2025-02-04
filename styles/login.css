@@ -43,8 +43,8 @@ h2 {
 
 .card-oscura {
   width: 90%;
-  height: 50vh;
-  padding: 2rem 4rem;
+  height: fit-content;
+  padding: 4rem;
   background: var(--grisclaro);
   border-radius: 0.875rem;
 }
@@ -73,13 +73,12 @@ h2 {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
-  width: 60%;
+  width: 40%;
 }
 .opciones p {
   color: var(--colorlogo);
 }
-.opciones p,
-.opciones button {
+.opciones p{
   margin: 0;
   padding: 0;
   display: flex;
