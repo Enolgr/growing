@@ -126,7 +126,6 @@ label{
 
 .payMethod input{
     justify-content: space-between;
-    margin: 0.6rem 0.6rem;
 }
 
 .payMethod img{
@@ -149,10 +148,17 @@ margin-left: auto;
 .creditForm{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 .dateCode{
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.5rem;
 }
+
 
 .otherMethodsContainer {
     display: flex;
