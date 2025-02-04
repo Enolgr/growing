@@ -118,15 +118,6 @@
 
 <?php include("./includes/marquee-solid.php") ?>
 
-<<<<<<< HEAD
-<section class="contenedor_cursos_top" >
-    <h2>Los cursos más top</h2>
-
-    <div class="cursos" >
-        <div class="curso" >
-            <img src="./img/images/img-cursos.webp" alt="">
-            <p>Titulo curso</p>
-=======
 <section class="contenedor-cursos-top" >
 
 <h2>Los cursos más top</h2>
@@ -177,7 +168,6 @@
                 <p class="name-user" >Nombre persona</p>
                 <p class="descripcion-reseña" >reseña</p>
             </div>
->>>>>>> a465212 (cambios en tarifa)
         </div>
 
         <div class="curso" >

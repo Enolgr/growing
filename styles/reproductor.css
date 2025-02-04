@@ -13,8 +13,8 @@ h2 {
     font-weight: 400;
 }
 
-ul {
-    list-style: none;
+hr {
+    width: 100%;
 }
 
 /* REPRODUCTOR */
@@ -96,8 +96,9 @@ ul {
 .capitulos {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    height: 65vh;
     gap: 2rem;
 }
 
@@ -109,20 +110,36 @@ ul {
     justify-content: left;
     align-items: left;
     width: 90%;
-    
 }
 
 /* ------------------------------------------------ */
 
 .listaCapitulos {
     display: flex;
-    flex-direction:column;
-    justify-content: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 90%;
+    height: 65%;
     background-color: var(--grisclaro);
     border-radius: 40px;
 }
 
-#chapter-01 {
-    color: var(--verdeclaro);
+.listado {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 95%;
+    height: 90%;
+    gap: 0.55rem;
 }
+
+.listado a {
+    color: var(--colorlogo);
+    padding: 0 1rem;
+}
+
+#chapter-one {
+    color: var(--verde);
+}
+
