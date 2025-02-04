@@ -151,38 +151,10 @@
 
 </section>
 
-<section class="contenedor-opiniones" >
 
-<div>
-    <div>
-
-        <h1 class="titulo-opiniones" >¿Qué opinan sobre nuestros cursos?</h1>
-
-        <div class="opiniones" >
-            <div class="opinion" >
-                <img src="./img/images/persona-random1.webp" alt="" class="avatar" >
-                <p class="name-user" >Laura Martínez</p>
-                <p class="descripcion-reseña" >Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum ultrices finibus sit duis aliquet et. Imperdiet cubilia ridiculus dui; interdum consectetur varius at. Ipsum suscipit erat finibus facilisi varius metus donec ridiculus.</p>
-            </div>
-
-            <div class="opinion" >
-                <img src="./img/images/persona-random2.webp" alt="" class="avatar" >
-                <p class="name-user" >Chiara</p>
-                <p class="descripcion-reseña" >Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum ultrices finibus sit duis aliquet et. Imperdiet cubilia ridiculus dui; interdum consectetur varius at. Ipsum suscipit erat finibus facilisi varius metus donec ridiculus.</p>
-            </div>
-
-            <div class="paginacion" style="background-color: blue; height: 10px; width: 30px;">
-                
-            </div>
-        </div>
-        <div class="paginacino" style="background-color: blue; height: 10px; width: 30px;">
-            
-        </div>
-    </div>
-</div>
-
-</section>
-<section class="contenedor-form">
+<?php 
+include "./includes/opiniones.php"
+?>
 
 
 <?php
@@ -193,6 +165,6 @@ include "./includes/marquee.php";
 include "./includes/footer.php" ?>
 
 
-
+<script src="./scripts/slider-opiniones.js"></script>
 </body>
 </html>
