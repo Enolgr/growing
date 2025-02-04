@@ -1,3 +1,6 @@
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Passion+One:wght@400;700;900&display=swap");
+
 :root {
     --fondo: #f5f5f5;
     --verde: #6e8e49;
@@ -8,6 +11,7 @@
     --gris: #505050;
     --colorlogo: #2c4c46;
     --amarillo: #fec034;
+    --verdeSubtitulos: #41A50C;
     --hover-scale-sm: 1.02;
     --hover-scale-md: 1.05;
     --hover-scale-lg: 1.08;
@@ -26,10 +30,9 @@
 .legalContainer {
     background-color: var(--grisclaro);
     border-radius: 40px;
-    width: 80%;
-    padding: 2%;
-    margin-top: 4%;
-    margin-bottom: 6%;
+    width: 90%;
+    padding: 2rem;
+    margin: 4rem 0 8rem 0; /*No se debe aplicar mas de 2 rem pero en este caso debe hacerse ya que las medidas lo requieren*/
 }
 
 .title{
@@ -37,15 +40,211 @@
     font-size: 400;
 }
 
+.title2{
+    color: #2c4c46;
+    font-size: 39px;
+
+}
+
 h2{
     color:#2c4c46;
 }
+
+ul{
+    line-height: 200%;
+}
 li {
     font-family: "DM Sans", sans-serif;
-    margin: 2%;
 }
 
-p{
-    margin: 2%;
+h2{
+    margin: 1rem 0;
 }
+p{
+line-height: 200%;
+}
+
+hr{
+    color:#A6A6A6 ;
+}
+label{
+    font-family: DM Sans, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.titleArrow{
+    display: flex;
+    justify-content: start;
+    width: 90%;
+    gap: 1rem;
+    margin:1rem 0 1rem 0;
+}
+
+.check-checkout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin:2rem 0
+}
+
+.check-checkout p{
+    margin-left: 0.4rem;
+}
+
+.sendData input{
+    justify-content: space-between;
+    margin: 0.6rem 0;
+}
+.nameLast{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.directionData{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+.deliveryData {
+    max-height: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.subtitle {
+    margin: 0 0 1rem 3rem;
+
+}
+
+.payMethod input{
+    justify-content: space-between;
+}
+
+.payMethod img{
+    width: 2.5rem;
+    align-self: flex-end;
+}
+.creditCardContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.visaMasterLogos{
+display: flex;
+margin-left: auto;
+}
+
+.creditForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.dateCode{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+
+.otherMethodsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea todo a la izquierda */
+    justify-content: flex-start;
+}
+
+.paymentOption {
+    display: flex;
+    align-items: center; /* Asegura que todo esté alineado verticalmente */
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.imgsPayment{
+    margin-left: auto; /* Empuja las imágenes hacia la derecha */
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+}
+
+.subtitle{
+    font-weight: bold;
+    color: var(--verdeSubtitulos);
+}
+
+.totalContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.totalTitle{
+    color:#2c4c46;
+}
+
+.totalPrice p{
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--verdeSubtitulos);
+    margin: 0 1rem;
+}
+
+.priceAndButton{
+    display: flex;
+    justify-content:space-between;
+    margin: 0.5rem 0 0 0;
+}
+
+/*-------------------------Radios--------------------------------------------------------------------*/
+
+/* Estilo base para los radio buttons */
+.radius {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%; /* Hace que el radio button sea redondo */
+    border: 2px solid green; /* Borde verde */
+    background-color: white; /* Fondo blanco por defecto */
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Cuando el radio button está seleccionado */
+.radius:checked {
+    background-color: white; /* Fondo blanco cuando está seleccionado */
+    border-color: green; /* Borde verde cuando está seleccionado */
+}
+
+/* Círculo interior cuando el radio button está seleccionado */
+.radius:checked::after {
+    content: '';
+    position: absolute;
+    left: 25%; /* Centra el punto dentro del círculo */
+    top: 25%; /* Centra el punto dentro del círculo */
+    width: 50%; /* El punto ocupará el 50% del radio button */
+    height: 50%; /* El punto ocupará el 50% del radio button */
+    border-radius: 50%;
+    background-color: green; /* Círculo interior verde cuando está seleccionado */
+}
+
+/* Estilo del label para alinear el texto */
+label {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
 
