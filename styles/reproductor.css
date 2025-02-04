@@ -1,4 +1,13 @@
 /* ETIQUETAS */
+h3{
+    color: #2C4C46;
+    font-family: "DM Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 25px */
+    margin-left: 1rem;
+}
 
 main {
     display: flex;
@@ -93,53 +102,65 @@ hr {
 
 /* LISTA CAPITULOS */
 
-.capitulos {
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 65vh;
-    gap: 2rem;
+.info-instruciones{
+    width: 90%;
+    text-align: left;
+    color: #2C4C46;
+    font-family: "Passion One";
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 39px */
+    margin: 2rem 0rem;
 }
 
-/* ------------------------------------------------ */
+.card{
+    width: 90%;
+    padding: 40px;
+    margin-bottom: 5rem;
+}
 
-.tituloCapitulos {
+#card{
+margin: 5rem 0;
+}
+
+.linea {
+    background: #A6A6A6;
+    height: 1px;
+    margin: 2rem 0rem;
+}
+
+.producto-card{
+    display: flex;
+    width: 367px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    gap: 30px;
+}
+
+.info-productos{
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    width: 90%;
+    gap: 30px;
 }
 
-/* ------------------------------------------------ */
+.contenedor-info p{
+    color: #292929;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 1rem;
+}
 
-.listaCapitulos {
+.instruciones{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 65%;
-    background-color: var(--grisclaro);
-    border-radius: 40px;
-}
-
-.listado {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 95%;
-    height: 90%;
-    gap: 0.55rem;
-}
-
-.listado a {
-    color: var(--colorlogo);
-    padding: 0 1rem;
-}
-
-#chapter-one {
-    color: var(--verde);
 }
 

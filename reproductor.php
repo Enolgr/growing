@@ -15,7 +15,7 @@
     <main>
         <div class="reproductor">
             <div class="tituloReproductor">
-                <img src="./img/icons/green-arrow-left.svg">
+                <a href="./mis-cursos.php"><img src="./img/icons/green-arrow-left.svg"></a>
                 <h2>Capítulo 1, Título curso</h2>
             </div>
             <div class="video">
@@ -29,26 +29,65 @@
             </div>
             
         </div>
-        <div class="capitulos">
-            <div class="tituloCapitulos">
-                <h2>Capítulos del curso</h2>
+
+
+    <section class="instruciones">
+
+    <h2 class="info-instruciones">Instrucciones</h2>
+
+        <div class="card info-producto">
+
+            <div class="contenedor-info">
+
+                <h3>1 .Nombre capítulo</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
+
             </div>
-            <div class="listaCapitulos">
-                <div class="listado">
-                    <h3><a href="*.mp4" id="chapter-one">1. Nombre capítulo</a></h3>
-                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Mus quisque condimentum volutpat maximus, potenti interdum ridiculus! Ornare integer taciti luctus nascetur cursus inceptos aptent natoque. Condimentum volutpat nascetur; sem urna etiam magna accumsan varius mus. Curae natoque fringilla pulvinar nam morbi quis torquent. Aptent ex facilisi posuere diam pretium pretium; diam commodo. Morbi faucibus porttitor urna elit; orci cras aenean ligula porta? Sociosqu interdum eu sem; montes malesuada platea nulla at. Dictum maecenas ex duis tempus urna inceptos aptent sem sodales.</p>
-                    <hr>
-                    <h3><a href="*.mp4">2. Nombre capítulo</a></h3>
-                    <hr>
-                    <h3><a href="*.mp4">3. Nombre capítulo</a></h3>
-                    <hr>
-                    <h3><a href="...">4. Nombre capítulo</a></h3>
-                    <hr>
-                    <h3><a href="...">5. Nombre capítulo</a></h3>
-                </div>
+
+            <div class="linea" ></div>
+
+            <div class="contenedor-info">
+
+                <h3>2. Nombre capítulo</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
+
             </div>
+
+            <div class="linea" ></div>
+
+            <div class="contenedor-info">
+
+                <h3>3. Nombre capítulo</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
+
+            </div>
+
+            <div class="linea" ></div>
+
+            <div class="contenedor-info">
+
+                <h3>4. Nombre capítulo</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
+
+            </div>
+
+            <div class="linea" ></div>
+
+            <div class="contenedor-info">
+
+                <h3>5. Nombre capítulo</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
+
+            </div>
+
         </div>
-    </main>
+
+    </section>
     <?php include_once "./includes/marquee.php"; ?>
     <?php include_once "./includes/footer.php"; ?>
 </body>
