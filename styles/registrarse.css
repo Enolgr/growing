@@ -9,8 +9,8 @@
 .card-oscura {
   width: 90%;
   height: 80vh;
-  padding: 2rem 2rem 7rem;
-  background: var(--grisclaro);
+  padding: 2rem ;
+  background: var(--gristarjeta);
   border-radius: 0.875rem;
 }
 

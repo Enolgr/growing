@@ -27,7 +27,7 @@ h2 {
 
 .card {
   display: flex;
-  flex-direction: initial;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -45,9 +45,13 @@ h2 {
 .card-oscura {
   width: 90%;
   height: 70vh;
-  padding: 2rem 2rem 7rem;
+  padding: 2rem;
   background: var(--grisclaro);
   border-radius: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
 }
 
 .card-oscura input {

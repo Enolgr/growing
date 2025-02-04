@@ -11,41 +11,40 @@
 <body>
   <?php include_once './includes/menu.php'; ?>
 
-  <div class="hero-tarifas">
-  <div class="contenedor-slider">
-  <div class="slider">
-    <!-- Slide 1 -->
-    <div id="slide1" class="slide active">
-      <div class="contenedor-slider">
-        <h2 class="hero-titulo">Hero de tarifas.</h2>
-        <button class="btn">Descubre las tarifas</button>
+  <div class="index-hero-tarifas">
+  <div class="index-contenedor-slider">
+    <div class="index-slider">
+      <!-- Slide 1 -->
+      <div id="slide1" class="index-slide index-active">
+        <div class="index-contenedor-slider">
+          <h2 class="index-hero-titulo">Hero de tarifas.</h2>
+          <button class="btn">Descubre las tarifas</button>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div id="slide2" class="index-slide">
+        <div class="index-contenedor-slider">
+          <h2 class="index-hero-titulo">Ofertas increíbles.</h2>
+          <button class="btn">Conoce más</button>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div id="slide3" class="index-slide">
+        <div class="index-contenedor-slider">
+          <h2 class="index-hero-titulo">Últimas novedades.</h2>
+          <button class="btn">Descúbrelo</button>
+        </div>
       </div>
     </div>
-    <!-- Slide 2 -->
-    <div id="slide2" class="slide">
-      <div class="contenedor-slider">
-        <h2 class="hero-titulo">Ofertas increíbles.</h2>
-        <button class="btn">Conoce más</button>
-      </div>
-    </div>
-    <!-- Slide 3 -->
-    <div id="slide3" class="slide">
-      <div class="contenedor-slider">
-        <h2 class="hero-titulo">Últimas novedades.</h2>
-        <button class="btn">Descúbrelo</button>
-      </div>
-    </div>
+  </div>
+
+  <!-- Puntos de navegación -->
+  <div class="index-slider-dots" id="sliderDots">
+    <div class="index-dot index-active"></div>
+    <div class="index-dot"></div>
+    <div class="index-dot"></div>
   </div>
 </div>
-
-
-    <!-- Puntos de navegación -->
-    <div class="slider-dots" id="sliderDots">
-      <div class="dot active"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
-    </div>
-  </div>
 
   <?php include_once "./includes/marquee-solid.php"; ?>
 
@@ -77,11 +76,7 @@
     <button class="btn">Descubre más cursos</button>
   </div>
 
-
-  <div class="opiniones">
-    <div class="titulo-opiniones"><h3>¿Qué opinan sobre <br>nuestros cursos?</h3></div>
-
-  </div>
+<?php include './includes/opiniones.php' ?>
 
 <?php include './includes/newsletter.php'; ?>
 
@@ -89,5 +84,6 @@
 <?php include './includes/footer.php'; ?>
 
   <script src="./scripts/slider.js"></script>
+  <script src="./scripts/slider-opiniones.js"></script>
 </body>
 </html>

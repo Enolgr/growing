@@ -97,6 +97,8 @@ p {
   
 }
 
+
+
 .btn:hover {
   background-color: var(--verde);
 }
@@ -289,13 +291,14 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 97%;
+  width: 90%;
   padding: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: first baseline;
   border-radius: 50px;
+  margin-bottom: 2rem;
 }
 
 .contenedor-newsletter{
