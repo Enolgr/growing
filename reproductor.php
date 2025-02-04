@@ -20,7 +20,7 @@
             </div>
             <div class="video">
                 <div id="play-button">
-                    <img id="play-icon" src="./img/icons/play.svg" alt="Play">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img id="play-icon" src="./img/icons/play.svg" alt="Play"></a>
                 </div>
             </div>
             <div class="button-caps">
