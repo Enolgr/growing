@@ -284,6 +284,7 @@ footer {
   color: var(--colorlogo);
   font-weight: 400;
   font-size: 3.5rem;
+  width: 100%;
 }
 
 .newsletter {
@@ -299,9 +300,11 @@ footer {
   justify-content: first baseline;
   border-radius: 50px;
   margin-bottom: 2rem;
+  height: 55vh;
 }
 
 .contenedor-newsletter{
+  width: 55%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -433,8 +436,17 @@ input {
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
-  width: 100%;
-  text-align: center;
+  width: 90%;
+  text-align: left;
+  width: 50%;
+}
+
+.colapse-titulo-opiniones{
+  width: 87%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
 }
 
 .opinion {
@@ -516,3 +528,4 @@ input {
 .dot.active {
   opacity: 1;
 }
+
