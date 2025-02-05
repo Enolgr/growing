@@ -103,9 +103,33 @@ p {
   background-color: var(--verde);
 }
 
+
 .btn:disabled {
   background-color: var(--verdeclaro);
 }
+
+
+
+
+.yellow-btn{
+  font-family: "DM Sans", sans-serif;
+  border-radius: 0.75rem;
+  background-color: var(--amarillo);
+  color: var(--negro);
+  display: flex;
+  width: fit-content;
+  height: 2.625rem;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  transition: ease-in-out 0.3s;
+  border: none;
+  cursor: pointer;
+  
+}
+
+
 
 .card {
   border-radius: 0.875rem;

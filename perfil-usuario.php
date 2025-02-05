@@ -44,7 +44,7 @@
                 <!-- Apartdo datos de entrega -->
                 <div class="allData">
 
-                    <h2>Tus datos</h2>
+                    <h2 class="tus-datos">Tus datos</h2>
                     <div class="cuerpo-datos">
                     <div class="imgData">
                         <img src="./img/images/Foto-perfil.png">
@@ -55,6 +55,7 @@
                             <input type="text" id="name" name="name" placeholder="Nombre" required>
                             <input type="text" id="name" name="lastName" placeholder="Apellidos" required>
                         </div>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
                         <input type="text" id="adress" name="adress" placeholder="Dirección" required>
                         <input type="text" id="house" name="house" placeholder="Casa,apartamento,etc.(opcional)">
                         <div class="directionData">
@@ -72,21 +73,23 @@
                 <!-- Apartdo  empresa envío -->
                 <div class="deliveryMethod">
                     <hr>
-                    <h2>Tu suscripción</h2>
+                    <h2 class="tus-datos">Tu suscripción</h2>
+                    <div class="tu-suscripcion">
                     <div class="deliveryData" id="deliveryN1">
-                        <p>Nombre tarifa anual</p>
+                        <p class="cookie">Nombre tarifa anual</p>
                         <div class="totalPrice" id="totalPrice"><p>6,00 €</p></div>
                     </div>
                     <div class="suscriptButtons">
                         <button type="button" class="btn" id="payNow">Cambiar suscripción</button>
-                        <button type="button" class="btnYellow" id="payNow">Cancelar suscripción</button>
+                        <button type="button" class="yellow-btn" id="payNow">Cancelar suscripción</button>
+                    </div>
                     </div>
                     
                 </div>
                 <!-- Apartado de método de pago -->
                 <div class="payMethod">
                     <hr>
-                    <h2>Método de pago</h2>
+                    <h2 class="tus-datos">Método de pago</h2>
                     <p>Todas las transacciónes son seguras y están encriptadas</p>
                     <div class="creditCardContainer">
                             <input class="radius "type="radio" id="creditCard" name="payment"></input>
@@ -136,9 +139,9 @@
                 <hr>
                 <!-- Aquí se mostrará el total y el botón de pagar ahora -->
                     <div class="totalContainer">
-                        <div class="total" id="total"><h2>Gestión de cuenta</h2></div>
+                        <div class="total" id="total"><h2 class="tus-datos">Gestión de cuenta</h2></div>
                         <div class="priceAndButton">
-                            <button type="button" class="btn" id="payNow">Eliminar cuenta</button>
+                            <button type="button" class="yellow-btn" id="payNow">Eliminar cuenta</button>
                         </div>
                     </div>
             </div>

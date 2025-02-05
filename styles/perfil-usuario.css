@@ -53,11 +53,11 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 40%;
-  height: 35vh;
-  padding: 2rem;
-  background: var(--grisclaro);
+  height: fit-content;
+  padding: 1rem 2rem ;
+  background: var(--gristarjeta);
   border-radius: 2rem;
 }
 
@@ -111,8 +111,14 @@ input ::placeholder{
 
 }
 
-h2{
-  color:#2c4c46;
+.tus-datos{
+  color: #2C4C46;
+  font-family: "DM Sans";
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 31px */
+  width: 100%;
 }
 
 ul{
@@ -163,27 +169,37 @@ label{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin: 1 rem;
+  justify-content: space-between;
+
 }
 .imgData{
   display: flex;
-  flex-direction:row;
-  justify-content:center;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items: center;
+  height: 50vh;
+  width: 20%;
+}
 
-  
+.sendData{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 50vh;
+  width:80%;
 }
 
 .sendData input{
+  width: 100%;
   justify-content: space-between;
-  margin: 0.6rem 0;
 }
 
 .cuerpo-datos{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -191,22 +207,47 @@ label{
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  width: 100%;
 }
 
 .directionData{
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  width: 100%;
   
 }
 .deliveryData {
-  max-height: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.suscriptButtons{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: left;
-  flex-wrap: wrap;
+  justify-content: right;
+  width: 50%;
+  gap: 2rem;
 }
+.cookie{
+background-color: var(--amarillo);
+border-radius: 20px;
+width: fit-content;
+padding: 0.1rem 0.5rem ;
+}
+
+.tu-suscripcion{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+flex-wrap: wrap;}
 
 .subtitle {
   margin: 0 0 1rem 3rem;
@@ -276,6 +317,7 @@ margin-left: auto;
 
 .totalContainer{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 .totalTitle{
@@ -293,6 +335,14 @@ margin-left: auto;
   display: flex;
   justify-content:space-between;
   margin: 0.5rem 0 0 0;
+}
+
+.deliveryData p{
+  margin: 0 !important;
+}
+
+.custom-checkbox{
+  margin: 0 !important;
 }
 
 /*-------------------------Radios--------------------------------------------------------------------*/
