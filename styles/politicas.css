@@ -219,7 +219,7 @@ margin-left: auto;
 
 /* Efecto hover para el radio button */
 .radius:hover {
-    background-color: lightgray; /* Cambia el fondo a gris al pasar el mouse */
+    background-color: #F4F4F5; /* Cambia el fondo a gris al pasar el mouse */
     transition: background-color 0.3s ease; /* Agrega una transición suave */
 }
 
