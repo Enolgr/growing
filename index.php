@@ -17,22 +17,23 @@
       <!-- Slide 1 -->
       <div id="slide1" class="index-slide index-active">
         <div class="index-contenedor-slider">
-          <h2 class="index-hero-titulo">Hero de tarifas.</h2>
-          <button class="btn">Descubre las tarifas</button>
+          <h2 class="index-hero-titulo">Conoce nuestras tarifas.</h2>
+          <a href="./tarifas.php"><button class="btn">Descubrelas</button></a>
         </div>
       </div>
       <!-- Slide 2 -->
       <div id="slide2" class="index-slide">
         <div class="index-contenedor-slider">
-          <h2 class="index-hero-titulo">Ofertas increíbles.</h2>
-          <button class="btn">Conoce más</button>
+          <h2 class="index-hero-titulo">Mira la tienda, coño.</h2>
+          <a href="./tienda.php"><button class="btn">Descubre nuestra tienda</button></a>
         </div>
       </div>
       <!-- Slide 3 -->
       <div id="slide3" class="index-slide">
         <div class="index-contenedor-slider">
-          <h2 class="index-hero-titulo">Últimas novedades.</h2>
-          <button class="btn">Descúbrelo</button>
+          <h2 class="index-hero-titulo">Visita los cursos.</h2>
+          <a href="./cursos.php">
+          <button class="btn">Está guapisimo</button></a>
         </div>
       </div>
     </div>

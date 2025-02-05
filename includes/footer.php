@@ -4,10 +4,10 @@ echo '<footer>
       <div class="menu-footer">
         <img src="./img/icons/logo-white.svg" alt="">
         <div class="links">
-        <a href="#" class="enlace">Cursos</a>
-        <a href="#" class="enlace">Tienda</a>
-        <a href="#" class="enlace">Tarifas</a>
-        <a href="#" class="enlace">Iniciar sesión</a>
+        <a href="./cursos.php" class="enlace">Cursos</a>
+        <a href="./tienda.php" class="enlace">Tienda</a>
+        <a href="./tarifas.php" class="enlace">Tarifas</a>
+        <a href="./login.php" class="enlace">Iniciar sesión</a>
         </div>
       </div>
 
@@ -21,9 +21,9 @@ echo '<footer>
       </div>
 
       <div class="politics">
-        <a href="#">Política de privacidad</a>        
-        <a href="#">Aviso legal</a>
-        <a href="#">Política de cookies</a>
+        <a href="./politica-privacidad.php">Política de privacidad</a>        
+        <a href="./aviso-legal.php">Aviso legal</a>
+        <a href="./politica-cookies.php">Política de cookies</a>
       </div>
       <div class="copyright"><p class="copyright">Copyright © 2024 - GROWING</p></div>
     </footer>'
