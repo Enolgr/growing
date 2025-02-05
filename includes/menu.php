@@ -9,8 +9,10 @@ echo '
     <span class="anchor-bg"><a href="#4">Lo más popular</a></span>
     <div class="icons-nav">
     <a href="./carrito-compra.php">
+    <div class="iconos-menu">
         <img src="./img/icons/Carrito.svg" alt="carrito"></a>
         <a href="./perfil-usuario.php"><img src="./img/icons/Perfil.svg" alt="perfil"></a>
+        </div>
     </div>
 </div>
 </header>'

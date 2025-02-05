@@ -160,6 +160,15 @@ p {
   height: fit-content;
 }
 
+.iconos-menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 .anchor-bg a {
   padding: 0.7rem;
   color: white;
