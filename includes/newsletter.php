@@ -7,7 +7,7 @@ echo '    <section class="newsletter">
         <input class="input" type="email" name="email" id="email" placeholder="Correo electrónico">
         </div>
         <div class="contenedor-boton">
-        <button class="boton">Enviar</button>
+        <button class="boton">Suscríbete</button>
         </div>
         </div>
     </section>'

@@ -46,8 +46,9 @@
   </div>
 </div>
 
+<div class="contenedor-marquee">
   <?php include_once "./includes/marquee-solid.php"; ?>
-
+  </div> 
   <div class="cursos-top">
 
         <h3 class="titulo-seccion-h3">Los cursos más top</h3>

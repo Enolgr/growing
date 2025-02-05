@@ -26,7 +26,7 @@
   height: 400px;
   transition: transform 1s ease-in-out; /* Desplazamiento suave */
   border-radius: 30px;
-  height: 45vh;
+  height: 70vh;
 }
 
 /* Cada slide */
@@ -97,14 +97,19 @@
 
 /* Resto del CSS sin modificaciones */
 
+.contenedor-marquee{
+  height: fit-content;
+}
+
 .cursos-top {
-  height: 40vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   width: 90%;
+  margin: 4rem 0;
 }
 
 .titulo-seccion-h3 {
@@ -123,8 +128,8 @@
 .cursos-top-grid {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  gap: 1rem;
   width: 100%; 
 }
 
@@ -133,16 +138,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  max-width: 180px;
+  width: fit-content;
   height: auto;
   gap: 0.5rem;
 }
 
 .image-card {
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
+  height: 17vw;
+  border-radius: 30px;
   object-fit: cover;
 }
 
