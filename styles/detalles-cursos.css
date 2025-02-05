@@ -73,7 +73,7 @@ margin: 5rem 0;
     align-items: center;
     justify-content: left;
     gap: 1rem;
-    width: 60%;
+    width: 80%;
 }
 
 .contenedor-precio p{
@@ -174,17 +174,18 @@ margin: 5rem 0;
 
 .contenedor-especificaciones{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 80%;
+
 }
 
 .especificaciones{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 }
 
 .especificaciones p{
@@ -198,10 +199,11 @@ margin: 5rem 0;
 
 .valor-especificaciones{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 96%;
+    width: fit-content;
+    gap: 1rem;
 }
 
 .valor-especificaciones p {
@@ -213,6 +215,9 @@ margin: 5rem 0;
     line-height: normal;
 }
 
+#horas{
+   width: 100%;
+}
 .icons{
     width: 100%;
     display: flex;

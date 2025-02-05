@@ -31,11 +31,12 @@
                     <div class="contenedor-especificaciones" >
                      <div class="especificaciones" >
                         <p>Dificultad</p>
-                        <p>Duracion</p>
+                        <img src="./img/icons/4.5stars.svg" alt="">
+
                      </div>
                      <div class="valor-especificaciones" >
-                        <img src="./img/icons/4.5stars.svg" alt="">
-                        <p>12 horas</p>
+                     <p>Duracion</p>
+                        <p id="horas">12 horas</p>
                      </div>
 
                     </div>
