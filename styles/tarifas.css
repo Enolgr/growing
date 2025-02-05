@@ -42,8 +42,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 1rem;
     align-items: center;
-    gap: 20px;
+    width: fit-content;
     margin: 1rem;
 }
 
@@ -51,6 +52,7 @@
     background-color: #FEC034;
     border-radius: 20px;
     padding: 5px 10px;
+    width: fit-content;
 }
 
 .tarifas{
@@ -170,3 +172,116 @@ margin-bottom: 2rem;
     border-radius: 25px;
 }
 
+.periodicidad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.mes{
+    width: fit-content;
+}
+.switch{
+    width: fit-content;
+}
+:root {
+    /* Colores */
+    --switch-color-active: #41a50c;
+    --switch-color-inactive: var(--colorlogo);
+  
+    /* Dimensiones del contenedor */
+    --switch-container-width: 4rem;
+    /* La altura es variable: se puede sobrescribir la variable --switch-height en otro lugar;
+       si no se define, se usa 1rem por defecto */
+    --switch-container-height: var(--switch-height, 2rem);
+  
+    /* Espaciado y dimensiones internas (calculadas proporcionalmente a la altura) */
+    --switch-button-spacing: calc(var(--switch-container-height) * 0.1);
+    --switch-button-diameter: calc(var(--switch-container-height) - (var(--switch-button-spacing) * 2));
+    --switch-button-travel: calc(
+      var(--switch-container-width) - var(--switch-button-diameter) - (var(--switch-button-spacing) * 2)
+    );
+  
+    /* Transición */
+    --switch-transition-duration: 150ms;
+  
+    /* Opcional: dimensiones para un ícono interno (si se utiliza) */
+    --switch-icon-width: calc(var(--switch-button-diameter) * 0.66);
+    --switch-icon-height: calc(var(--switch-button-diameter) * 0.5);
+    --switch-icon-top: calc(50% - var(--switch-icon-height) / 2);
+    --switch-icon-left: calc(var(--switch-button-spacing) + (var(--switch-button-diameter) - var(--switch-icon-width)) / 2);
+  }
+  
+  .switch {
+    display: inline-block;
+    position: relative;
+    width: var(--switch-container-width);
+    height: var(--switch-container-height);
+  }
+  
+  .switch__input {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    appearance: none;
+    background-color: var(--switch-color-inactive);
+    border-radius: 9999px;
+    transition: background-color var(--switch-transition-duration) linear;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  /* Botón (círculo) interno */
+  .switch__input::before {
+    content: "";
+    position: absolute;
+    top: var(--switch-button-spacing);
+    left: var(--switch-button-spacing);
+    width: var(--switch-button-diameter);
+    height: var(--switch-button-diameter);
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform var(--switch-transition-duration) ease-in-out;
+  }
+  
+  /* Ícono opcional (puedes personalizar el background-image según necesites) */
+  .switch__input::after {
+    content: "";
+    position: absolute;
+    top: var(--switch-icon-top);
+    left: var(--switch-icon-left);
+    width: var(--switch-icon-width);
+    height: var(--switch-icon-height);
+    opacity: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform var(--switch-transition-duration) ease-in-out,
+      opacity var(--switch-transition-duration) linear;
+    pointer-events: none;
+  }
+  
+  /* Estado activo */
+  .switch__input:checked {
+    background-color: var(--switch-color-active);
+  }
+  
+  .switch__input:checked::before,
+  .switch__input:checked::after {
+    transform: translateX(var(--switch-button-travel));
+  }
+  
+  .switch__input:checked::after {
+    opacity: 1;
+  }
+  
+  /* Enfoque accesible */
+  .switch__input:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+  
+  
+  

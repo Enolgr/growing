@@ -32,14 +32,21 @@
         <div  id="oferta" >
             <p>Oferta</p>
         </div>
+
+        <div class="periodicidad">
         <div class="año" >
-            <p>Anual</p>
+            <div class="mes "><p>Anual</p></div>
         </div>
-        <div class="selector" >
-            <img src="" alt="">
-        </div>
+    
+
+        <div contenedor="switch">
+        <label for="toggle" class="switch">
+  <input type="checkbox" name="toggle" id="toggle" class="switch__input" />
+</label>
+</div>
         <div class="mes" >
-            <p>Mensual</p>
+            <div class="mes"><p>Mensual</p></div>
+        </div>
         </div>
     </div>
 
