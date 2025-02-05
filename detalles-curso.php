@@ -2,73 +2,118 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Descripción del curso</title>
-   <link rel="stylesheet" href="./styles/normalize.css" />
-   <link rel="stylesheet" href="./styles/general.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles producto</title>
+
+    <!-- CSS & normalize -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/detalles-cursos.css">
 </head>
 
 <body>
-   <!-- Aqui iria el nav -->
-   <?php include_once "./includes/menu.php"?>
+    <?php include_once "./includes/menu.php" ?>
 
-   <!-- Informacion del curso -->
-   <div class="info-curso">
-      <h1 id="">Título</h1>
-      <div class="description">
-         <p id="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatum quae minima est sequi
-            quibusdam dicta laudantium, magni autem dolorem nostrum magnam perferendis suscipit impedit at fuga ad
-            facilis in.</p>
-      </div>
-      <div class="detalles-curso">
-         <div class="dificultad">
-            <p id="">Dificultad</p>
-            <!-- Falta hacer el scroll dinámico de las estrellas -->
-            <img src="./img/icons/5stars.svg" alt="">
-         </div>
-         <div class="duracion">
-            <p id="">Duracion</p>
-            <p id="tiempo">2h</p>
-         </div>
-      </div>
+    <section class="card" id="card">
 
-      <div class="botones">
-         <button class="btn">Ver curso</button>
-         <button class="btn">Materiales</button>
-      </div>
-      
-      <div class="img-curso">
-         <img src="./img/images/pexels-gary-barnes-6231819.webp" alt="curso tijeras">
-      </div>
-   </div>
+            <div class="producto">
 
-   <!-- Otros cursos -->
-   <div class="otros-cursos"></div>
-   <h2>Otros cursos relacionados</h2>
-   <div class="cursos">
-      <div class="detalles-curso">
-         <div class="img-curso">
-            <img src="./img/images/pexels-cottonbro-4503269.webp" alt="curso palas">
-         </div>
-         <h2>Titulo curso</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laboriosam totam beatae, dignissimos
-            consequatur odit? Eaque officiis quam illo aut velit. Nemo cumque obcaecati aliquid exercitationem.
-            Blanditiis eligendi quaerat excepturi?</p>
+                <div class="texto-producto" >
 
-         <!-- Redirigir a la pagina de detalles del curso -->
-         <a href="#"><button>Ver curso</button></a>
+                    <div class="texto" >
 
-         <div class="icons">
-            <img src="./img/icons/Fav.svg" alt="favoritos">
-         </div>
-      </div>
-   </div>
+                    <h3>Titulo curso</h3>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Mus quisque condimentum volutpat maximus, potenti interdum ridiculus! Ornare integer taciti luctus nascetur cursus inceptos aptent natoque. Condimentum volutpat nascetur; sem urna etiam magna accumsan varius mus. Curae natoque fringilla pulvinar nam morbi quis torquent. Aptent ex facilisi posuere diam pretium pretium; diam commodo. Morbi faucibus porttitor urna elit; orci cras aenean ligula porta? Sociosqu interdum eu sem; montes malesuada platea nulla at. Dictum maecenas ex duis tempus urna inceptos aptent sem sodales.</p>
 
-   <?php include_once("./includes/marquee.php") ?>
+                    </div>
 
-   <!-- Aqui va el footer -->
+                    <div class="contenedor-especificaciones" >
+                     <div class="especificaciones" >
+                        <p>Dificultad</p>
+                        <p>Duracion</p>
+                     </div>
+                     <div class="valor-especificaciones" >
+                        <img src="./img/icons/4.5stars.svg" alt="">
+                        <p>12 horas</p>
+                     </div>
 
+                    </div>
+
+                    <div class="contenedor-precio">
+
+                        <a href="./reproductor.php"><button class="btn" >Ver curso</button></a>
+                        <a href="./materiales.php"><button class="btn" >Materiales</button></a>
+
+                    </div>
+
+                </div>
+
+                <div class="imagen-producto">
+
+                    <img src="./img/images/img-cursos.webp" alt="">
+
+                </div>
+
+            </div>
+
+    </section>
+
+    <section class="contenedor-otros-productos">
+    <h2 id="otros-productos" >Otros cursos relacionados</h2>
+
+    <div class="otros-productos">
+
+        <div class="producto-card card">
+
+            <img src="./img/images/img-cursos.webp" alt="">
+
+            <p class="nombre" >Título curso</p>
+
+            <p class="precio" >Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit porro est qui dolorem ip...</p>
+
+            <div class="icons">
+                <a href="#"><button class="boton" >Ver curso</button></a>
+                <img src="./img/icons/Fav.svg" alt="favoritos">
+            </div>
+
+        </div>
+
+                <div class="producto-card card">
+
+            <img src="./img/images/img-cursos.webp" alt="">
+
+            <p class="nombre" >Título curso</p>
+
+            <p class="precio" >Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit porro est qui dolorem ip...</p>
+
+            <div class="icons">
+                <a href="#"><button class="boton">Ver curso</button></a>
+                <img src="./img/icons/Fav.svg" alt="favoritos">
+            </div>
+
+        </div>
+
+        <div class="producto-card card">
+
+            <img src="./img/images/img-cursos.webp" alt="">
+
+            <p class="nombre" >Título curso</p>
+
+            <p class="precio" >Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit porro est qui dolorem ip...</p>
+
+            <div class="icons">
+                <a href="#"><button class="boton" >Ver curso</button></a>
+                <img src="./img/icons/Fav.svg" alt="favoritos">
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <?php include "./includes/marquee.php" ?>
+    <?php include "./includes/footer.php" ?>
 </body>
 
 </html>
