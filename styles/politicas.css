@@ -65,10 +65,14 @@ label{
 .check-checkout p{
     margin-left: 0.4rem;
 }
+.sendData {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 .sendData input{
     justify-content: space-between;
-    margin: 0.6rem 0;
 }
 .nameLast{
     display: flex;
@@ -213,10 +217,15 @@ margin-left: auto;
     background-color: green; /* Círculo interior verde cuando está seleccionado */
 }
 
+/* Efecto hover para el radio button */
+.radius:hover {
+    background-color: lightgray; /* Cambia el fondo a gris al pasar el mouse */
+    transition: background-color 0.3s ease; /* Agrega una transición suave */
+}
+
 /* Estilo del label para alinear el texto */
 label {
     margin-left: 10px;
     cursor: pointer;
 }
-
 
