@@ -38,7 +38,7 @@
             <h2 class="nombre-curso">Producto</h2>
             <p>6,00 €</p>
             <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn2" id="btn2">Añadir al carrito</button></a>
+                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
             </div>
         </div>
 
@@ -49,7 +49,7 @@
             <h2 class="nombre-curso">Producto</h2>
             <p>6,00 €</p>
             <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn2" id="btn2">Añadir al carrito</button></a>
+                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
             </div>
         </div>
 
@@ -60,7 +60,7 @@
             <h2 class="nombre-curso">Producto</h2>
             <p>6,00 €</p>
             <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn2" id="btn2">Añadir al carrito</button></a>
+                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
             </div>
         </div>
 
@@ -71,7 +71,7 @@
             <h2 class="nombre-curso">Producto</h2>
             <p>6,00 €</p>
             <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn2" id="btn2">Añadir al carrito</button></a>
+                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
             </div>
         </div>
 
@@ -82,7 +82,7 @@
             <h2 class="nombre-curso">Producto</h2>
             <p>6,00 €</p>
             <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn2" id="btn2">Añadir al carrito</button></a>
+                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
             </div>
         </div>
 
@@ -93,7 +93,7 @@
             <h2 class="nombre-curso">Producto</h2>
             <p>6,00 €</p>
             <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn2" id="btn2">Añadir al carrito</button></a>
+                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
             </div>
         </div>
         </div>

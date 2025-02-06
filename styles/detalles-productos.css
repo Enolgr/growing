@@ -19,7 +19,9 @@ h3{
     line-height: 100%; /* 39px */
 
 }
-
+.producto-card .btn{
+    width: 100% !important;
+}
 
 .card{
     width: 90%;

@@ -3,7 +3,7 @@
     background-color: var(--gristarjeta);
     border-radius: 40px;
     width: 90%;
-    padding: 2rem;
+    padding: calc(4rem - 2px) 4rem ;
     margin: 4rem 0 8rem 0; /*No se debe aplicar mas de 2 rem pero en este caso debe hacerse ya que las medidas lo requieren*/
 }
 
@@ -160,6 +160,7 @@ margin-left: auto;
 .totalContainer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .totalTitle{
     color:#2c4c46;
@@ -189,7 +190,7 @@ margin-left: auto;
     height: 1.4rem;
     border-radius: 50%; /* Hace que el radio button sea redondo */
     border: 2px solid green; /* Borde verde */
-    background-color: white; /* Fondo blanco por defecto */
+    background-color: transparent; /* Fondo blanco por defecto */
     position: relative;
     cursor: pointer;
     transition: background-color 0.3s ease, border-color 0.3s ease;
@@ -220,3 +221,6 @@ label {
 }
 
 
+.paymentOption{
+    height: 2rem;
+}

@@ -55,7 +55,7 @@
 
             <div class="contenedor-info dificultad">
 
-                <h3>1 .Dificultad</h3>
+                <h3>1. Dificultad</h3>
 
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
 
@@ -85,7 +85,7 @@
 
             <div class="contenedor-info riesgo">
 
-                <h3>4. riesgo</h3>
+                <h3>4. Riego</h3>
 
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, minima magnam temporibus maiores, exercitationem, dolores laborum deserunt voluptas repudiandae voluptates provident eos et? Nobis, laborum? Delectus placeat expedita deleniti recusandae!</p>
 

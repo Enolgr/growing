@@ -83,6 +83,9 @@ gap: 2rem;
 }
 
 #mejor-opcion{
+    position: relative;
+    z-index: 999;
+    top: -45px;
     background-color: #FEC034;
     border-radius: 20px;
     padding: 5px 10px;
@@ -187,8 +190,8 @@ margin-bottom: 2rem;
 }
 :root {
     /* Colores */
-    --switch-color-active: #41a50c;
-    --switch-color-inactive: var(--colorlogo);
+    --switch-color-active: var(--colorlogo);
+    --switch-color-inactive: #41a50c;
   
     /* Dimensiones del contenedor */
     --switch-container-width: 4rem;

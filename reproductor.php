@@ -16,7 +16,7 @@
         <div class="reproductor">
             <div class="tituloReproductor">
                 <a href="./mis-cursos.php"><img src="./img/icons/green-arrow-left.svg"></a>
-                <h2>Capítulo 1, Título curso</h2>
+                <h2>Capítulo 1 - Título curso</h2>
             </div>
             <div class="video">
                 <div id="play-button">

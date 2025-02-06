@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <main>
     <?php include_once "./includes/menu.php" ?>
 
     <section class="card" id="card">
@@ -112,6 +113,7 @@
 
     </div>
     </section>
+    </main>
 
     <?php include "./includes/marquee.php" ?>
     <?php include "./includes/footer.php" ?>

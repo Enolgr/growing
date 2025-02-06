@@ -14,7 +14,7 @@
     <!-- Menu -->
     <?php include_once "./includes/menu.php" ?>
     <section class= "legalContainer">
-        <h1 class="title">Política de Cookies</h1>
+        <h1 class="title">Aviso legal</h1>
         <p><strong>Última actualización:</strong> 18 de diciembre de 2024</p>
 
         <p>El presente Aviso Legal regula las condiciones de uso del sitio web <strong>Growing</strong> cuya titularidad

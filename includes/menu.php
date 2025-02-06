@@ -6,7 +6,7 @@ echo '
     <a href="./cursos.php">Cursos</a>
     <a href="./tienda.php">Tienda</a>
     <a href="./tarifas.php">Tarifas</a>
-    <span class="anchor-bg"><a href="#4">Lo más popular</a></span>
+    <span class="anchor-bg"><a href="./top.php">Lo más popular</a></span>
     <div class="icons-nav">
     <a href="./carrito-compra.php">
     <div class="iconos-menu">
