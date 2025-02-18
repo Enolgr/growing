@@ -6,44 +6,94 @@ document.addEventListener('DOMContentLoaded', function () {
   const totalSlides = slides.length;
   let slideInterval;
 
-  // Mostrar el slide actual desplazándolo lateralmente
-  function showSlide(index) {
-    slider.style.transform = `translateX(-${index * 100}%)`;
+  // Clone first and last slides
+  const firstSlideClone = slides[0].cloneNode(true);
+  const lastSlideClone = slides[totalSlides - 1].cloneNode(true);
+  slider.appendChild(firstSlideClone);
+  slider.insertBefore(lastSlideClone, slides[0]);
+
+  // Adjust initial position to show first real slide
+  slider.style.transform = `translateX(-100%)`;
+
+  function showSlide(index, transition = true) {
+    if (transition) {
+      slider.style.transition = 'transform 0.5s ease-in-out';
+    } else {
+      slider.style.transition = 'none';
+    }
+    
+    // Adjust for cloned slides (index + 1 because of prepended clone)
+    slider.style.transform = `translateX(-${(index + 1) * 100}%)`;
+    
+    // Update dots
     dots.forEach((dot, i) => {
       dot.classList.toggle('index-active', i === index);
     });
   }
 
-  // Ir al siguiente slide
   function nextSlide() {
-    currentSlide = (currentSlide + 1) % totalSlides;
+    currentSlide++;
     showSlide(currentSlide);
+
+    // If we're at the clone of the first slide
+    if (currentSlide === totalSlides) {
+      setTimeout(() => {
+        currentSlide = 0;
+        showSlide(currentSlide, false);
+      }, 500);
+    }
   }
 
-  // Ir a un slide específico (cuando se hace clic en un punto)
+  function prevSlide() {
+    currentSlide--;
+    showSlide(currentSlide);
+
+    // If we're at the clone of the last slide
+    if (currentSlide === -1) {
+      setTimeout(() => {
+        currentSlide = totalSlides - 1;
+        showSlide(currentSlide, false);
+      }, 500);
+    }
+  }
+
   function goToSlide(index) {
     currentSlide = index;
     showSlide(currentSlide);
     resetAutoSlide();
   }
 
-  // Reiniciar el temporizador del slider automático
   function resetAutoSlide() {
     clearInterval(slideInterval);
     startAutoSlide();
   }
 
-  // Slider automático
   function startAutoSlide() {
     slideInterval = setInterval(nextSlide, 3000);
   }
 
-  // Asignar eventos a los puntos de navegación
+  // Event listeners
   dots.forEach((dot, index) => {
     dot.addEventListener('click', () => goToSlide(index));
   });
 
-  // Inicialización
-  showSlide(currentSlide);
+  // Touch events for mobile
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  slider.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+  });
+
+  slider.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    if (touchStartX - touchEndX > 50) {
+      nextSlide();
+    } else if (touchEndX - touchStartX > 50) {
+      prevSlide();
+    }
+  });
+
+  // Start automatic sliding
   startAutoSlide();
 });
