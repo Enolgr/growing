@@ -78,17 +78,18 @@ max-width:1200px;
     width: 367px;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 padding: 2rem;
 background-color: var(--gristarjeta);
 gap: 2rem;
+position: relative;
 }
 
 #mejor-opcion{
-    position: relative;
+    position: absolute;
     z-index: 999;
-    top: -45px;
+    top: -10px;
     background-color: #FEC034;
     border-radius: 20px;
     padding: 5px 10px;

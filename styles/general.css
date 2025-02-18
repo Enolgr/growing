@@ -539,7 +539,8 @@ input:hover{
 }
 
 .colapse-titulo-opiniones{
-  width: 87%;
+  width: 85%;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: left;

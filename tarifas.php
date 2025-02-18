@@ -20,21 +20,11 @@
       <h1>Aprende sobre botánica con el plan ideal para ti</h1>
     </div>
     <div class="iconos">
-      <div class="hover-oscuro">
-        <img src="./img/icons/planta4.svg" alt="">
-      </div>
-      <div class="hover-oscuro">
-        <img src="./img/icons/planta5.svg" alt="">
-      </div>
-      <div class="hover-oscuro">
-        <img src="./img/icons/planta6.svg" alt="">
-      </div>
-      <div class="hover-oscuro">
-        <img src="./img/icons/planta7.svg" alt="">
-      </div>
-      <div class="hover-oscuro">
-        <img src="./img/icons/planta8.svg" alt="">
-      </div>
+      <img src="./img/icons/planta4.svg" alt="">
+      <img src="./img/icons/planta5.svg" alt="">
+      <img src="./img/icons/planta6.svg" alt="">
+      <img src="./img/icons/planta7.svg" alt="">
+      <img src="./img/icons/planta8.svg" alt="">
     </div>
   </div>
 
@@ -77,21 +67,15 @@
 
       <div class="contenedor-ventajas">
         <div class="ventaja">
-          <div class="hover-oscuro">
-            <img src="./img/icons/Frame 141.svg" alt="">
-          </div>
+          <img src="./img/icons/Frame 141.svg" alt="">
           <p>Ventaja 1</p>
         </div>
         <div class="ventaja">
-          <div class="hover-oscuro">
-            <img src="./img/icons/Frame 141.svg" alt="">
-          </div>
+          <img src="./img/icons/Frame 141.svg" alt="">
           <p>Ventaja 2</p>
         </div>
         <div class="ventaja">
-          <div class="hover-oscuro">
-            <img src="./img/icons/Frame 141.svg" alt="">
-          </div>
+          <img src="./img/icons/Frame 141.svg" alt="">
           <p>Ventaja 3</p>
         </div>
       </div>
@@ -101,7 +85,7 @@
 
     <div class="card">
       <div id="mejor-opcion">
-        <p>Mejor opcion</p>
+        <p>Mejor opción</p>
       </div>
 
       <div class="titulo-tarifa">
@@ -116,21 +100,15 @@
 
       <div class="contenedor-ventajas">
         <div class="ventaja">
-          <div class="hover-oscuro">
-            <img src="./img/icons/Frame 141.svg" alt="">
-          </div>
+          <img src="./img/icons/Frame 141.svg" alt="">
           <p>Ventaja 1</p>
         </div>
         <div class="ventaja">
-          <div class="hover-oscuro">
-            <img src="./img/icons/Frame 141.svg" alt="">
-          </div>
+          <img src="./img/icons/Frame 141.svg" alt="">
           <p>Ventaja 2</p>
         </div>
         <div class="ventaja">
-          <div class="hover-oscuro">
-            <img src="./img/icons/Frame 141.svg" alt="">
-          </div>
+          <img src="./img/icons/Frame 141.svg" alt="">
           <p>Ventaja 3</p>
         </div>
       </div>
@@ -151,21 +129,15 @@
 
       <div class="contenedor-ventajas">
         <div class="ventaja">
-          <div class="hover-oscuro">
-            <img src="./img/icons/Frame 141.svg" alt="">
-          </div>
+          <img src="./img/icons/Frame 141.svg" alt="">
           <p>Ventaja 1</p>
         </div>
         <div class="ventaja">
-          <div class="hover-oscuro">
-            <img src="./img/icons/Frame 141.svg" alt="">
-          </div>
+          <img src="./img/icons/Frame 141.svg" alt="">
           <p>Ventaja 2</p>
         </div>
         <div class="ventaja">
-          <div class="hover-oscuro">
-            <img src="./img/icons/Frame 141.svg" alt="">
-          </div>
+          <img src="./img/icons/Frame 141.svg" alt="">
           <p>Ventaja 3</p>
         </div>
       </div>
