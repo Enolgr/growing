@@ -15,87 +15,102 @@
     
     <div class="lorem-ipsum">
         <div class="titulo">
-        <h1>No sólo haz cursos, también<br> compra nuestros productos ;)</h1>
-    <div class="iconos">
-
-        <img class="plantita" src="./img/icons/planta1.svg" alt="">
-        <img class="plantita" src="./img/icons/planta2.svg" alt="">
-        <img class="plantita" src="./img/icons/planta3.svg" alt="">
-    </div>
-    
-    </div>
+            <h1>No sólo haz cursos, también<br> compra nuestros productos ;)</h1>
+            <div class="iconos">
+                <img class="plantita" src="./img/icons/planta1.svg" alt="">
+                <img class="plantita" src="./img/icons/planta2.svg" alt="">
+                <img class="plantita" src="./img/icons/planta3.svg" alt="">
+            </div>
+        </div>
         <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Netus pretium dictum auctor integer magnis suscipit justo orci. Lorem ipsum odor amet, consectetuer adipiscing elit. 😊</p>
     </div>
     
-
-    <!-- Información cursos -->
+    <!-- Información productos -->
     <section class="cursos">
         <div class="cursos-list">
-        <div class="detalles-curso">
-            <div class="img-curso">
-                <img src="./img/images/pexels-cottonbro-4503269.webp" alt="curso palas">
+            <div class="detalles-curso">
+                <div class="img-curso">
+                    <div class="contenedor-hover">
+                        <img src="./img/images/crop.webp" alt="producto">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <h2 class="nombre-curso">Producto</h2>
+                <p>6,00 €</p>
+                <div class="icons">
+                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                </div>
             </div>
-            <h2 class="nombre-curso">Producto</h2>
-            <p>6,00 €</p>
-            <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
-            </div>
-        </div>
 
-        <div class="detalles-curso">
-            <div class="img-curso">
-                <img src="./img/images/pexels-cottonbro-4503269.webp" alt="curso palas">
+            <div class="detalles-curso">
+                <div class="img-curso">
+                    <div class="contenedor-hover">
+                        <img src="./img/images/crop.webp" alt="producto">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <h2 class="nombre-curso">Producto</h2>
+                <p>6,00 €</p>
+                <div class="icons">
+                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                </div>
             </div>
-            <h2 class="nombre-curso">Producto</h2>
-            <p>6,00 €</p>
-            <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
-            </div>
-        </div>
 
-        <div class="detalles-curso">
-            <div class="img-curso">
-                <img src="./img/images/pexels-cottonbro-4503269.webp" alt="curso palas">
+            <div class="detalles-curso">
+                <div class="img-curso">
+                    <div class="contenedor-hover">
+                        <img src="./img/images/crop.webp" alt="producto">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <h2 class="nombre-curso">Producto</h2>
+                <p>6,00 €</p>
+                <div class="icons">
+                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                </div>
             </div>
-            <h2 class="nombre-curso">Producto</h2>
-            <p>6,00 €</p>
-            <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
-            </div>
-        </div>
 
-        <div class="detalles-curso">
-            <div class="img-curso">
-                <img src="./img/images/pexels-cottonbro-4503269.webp" alt="curso palas">
+            <div class="detalles-curso">
+                <div class="img-curso">
+                    <div class="contenedor-hover">
+                        <img src="./img/images/crop.webp" alt="producto">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <h2 class="nombre-curso">Producto</h2>
+                <p>6,00 €</p>
+                <div class="icons">
+                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                </div>
             </div>
-            <h2 class="nombre-curso">Producto</h2>
-            <p>6,00 €</p>
-            <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
-            </div>
-        </div>
 
-        <div class="detalles-curso">
-            <div class="img-curso">
-                <img src="./img/images/pexels-cottonbro-4503269.webp" alt="curso palas">
+            <div class="detalles-curso">
+                <div class="img-curso">
+                    <div class="contenedor-hover">
+                        <img src="./img/images/crop.webp" alt="producto">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <h2 class="nombre-curso">Producto</h2>
+                <p>6,00 €</p>
+                <div class="icons">
+                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                </div>
             </div>
-            <h2 class="nombre-curso">Producto</h2>
-            <p>6,00 €</p>
-            <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
-            </div>
-        </div>
 
-        <div class="detalles-curso">
-            <div class="img-curso">
-                <img src="./img/images/pexels-cottonbro-4503269.webp" alt="curso palas">
+            <div class="detalles-curso">
+                <div class="img-curso">
+                    <div class="contenedor-hover">
+                        <img src="./img/images/crop.webp" alt="producto">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <h2 class="nombre-curso">Producto</h2>
+                <p>6,00 €</p>
+                <div class="icons">
+                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                </div>
             </div>
-            <h2 class="nombre-curso">Producto</h2>
-            <p>6,00 €</p>
-            <div class="icons">
-                <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
-            </div>
-        </div>
         </div>
         <div class="paginacion">
             <button class="pagina">1</button>
@@ -106,16 +121,16 @@
             <button class="pagina">...</button>
             <button class="pagina">10</button>
         </div>
-
     </section>
 
-    <!-- Aqui iria la paginación de los cursos  -->
     <!-- Newsletter -->
     <?php include_once "./includes/newsletter.php"; ?>
 
     <!-- Marquee & Footer -->
-    <?php include_once "./includes/marquee.php";
-    include_once "./includes/footer.php"; ?>
+    <?php 
+        include_once "./includes/marquee.php";
+        include_once "./includes/footer.php"; 
+    ?>
 
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="./scripts/estrellas.js"></script>
