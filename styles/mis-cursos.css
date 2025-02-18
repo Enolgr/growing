@@ -1,6 +1,7 @@
 h1{
     margin-top: 5rem;
-    width: 91%;
+    width: 95%;
+    max-width: 1200px;
     text-align: left;
     color: #2C4C46;
     font-size: 61px;
@@ -9,6 +10,8 @@ h1{
 }
 
 .cursos{
+    width: 85%;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -28,6 +31,7 @@ h1{
 }
 
 .detalles-curso{
+    background-color: var(--gristarjeta);
     display: flex;
     width: 367px;
     padding: 20px;
@@ -36,7 +40,6 @@ h1{
     align-items: flex-start;
     gap: 30px;
     border-radius: 40px;
-    background: #FFFFFF;
 }
 
 .img-curso{
@@ -78,3 +81,27 @@ h1{
     width: 89%;
     margin: 10rem;
 }
+
+.img-curso {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden; /* Asegura que el overlay no se desborde */
+  }
+  
+  .img-curso::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Negro semitransparente */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .img-curso:hover::after {
+    opacity: 1;
+  }
+  

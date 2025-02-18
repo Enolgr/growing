@@ -33,7 +33,7 @@
 
     <section class="instruciones">
 
-    <h2 class="info-instruciones">Instrucciones</h2>
+    <h2 class="info-instruciones">Caítulos del curso</h2>
 
         <div class="card info-producto">
 

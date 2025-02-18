@@ -61,7 +61,7 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 14px;
+    border-radius: 25px;
 }
 
 #play-button {
@@ -72,7 +72,7 @@ hr {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.493);
-    border-radius: 14px;
+    border-radius: 25px;
     overflow: hidden;
 }
 
@@ -125,6 +125,11 @@ hr {
     margin-bottom: 5rem;
     border-radius: 40px;
     margin: 3rem 0 5rem 0;
+}
+
+.card h3:hover{
+    color: var(--verde);
+    cursor: pointer;
 }
 
 .linea {
