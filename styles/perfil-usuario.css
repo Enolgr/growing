@@ -1,5 +1,6 @@
 .titulo-card {
-  width: 90%;
+  width: 85%;
+  max-width: 1200px;
   height: fit-content;
   color: var(--colorlogo);
   display: flex;
@@ -41,9 +42,11 @@ p {
 }
 
 .contenedor-cards {
+  gap: 3rem;
   display: flex;
   height: 45vh;
-  width: 90%;
+  width: 85%;
+  max-width: 1200px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -187,7 +190,7 @@ label{
   align-items: center;
   justify-content: space-between;
   height: 50vh;
-  width:80%;
+  width:70%;
 }
 
 .sendData input{
