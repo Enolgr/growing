@@ -2,7 +2,8 @@
 .legalContainer {
     background-color: var(--gristarjeta);
     border-radius: 40px;
-    width: 90%;
+    width: 85%;
+max-width:1200px;
     padding: calc(4rem - 2px) 4rem ;
     margin: 4rem 0 8rem 0; /*No se debe aplicar mas de 2 rem pero en este caso debe hacerse ya que las medidas lo requieren*/
 }
@@ -49,7 +50,8 @@ label{
 .titleArrow{
     display: flex;
     justify-content: start;
-    width: 90%;
+    width: 85%;
+max-width:1200px;
     gap: 1rem;
     margin:1rem 0 1rem 0;
 }
