@@ -16,6 +16,7 @@ h2 {
 }
 
 .contenedor-card {
+  max-width: 1200px;
   display: flex;
   height: 90vh;
   flex-direction: column;

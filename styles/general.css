@@ -135,13 +135,14 @@ p {
 .card {
   border-radius: 0.875rem;
   background: var(--gristarjeta);
+  width: 100%;
 }
 
 .card-oscura {
   border-radius: 0.875rem;
   background: var(--grisclaro);
-  width: fit-content;
   padding: 2rem 4rem;
+  width: 100%!important;
 }
 
 .titulo-card {
@@ -156,7 +157,7 @@ p {
 /* Menu */
 
 #menu {
-  width: 85%;
+  width: 85%; max-width:1200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -380,7 +381,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 85%;
+  width: 85%; max-width:1200px;
   padding: 2rem;
   display: flex;
   flex-direction: row;
@@ -524,7 +525,7 @@ input {
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
-  width: 85%;
+  width: 85%; max-width:1200px;
   text-align: left;
   width: 50%;
 }
@@ -573,7 +574,7 @@ input {
 /* Slider */
 
 .slider-wrapper {
-  width: 85%;
+  width: 85%; max-width:1200px;
   overflow: hidden;
   margin: 0 auto;
   background-color: #2C4C46;
