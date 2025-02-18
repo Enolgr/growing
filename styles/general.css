@@ -11,6 +11,7 @@
   --gris: #505050;
   --colorlogo: #2c4c46;
   --gristarjeta: #F4F6F6;
+  --hoverinput: #dfe4e3;
   --amarillo: #fec034;
   --hover-scale-sm: 1.02;
   --hover-scale-md: 1.05;
@@ -635,4 +636,8 @@ input {
 .hover-img:hover::after {
   background-color: rgba(0, 0, 0, 0.238);
   cursor: pointer;
+}
+
+.linea:hover{
+  text-decoration: underline;
 }

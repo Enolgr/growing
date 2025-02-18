@@ -35,7 +35,7 @@
                             <?php include_once "./includes/white-checkbox.php"?>
                             <p>He leído y acepto la <a href="./politica-privacidad.php" class="span-checkbox">Política de Privacidad</a></p>
                         </div>
-                        <button type="submit" class="boton">Registrarme</button>
+                        <button type="submit" class="btn">Registrarme</button>
                     </div>
                 </div>
 

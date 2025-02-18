@@ -17,7 +17,8 @@ echo '
       <a href="./carrito-compra.php">
         <div class="iconos-menu carrito"></div>
       </a>
-      <div class="iconos-menu perfil"></div>
+      <a href="./login.php">
+      <div class="iconos-menu perfil"></div></a>
     </div>
   </div>
 </header>

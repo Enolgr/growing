@@ -19,21 +19,28 @@
     <section class="contenedor-card">
         <div class="card">
             <form action="login.php" class="card-oscura" id="img-card" method="post">
-                <h2 class="titulo-card">Iniciar sesión</h2>
+                <h2 class="titulo-card">Inicia sesión</h2>
 
                 <div class="contenedor-formulario">
-                    <input type="text" id="email" name="email" placeholder="Email" required>
-                    <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
+
+                <div class="input-container">
+  <input type="text" id="email" name="email" placeholder=" " required>
+  <label for="email">Email</label>
+</div>
+<div class="input-container">
+  <input type="password" id="pass" name="pass" placeholder=" " required>
+  <label for="pass">Contraseña</label>
+</div>
 
                     <div class="opciones">
-                        <p>He olvidado mi contraseña</p>
-                        <button type="submit" class="boton">Iniciar sesión</button>
+                        <p class="linea">He olvidado mi contraseña</p>
+                        <button type="submit" class="btn">Iniciar sesión</button>
                     </div>
 
                 </div>
 
                 <div class="contenedor-registrarse">
-                    <a href="registrarse.php">¿Todavía no tienes cuenta? Registrate aqui</a>
+                    <a href="registrarse.php">¿Todavía no tienes cuenta? <span class="linea">Registrate aquí</span></a>
                 </div>
 
             </form>

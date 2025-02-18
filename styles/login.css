@@ -1,5 +1,3 @@
-/* Tipografias */
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Passion+One:wght@400;700;900&display=swap");
 
 section {
   width: 100%;
@@ -44,14 +42,14 @@ h2 {
 
 .card-oscura {
   width: 90%;
-  height: 70vh;
-  padding: 2rem;
+  height: fit-content;
   background: var(--grisclaro);
-  border-radius: 0.875rem;
+  border-radius: 40px;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: center;
+  padding: 4rem;
 }
 
 .card-oscura input {
@@ -62,6 +60,7 @@ h2 {
   font-size: 3rem;
   color: var(--colorlogo);
   width: fit-content;
+  margin: 0 0 2rem 0;
 }
 
 .contenedor-formulario {
@@ -71,14 +70,51 @@ h2 {
   align-items: left;
   width: 50%;
   gap: 1rem;
+  height: fit-content;
 }
 
-input {
-  display: flex;
-  flex-direction: column;
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+label{
+  margin: 0;
+  padding: 3px 0;
+}
+.input-container input {
+  border: 1px solid black;
   width: 100%;
   font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  height: 4rem;
+  padding: 14px 0 0 20px;
+  /* Ajusta otros estilos de input según tus necesidades */
 }
+
+/* Inicialmente, el label se centra verticalmente en el input */
+.input-container label {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #aaa;
+  transition: all 0.2s ease-out;
+  padding: 0 0.2rem;
+  font-family: 'DM Sans';
+}
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+  top: 1px;
+  transform: none;
+  font-size: 0.8rem;
+  
+}
+
 
 .opciones {
   display: flex;
@@ -103,4 +139,7 @@ input {
   width: 50%;
   margin-top: 3rem;
   text-align: center;
+}
+input{
+  margin: 0!important;
 }
