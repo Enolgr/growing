@@ -243,3 +243,7 @@ text-decoration: underline;
   text-decoration: underline;
   cursor: pointer;
 }
+
+.colapse-titulo-opiniones{
+  max-width: 1200px;
+}
