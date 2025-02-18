@@ -22,10 +22,13 @@ $tips = [
     "Jardinería Creativa: Arte y diseño con plantas únicas."
 ];
 
+// Eliminar el punto final de cada cita de locos    
+$tips = array_map(function($tip) {
+    return rtrim($tip, '.');
+}, $tips);
 
 // Barajar los tips y concatenarlos
 shuffle($tips);
-$marqueeText = implode(" &nbsp;&nbsp;<img src='./img/icons/hoja.svg'/>&nbsp;&nbsp;", $tips);
-echo "<marquee class='random-marquee-solid' >$marqueeText</marquee>";
-
+$marqueeText = implode(" &nbsp;<img src='./img/icons/hoja.svg'/>&nbsp;&nbsp;", $tips);
+echo "<marquee class='random-marquee-solid'>$marqueeText</marquee>";
 ?>
