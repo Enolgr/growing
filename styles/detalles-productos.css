@@ -9,7 +9,7 @@ h3{
 }
 
 .info-titulo{
-    margin: 4rem 0 2rem;
+    margin: 6rem 0 3rem;
     width: 85%;
     max-width: 1200px;
     text-align: left;
@@ -25,9 +25,11 @@ h3{
 .card button{
     width: 100%;
 }
-
+#card{
+    margin-top: 3rem;
+}
 .card{
-    width: 90%;
+    width: 100%;
     padding: 40px;
     width: 85%;
     max-width: 1200px;
