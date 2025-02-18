@@ -310,13 +310,13 @@ footer {
 }
 
 .menu-footer {
-  width: 85%;
+  width: 100%;
   max-width: 1200px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
 }
 
 .links {
