@@ -418,6 +418,9 @@ input {
   color: #2C4C46;
 }
 
+input:hover{
+  background-color: var(--hoverinput);
+}
 .contenedor-boton{
   width: 100%;
   display: flex;
