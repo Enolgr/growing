@@ -11,6 +11,7 @@
 <body>
   <?php include_once './includes/menu.php'; ?>
 
+  <main>
   <div class="index-hero-tarifas">
     <div class="index-contenedor-slider">
       <div class="index-slider">
@@ -77,8 +78,10 @@
   <?php include './includes/opiniones.php' ?>
   <?php include './includes/newsletter.php'; ?>
   <?php include './includes/marquee.php'; ?>
+  </main>
+  <footer>
   <?php include './includes/footer.php'; ?>
-
+  </footer>
   <script src="./scripts/slider.js"></script>
   <script src="./scripts/slider-opiniones.js"></script>
 </body>
