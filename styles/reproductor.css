@@ -35,6 +35,8 @@ hr {
     justify-content: center;
     height: 95vh;
     gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
 }
 
 /* ------------------------------------------------ */
@@ -45,14 +47,15 @@ hr {
     align-items: center;
     justify-content: left;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     gap: 2rem;
 }
 
 /* ------------------------------------------------ */
 
 .video {
-    width: 90%;
+    width: 100%;
+    max-width: 1200px;
     height: 65vh;
     background-image: url("../img/images/pexels-cottonbro-4503750.webp");
     background-position: center;
@@ -89,7 +92,7 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 100%;
 }
 
 .btn {
@@ -97,13 +100,15 @@ hr {
 }
 
 #button-left {
-    background-color: var(--gris);
+    cursor: not-allowed;
+    background-color: #A6A6A6;
 }
 
 /* LISTA CAPITULOS */
 
 .info-instruciones{
-    width: 90%;
+    width: 100%;
+    max-width: 1200px;
     text-align: left;
     color: #2C4C46;
     font-family: "Passion One";
@@ -111,18 +116,15 @@ hr {
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 39px */
-    margin: 2rem 0rem;
 }
 
 .card{
-    width: 90%;
+    width: 100%;
+    max-width: 1200px;
     padding: 40px;
     margin-bottom: 5rem;
     border-radius: 40px;
-}
-
-#card{
-margin: 5rem 0;
+    margin: 3rem 0 5rem 0;
 }
 
 .linea {
