@@ -15,7 +15,8 @@ h1{
     flex-wrap: wrap;
     gap: 2rem;
     margin: 2rem;
-    width: 90%;
+    width: 85%;
+max-width:1200px;
 }
 
 .nombre-curso{
@@ -110,10 +111,12 @@ align-items: center;
 justify-content: center;
 height: 50vh;
 gap: 1rem;
+width: 100%;
 }
 
 .lorem-ipsum p{
-    width: 90%;
+    width: 85%;
+max-width:1200px;
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
@@ -137,7 +140,8 @@ gap: 1rem;
     justify-content: center;
     gap: 3rem;
 }
-.titulo{width: 90%;
+.titulo{width: 100%;
+max-width:1200px;
 display: flex;
 justify-content: space-between;
 align-items: center;}
