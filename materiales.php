@@ -14,62 +14,62 @@
     <?php include_once "./includes/menu.php" ?>
 
     <div class="encabezado">
-        <div id="titulo" >
-        <a href="./tienda.php"><img src="./img/icons/back.svg" alt=""></a>
-        <h1>Todo lo que necesitas para hacer el curso</h1>
+        <div id="titulo">
+            <a href="./tienda.php"><img src="./img/icons/back.svg" alt=""></a>
+            <h1>Todo lo que necesitas para hacer el curso</h1>
         </div>
         <p id="descripcion">Para nuestros cursos, necesitarás algunos materiales. Puedes usar los que tengas en casa o pedirnos los recomendados. Te los enviamos en 2-3 días laborales, ¡sin gastos de envío! 😊</p>
     </div>
 
-    <form id="card"class="card" method="get" action="checkout.php">
+    <form id="card" class="card" method="get" action="checkout.php">
         
         <div id="items">
 
             <div class="list-item">
-            <div class="nombre-producto" >
-            <?php include "./includes/checkbox.php" ?>
-            <p class="nombre" >Producto 1</p>
-            </div>
-            <div class="contenedor-precio" >
-                <p class="precio" >2.00€</p>
-                <img src="./img/images/img-cursos.webp" alt="">
-            </div>
-            </div>
-            
-            <div class="list-item">
-            <div class="nombre-producto">
-            <?php include "./includes/checkbox.php" ?>
-            <p class="nombre" >Producto 1</p>
-            </div>
-            <div class="contenedor-precio">
-                <p class="precio" >2.00€</p>
-                <img src="./img/images/img-cursos.webp"" alt="">
-            </div>
+                <div class="nombre-producto">
+                    <?php include "./includes/white-checkbox.php" ?>
+                    <p class="nombre">Producto 1</p>
+                </div>
+                <div class="contenedor-precio">
+                    <p class="precio">2.00€</p>
+                    <img src="./img/images/img-cursos.webp" alt="">
+                </div>
             </div>
             
             <div class="list-item">
-            <div class="nombre-producto" >
-            <?php include "./includes/checkbox.php" ?>
-            <p class="nombre" >Producto 1</p>
+                <div class="nombre-producto">
+                    <?php include "./includes/white-checkbox.php" ?>
+                    <p class="nombre">Producto 1</p>
+                </div>
+                <div class="contenedor-precio">
+                    <p class="precio">2.00€</p>
+                    <img src="./img/images/img-cursos.webp" alt="">
+                </div>
             </div>
-            <div class="contenedor-precio" >
-                <p class="precio" >2.00€</p>
-                <img src="./img/images/img-cursos.webp"" alt="">
-            </div>
+            
+            <div class="list-item">
+                <div class="nombre-producto">
+                    <?php include "./includes/white-checkbox.php" ?>
+                    <p class="nombre">Producto 1</p>
+                </div>
+                <div class="contenedor-precio">
+                    <p class="precio">2.00€</p>
+                    <img src="./img/images/img-cursos.webp" alt="">
+                </div>
             </div>
             
         </div>
 
         <div class="linea"></div>
 
-        <div class="contenedor-finalizar" >
-            <div class="total" >
+        <div class="contenedor-finalizar">
+            <div class="total">
                 <p>Total</p>
                 <p>(iva incluido)</p>
             </div>
 
-            <div class="finalizar" >
-                <div class="boton-finalizar" >
+            <div class="finalizar">
+                <div class="boton-finalizar">
                     <p>6.00€</p>
                     <button type="button" class="btn" id="pay">Finalizar compra</button>
                 </div>
