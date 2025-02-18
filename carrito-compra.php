@@ -14,62 +14,63 @@
 
 <h1>Ya casi estamos! <img id="plantita" src="./img/images/seedling_1f331.png" alt=""></h1>
 
-    <form id="card"class="card" method="get" action="checkout.php">
+    <form id="card" class="card" method="get" action="checkout.php">
         
-            <div id="items">
+        <div id="items">
 
-                <div class="list-item">
-                <div class="nombre-producto" >
-                <?php include "./includes/checkbox.php" ?>
-                <p class="nombre" >Producto 1</p>
-                </div>
-                <div class="contenedor-precio" >
-                    <p class="precio" >2.00€</p>
-                    <img src="./img/images/img-cursos.webp" alt="">
-                </div>
-                </div>
-                
-                <div class="list-item">
+            <div class="list-item">
                 <div class="nombre-producto">
-                <?php include "./includes/checkbox.php" ?>
-                <p class="nombre" >Producto 1</p>
+                    <?php include "./includes/white-checkbox.php" ?>
+                    <p class="nombre">Producto 1</p>
                 </div>
                 <div class="contenedor-precio">
-                    <p class="precio" >2.00€</p>
-                    <img src="./img/images/img-cursos.webp"" alt="">
-                </div>
-                </div>
-                
-                <div class="list-item">
-                <div class="nombre-producto" >
-                <?php include "./includes/checkbox.php" ?>
-                <p class="nombre" >Producto 1</p>
-                </div>
-                <div class="contenedor-precio" >
-                    <p class="precio" >2.00€</p>
-                    <img src="./img/images/img-cursos.webp"" alt="">
-                </div>
-                </div>
-                
-            </div>
-
-            <div class="linea"></div>
-
-            <div class="contenedor-finalizar" >
-                <div class="total" >
-                    <p>Total</p>
-                    <p>(iva incluido)</p>
-                </div>
-
-                <div class="finalizar" >
-                    <input type="text" class="descuento" placeholder="Código descuento">
-                    <div class="boton-finalizar" >
-                        <p>6.00€</p>
-                        <a href="./checkout.php">
-                        <button type="button" class="btn" id="pay">Finalizar compra</button></a>
-                    </div>
+                    <p class="precio">2.00€</p>
+                    <img src="./img/images/img-cursos.webp" alt="">
                 </div>
             </div>
+                
+            <div class="list-item">
+                <div class="nombre-producto">
+                    <?php include "./includes/white-checkbox.php" ?>
+                    <p class="nombre">Producto 1</p>
+                </div>
+                <div class="contenedor-precio">
+                    <p class="precio">2.00€</p>
+                    <img src="./img/images/img-cursos.webp" alt="">
+                </div>
+            </div>
+                
+            <div class="list-item">
+                <div class="nombre-producto">
+                    <?php include "./includes/white-checkbox.php" ?>
+                    <p class="nombre">Producto 1</p>
+                </div>
+                <div class="contenedor-precio">
+                    <p class="precio">2.00€</p>
+                    <img src="./img/images/img-cursos.webp" alt="">
+                </div>
+            </div>
+                
+        </div>
+
+        <div class="linea"></div>
+
+        <div class="contenedor-finalizar">
+            <div class="total">
+                <p>Total</p>
+                <p>(iva incluido)</p>
+            </div>
+
+            <div class="finalizar">
+                <input type="text" class="descuento" placeholder="Código descuento">
+                <div class="boton-finalizar">
+                    <p>6.00€</p>
+                    <a href="./checkout.php">
+                        <button type="button" class="btn" id="pay">Finalizar compra</button>
+                    </a>
+                </div>
+            </div>
+        </div>
     </form>
 
     <?php include "./includes/marquee.php" ?>

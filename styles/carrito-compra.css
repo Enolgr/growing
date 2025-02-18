@@ -1,5 +1,6 @@
 #card  {
-    width: 90%;
+    width: 85%;
+max-width:1200px;
     height: fit-content;
     margin: 2rem 0 8rem 0 ;
     padding: 3rem;
@@ -11,7 +12,8 @@
 }
 
 h1{
-width: 90%;
+width: 85%;
+max-width:1200px;
 text-align: left;
 margin-top: 5rem;
 color: var(--colorlogo);
