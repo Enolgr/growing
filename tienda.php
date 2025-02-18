@@ -31,84 +31,108 @@
             <div class="detalles-curso">
                 <div class="img-curso">
                     <div class="contenedor-hover">
-                        <img src="./img/images/crop.webp" alt="producto">
-                        <div class="overlay"></div>
+                        <a href="./detalles-productos.php">
+                            <img src="./img/images/crop.webp" alt="producto">
+                            <div class="overlay">
+                                <span>Ver detalles</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <h2 class="nombre-curso">Producto</h2>
                 <p>6,00 €</p>
                 <div class="icons">
-                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                    <a href="./carrito-compra.php"><button class="btn" id="btn">Añadir al carrito</button></a>
                 </div>
             </div>
 
             <div class="detalles-curso">
                 <div class="img-curso">
                     <div class="contenedor-hover">
-                        <img src="./img/images/crop.webp" alt="producto">
-                        <div class="overlay"></div>
+                        <a href="./detalles-productos.php">
+                            <img src="./img/images/crop.webp" alt="producto">
+                            <div class="overlay">
+                                <span>Ver detalles</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <h2 class="nombre-curso">Producto</h2>
                 <p>6,00 €</p>
                 <div class="icons">
-                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                    <a href="./carrito-compra.php"><button class="btn" id="btn">Añadir al carrito</button></a>
                 </div>
             </div>
 
             <div class="detalles-curso">
                 <div class="img-curso">
                     <div class="contenedor-hover">
-                        <img src="./img/images/crop.webp" alt="producto">
-                        <div class="overlay"></div>
+                        <a href="./detalles-productos.php">
+                            <img src="./img/images/crop.webp" alt="producto">
+                            <div class="overlay">
+                                <span>Ver detalles</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <h2 class="nombre-curso">Producto</h2>
                 <p>6,00 €</p>
                 <div class="icons">
-                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                    <a href="./carrito-compra.php"><button class="btn" id="btn">Añadir al carrito</button></a>
                 </div>
             </div>
 
             <div class="detalles-curso">
                 <div class="img-curso">
                     <div class="contenedor-hover">
-                        <img src="./img/images/crop.webp" alt="producto">
-                        <div class="overlay"></div>
+                        <a href="./detalles-productos.php">
+                            <img src="./img/images/crop.webp" alt="producto">
+                            <div class="overlay">
+                                <span>Ver detalles</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <h2 class="nombre-curso">Producto</h2>
                 <p>6,00 €</p>
                 <div class="icons">
-                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                    <a href="./carrito-compra.php"><button class="btn" id="btn">Añadir al carrito</button></a>
                 </div>
             </div>
 
             <div class="detalles-curso">
                 <div class="img-curso">
                     <div class="contenedor-hover">
-                        <img src="./img/images/crop.webp" alt="producto">
-                        <div class="overlay"></div>
+                        <a href="./detalles-productos.php">
+                            <img src="./img/images/crop.webp" alt="producto">
+                            <div class="overlay">
+                                <span>Ver detalles</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <h2 class="nombre-curso">Producto</h2>
                 <p>6,00 €</p>
                 <div class="icons">
-                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                    <a href="./carrito-compra.php"><button class="btn" id="btn">Añadir al carrito</button></a>
                 </div>
             </div>
 
             <div class="detalles-curso">
                 <div class="img-curso">
                     <div class="contenedor-hover">
-                        <img src="./img/images/crop.webp" alt="producto">
-                        <div class="overlay"></div>
+                        <a href="./detalles-productos.php">
+                            <img src="./img/images/crop.webp" alt="producto">
+                            <div class="overlay">
+                                <span>Ver detalles</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <h2 class="nombre-curso">Producto</h2>
                 <p>6,00 €</p>
                 <div class="icons">
-                    <a href="./detalles-productos.php"><button class="btn" id="btn">Añadir al carrito</button></a>
+                    <a href="./carrito-compra.php"><button class="btn" id="btn">Añadir al carrito</button></a>
                 </div>
             </div>
         </div>
