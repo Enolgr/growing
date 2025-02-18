@@ -8,7 +8,8 @@ main{
 }
 
 .info-titulo{
-    width: 90%;
+    width: 85%;
+max-width:1200px;
     text-align: left;
     color: #2C4C46;
     font-family: "Passion One";
@@ -20,7 +21,8 @@ main{
 }
 
 .card{
-    width: 90%;
+    width: 85%;
+max-width:1200px;
     padding: 40px;
     border-radius: 40px;
 }
@@ -147,7 +149,8 @@ margin: 5rem 0;
 }
 
 .otros-productos{
-    width: 100%;
+    width: 85%;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -156,7 +159,8 @@ margin: 5rem 0;
 }
 
 #otros-productos{
-    width: 90%;
+    width: 85%;
+max-width:1200px;
     text-align: left;
     color: #2C4C46;
     font-family: "Passion One";
@@ -239,3 +243,37 @@ margin: 5rem 0;
     width: 100%;
     border-radius: 15px;
 }
+
+
+.hover-img {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  
+  .hover-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease, height 0.3s ease;
+  }
+  
+  .hover-img:hover::after {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Al hacer hover en .hover-img se subraya el título adyacente */
+  .hover-img:hover + .titulo-card {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .colapse-titulo-opiniones{
+    max-width: 1200px;
+  }
+  
