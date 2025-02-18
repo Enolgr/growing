@@ -73,7 +73,7 @@
   position: relative;
   z-index: 1;
   height: fit-content;
-  padding: 3rem;
+  padding: 1rem 0;
 }
 
 .index-dot {
