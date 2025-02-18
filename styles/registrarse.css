@@ -2,23 +2,52 @@
   --verdeclaro: #41a50c;
 }
 
-.contenedor-card{
-    height: 100vh;
+/* Se reutilizan estilos globales similares al login */
+.contenedor-card {
+  max-width: 1200px;
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-oscura {
   width: 90%;
-  height: 80vh;
-  padding: 2rem ;
-  background: var(--gristarjeta);
-  border-radius: 0.875rem;
+  height: fit-content;
+  padding: 4rem;
+  background: var(--grisclaro);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
 }
 
-.contenedor-checkbox{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  width: 50%;
+  gap: 1rem;
 }
+
+/* Estilos para los inputs y labels se heredan de login.css */
+
+.contenedor-checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
 .span-checkbox {
   color: var(--verdeclaro);
+}
+
+.contenedor-registrarse {
+  width: 50%;
+  margin-top: 3rem;
+  text-align: center;
 }

@@ -1,5 +1,6 @@
 h1{
-    width: 90%;
+    width: 85%;
+max-width:1200px;
     text-align: left;
     color: #2C4C46;
     font-size: 61px;
@@ -15,6 +16,9 @@ h1{
     flex-wrap: wrap;
     gap: 2rem;
     margin: 2rem 0rem;
+    width: 85%;
+max-width:1200px;
+    max-width: 1200px;
 }
 
 .nombre-curso{

@@ -144,3 +144,6 @@ label{
 input{
   margin: 0!important;
 }
+input:hover{
+  background-color: var(--hoverinput);
+}
