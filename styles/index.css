@@ -18,8 +18,9 @@
   position: relative;
   border-radius: 30px;
   overflow: hidden;
-  height: 100%;
+  height: 512px;
   width: 100%;
+  max-width: 1200px;
 }
 
 /* Slider */
@@ -118,6 +119,7 @@
   gap: 4rem;
   width: 85%;
   margin: 4rem 0;
+  max-width: 1200px;
 }
 
 .titulo-seccion-h3 {
@@ -139,6 +141,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%; 
+  max-width: 1200px;
 }
 
 .curso-card {
@@ -152,7 +155,7 @@
 }
 
 .image-card {
-  height: 17vw;
+  height: 250px ;
   aspect-ratio: 1/1;
   border-radius: 30px;
 }
@@ -196,30 +199,7 @@ text-decoration: underline;
   line-height: 100%;
 }
 
-/* Media Queries para responsividad */
-@media (max-width: 768px) {
-  .index-hero-titulo {
-    font-size: 3rem;
-  }
 
-  .index-slider {
-    height: 50vh;
-  }
-
-  .cursos-top-grid {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .image-card {
-    height: 50vw;
-    width: 90vw;
-  }
-
-  .titulo-opiniones h3 {
-    font-size: 2.5rem;
-  }
-}
 
 /* Optimizaciones para el slider infinito */
 .index-slide {
@@ -255,7 +235,6 @@ text-decoration: underline;
 }
 
 .hover-img:hover::after {
-  height: 17vw;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
