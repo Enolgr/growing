@@ -108,7 +108,7 @@
                         <input type="text" id="ownerName" placeholder="Nombre del titular">
                     </div>
                     <div class="check-checkout">
-                        <?php include "./includes/checkbox.php";?>
+                        <?php include "./includes/white-checkbox.php";?>
                         <p>Usar la dirección de envío como la dirección de facturación</p>
                     </div>
                     <div class="otherMethodsContainer">

@@ -1,5 +1,6 @@
 .titulo-card {
-  width: 85%;
+  margin: 5rem 0 2rem 0;
+  width: 100%;
   max-width: 1200px;
   height: fit-content;
   color: var(--colorlogo);
@@ -13,10 +14,11 @@
   line-height: 100%;
 }
 .contenedor-general{
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 60vh;
+  height: fit-content;
   align-items: center;
   justify-content: center;
 }
@@ -44,8 +46,8 @@ p {
 .contenedor-cards {
   gap: 3rem;
   display: flex;
-  height: 45vh;
-  width: 85%;
+  height:fit-content;
+  width: 100%;
   max-width: 1200px;
   flex-direction: row;
   justify-content: space-between;
@@ -59,7 +61,7 @@ p {
   justify-content: space-evenly;
   width: 40%;
   height: fit-content;
-  padding: 1rem 2rem ;
+  padding: 3rem;
   background: var(--gristarjeta);
   border-radius: 2rem;
 }
@@ -71,7 +73,7 @@ p {
   justify-content: center;
   align-items: center;
   width: fit-content;
-  padding: 0.5rem;
+  line-height: 120%;
 }
 
 .boton {
@@ -98,9 +100,10 @@ input ::placeholder{
 .legalContainer {
   background-color: var(--gristarjeta);
   border-radius: 40px;
-  width: 90%;
+  width: 100%;
+  max-width: 1200px;
   padding: 2rem;
-  margin: 4rem 0 8rem 0; /*No se debe aplicar mas de 2 rem pero en este caso debe hacerse ya que las medidas lo requieren*/
+  margin: 0 0 8rem 0; /*No se debe aplicar mas de 2 rem pero en este caso debe hacerse ya que las medidas lo requieren*/
 }
 
 .title{
@@ -115,6 +118,7 @@ input ::placeholder{
 }
 
 .tus-datos{
+  padding: 1rem;
   color: #2C4C46;
   font-family: "DM Sans";
   font-size: 31px;
@@ -131,9 +135,7 @@ li {
   font-family: "DM Sans", sans-serif;
 }
 
-h2{
-  margin: 1rem 0;
-}
+
 p{
 line-height: 200%;
 }
