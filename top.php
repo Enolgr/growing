@@ -20,11 +20,21 @@
         <h1>Descubre los cursos más top!</h1>
       </div>
       <div class="iconos">
-        <img src="./img/icons/planta1.svg" alt="">
-        <img src="./img/icons/planta3.svg" alt="">
-        <img src="./img/icons/planta5.svg" alt="">
-        <img src="./img/icons/planta7.svg" alt="">
-        <img src="./img/icons/planta8.svg" alt="">
+        <div class="hover-oscuro">
+          <img src="./img/icons/planta1.svg" alt="">
+        </div>
+        <div class="hover-oscuro">
+          <img src="./img/icons/planta3.svg" alt="">
+        </div>
+        <div class="hover-oscuro">
+          <img src="./img/icons/planta5.svg" alt="">
+        </div>
+        <div class="hover-oscuro">
+          <img src="./img/icons/planta7.svg" alt="">
+        </div>
+        <div class="hover-oscuro">
+          <img src="./img/icons/planta8.svg" alt="">
+        </div>
       </div>
     </div>
 
@@ -33,7 +43,9 @@
         <div class="titulo-tarifa">
           <h2 class="nombre-tarifa">Cuidado de Orquídeas</h2>
         </div>
-        <img class="imagen-planta" src="./img/images/img-cursos.webp" alt="Cuidado de Orquídeas">
+        <div class="hover-oscuro">
+          <img class="imagen-planta" src="./img/images/img-cursos.webp" alt="Cuidado de Orquídeas">
+        </div>
         <button class="btn">Ver Curso</button>
       </div>
 
@@ -41,7 +53,9 @@
         <div class="titulo-tarifa">
           <h2 class="nombre-tarifa">Huerto Urbano</h2>
         </div>
-        <img class="imagen-planta" src="./img/images/img-cursos.webp" alt="Huerto Urbano">
+        <div class="hover-oscuro">
+          <img class="imagen-planta" src="./img/images/img-cursos.webp" alt="Huerto Urbano">
+        </div>
         <button class="btn">Ver Curso</button>
       </div>
 
@@ -49,7 +63,9 @@
         <div class="titulo-tarifa">
           <h2 class="nombre-tarifa">Jardinería Moderna</h2>
         </div>
-        <img class="imagen-planta" src="./img/images/img-cursos.webp" alt="Jardinería Moderna">
+        <div class="hover-oscuro">
+          <img class="imagen-planta" src="./img/images/img-cursos.webp" alt="Jardinería Moderna">
+        </div>
         <button class="btn">Ver Curso</button>
       </div>
     </div>

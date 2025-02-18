@@ -146,13 +146,13 @@ margin-bottom: 2rem;
     font-weight: 400;
     line-height: 100%; /* 61px */ 
     width: 85%;
-max-width:1200px;
+    max-width:1200px;
     text-align: left;
 }
 
 .cursos{
     width: 85%;
-max-width:1200px;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -164,7 +164,7 @@ max-width:1200px;
     justify-content: center;
     gap: 2rem;
     text-align: center;
-    width: 20vw;
+    width: fit-content;
 }
 
 .curso p{
@@ -178,6 +178,8 @@ max-width:1200px;
 
 .curso img{
     border-radius: 25px;
+    width: 252px;
+    height: 252px;
 }
 
 .periodicidad{
@@ -292,4 +294,27 @@ max-width:1200px;
   }
   
   
+  .hover-oscuro {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; /* Asegura que el overlay no se desborde */
+    border-radius: 25px;
+  }
+  
+  .hover-oscuro::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Negro semitransparente */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .hover-oscuro:hover::after {
+    opacity: 1;
+  }
   
