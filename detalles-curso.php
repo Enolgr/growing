@@ -55,10 +55,11 @@
       </div>
     </section>
 
+
     <section class="contenedor-otros-productos">
-      <h2 id="otros-productos">Otros cursos relacionados</h2>
-      <div class="otros-productos">
-        <div class="producto-card card">
+    <h2 id="otros-productos">Otros cursos relacionados</h2>
+    <div class="contenedor-grid">
+        <div class="producto-card ">
           <div class="contenedor-hover">
             <img src="./img/images/img-cursos.webp" alt="">
             <div class="overlay"></div>
@@ -74,7 +75,7 @@
           </div>
         </div>
 
-        <div class="producto-card card">
+        <div class="producto-card ">
           <div class="contenedor-hover">
             <img src="./img/images/img-cursos.webp" alt="">
             <div class="overlay"></div>
@@ -90,7 +91,7 @@
           </div>
         </div>
 
-        <div class="producto-card card">
+        <div class="producto-card ">
           <div class="contenedor-hover">
             <img src="./img/images/img-cursos.webp" alt="">
             <div class="overlay"></div>
@@ -105,7 +106,7 @@
             <img class="estrella" src="./img/icons/Fav.svg" alt="favoritos">
           </div>
         </div>
-      </div>
+        </div>
     </section>
   </main>
 
