@@ -184,6 +184,30 @@ p {
   height: fit-content;
 }
 
+.circle {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px; /* Espacio para el punto */
+}
+
+.circle::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 4px;
+  background-color: var(--verde);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.circle:hover::after {
+  opacity: 1;
+}
+
 .iconos-menu{
   display: flex;
   flex-direction: row;
@@ -210,7 +234,33 @@ p {
   align-items: center;
   justify-content: center;
   height: 1rem;
+  gap: 1rem;
 }
+
+
+.iconos-menu{
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carrito{
+  background-image: url(../img/icons/Carrito.svg);
+}
+
+.perfil{
+background-image: url(../img/icons/Perfil.svg);
+}
+
+.carrito:hover{
+  background-image: url(../img/icons/CarritoClick.svg);
+}
+
+.perfil:hover{
+background-image: url(../img/icons/PerfilClick.svg);
+}
+
 
 /* marquee */
 
