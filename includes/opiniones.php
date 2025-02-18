@@ -1,7 +1,7 @@
 <?php echo '
   <section class="contenedor-opiniones">
   <div class="colapse-titulo-opiniones">
-    <h1 class="titulo-opiniones">¿Qué opinan sobre nuestros cursos?</h1>
+    <h1 class="titulo-opiniones">¿Qué opinan sobre <br> nuestros cursos?</h1>
 </div>
     <!-- Slider: el contenido se generará desde JS -->
     <div class="slider-wrapper">

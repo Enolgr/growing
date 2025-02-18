@@ -3,7 +3,7 @@
 
 :root {
   --fondo: #fff;
-  --verde: #6e8e49;
+  --verde: #41a50c;
   --verdeclaro: #bdc471;
   --verdeazul: #7fa59e;
   --grisclaro: #d9d9d9;
@@ -59,7 +59,7 @@ a {
 }
 
 header a:hover {
-  scale: var(--hover-scale-lg);
+color: var(--verde);
 }
 
 button {
@@ -198,6 +198,10 @@ p {
   color: white;
   background-color: var(--colorlogo);
   border-radius: 10px;
+}
+.anchor-bg a:hover {
+  color: white !important;
+  background-color: var(--verde);
 }
 
 .icons-nav {
@@ -562,3 +566,23 @@ input {
   opacity: 1;
 }
 
+.hover-img {
+  position: relative;
+}
+
+.hover-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.016);
+  transition: background-color 0.3s ease;
+}
+
+.hover-img:hover::after {
+  background-color: rgba(0, 0, 0, 0.238);
+  cursor: pointer;
+}
